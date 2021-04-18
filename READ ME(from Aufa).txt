@@ -1,2 +1,0 @@
-main.py hanya code buat test fungsi login dan register yang gw buat.
-Bukan main.py untuk tubes.
