@@ -11,6 +11,7 @@ from function_load import load #F14
 from function_save import save #F15
 from function_help import bantuan #F16
 from function_exit import keluar #F17
+from function_gacha import gacha #FB03
 
 user=[]
 gadget=[]
@@ -19,6 +20,7 @@ consumable_history=[]
 gadget_borrow_history=[]
 gadget_return_history=[]
 role="user" #default role
+ID=0 #user ID
 
 def dir_path(filename): #argparse awal, dengan mengecek apakah file lengkap
     listcsv=['consumable.csv','consumable_history.csv','gadget.csv','gadget_borrow_history.csv','gadget_return_history.csv','user.csv']
@@ -50,7 +52,9 @@ if __name__== '__main__':
     gadget_return_history=arr[5]
     
     #login wajib
-    role=login_user(user)
+    arr=login_user(user) #temporary arr
+    ID=arr[0]
+    role=arr[1]
     command=""
     while(command!="exit"):
         command=str(input())
@@ -61,15 +65,15 @@ if __name__== '__main__':
         elif command=="caritahun":
             caritahun(gadget)
         elif command=="tambahitem" and role=="admin":
-            arr=tambahitem(gadget,consumable)
+            arr=tambahitem(gadget,consumable) #temporary arr
             gadget=arr[0]
             consumable=arr[1]
         elif command=="hapusitem" and role=="admin":
-            arr=hapusitem(gadget,consumable)
+            arr=hapusitem(gadget,consumable) #temporary arr
             gadget=arr[0]
             consumable=arr[1]
         elif command=="ubahjumlah" and role=="admin":
-            arr=ubahjumlah(gadget,consumable)
+            arr=ubahjumlah(gadget,consumable) #temporary arr
             gadget=arr[0]
             consumable=arr[1]
         elif command=="save":
@@ -78,6 +82,8 @@ if __name__== '__main__':
             bantuan(role) #help reserved word
         elif command=="exit":
             keluar(user,gadget,consumable,consumable_history,gadget_borrow_history,gadget_return_history) #exit reserved word
+        elif command=="gacha" and role=="user":
+            gacha(ID,consumable_history,consumable)
         else:
             print("Command tidak valid, ketik \"help\" untuk menampilkan command list")
         print()
