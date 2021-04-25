@@ -1,3 +1,4 @@
+#code belum selesai, menunggu fungsi minta
 import time
 mod=137 #ubah untuk mengatur peluang gacha
 
