@@ -131,7 +131,8 @@ def meminta_consumable (datas):
             print("Contoh input yang valid 03/04/2002\n")
             not_valid_tanggal = True
     ##################### (end) #######################
-
+    nama_consum = datas[row_consum][1]
+    print("\nItem "+str(nama_consum)+" (x"+str(jumlah) + ") telah berhasil diambil" )
     # Update tentang jumlah consumable tersisa
     datas[row_consum][3] -= jumlah
 

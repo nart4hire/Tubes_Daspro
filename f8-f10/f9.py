@@ -216,9 +216,10 @@ def mengembalikan_gadget (datas1,datas2,datas3,id_user):
     row_gadgets = id_gadgets_borrowed(datas2,id_peminjam)[2] # Mendapatkan list row ke - n tiap gadget
     row_asking_gadget = row_gadgets[nomor_peminjaman-1] # Mendapatkan row ke - n dari gadget yang user minta
     if sisa_gadget - jumlah_pengembalian == 0:
-        print("Terimakasih sudah mengembalikan :), gadget sudah kembali sepenuhnya")
+        print("\nItem "+ str(nama_gadget)+ " (x" + str(jumlah_pengembalian)+") telah dikembalikan")
+        print("Gadget telah dikembalikan sepenuhnya")
         datas2[row_asking_gadget][5] = "TRUE" # Mengubah is_returned menjadi TRUE, karena jumlah yang dikembalikan sudah sama dengan yang dipinjam
     else:
-        print("Terimakasih sudah mengembalikan :)")
+        print("\nItem "+ str(nama_gadget)+ " (x" + str(jumlah_pengembalian)+") telah dikembalikan")
     ##################### (end) #######################
  
