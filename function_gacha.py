@@ -1,11 +1,10 @@
-#code belum selesai, menunggu fungsi minta
 import time
 mod=137 #ubah untuk mengatur peluang gacha
 
 def generate_inventory(ID, consumable_history):
     for i in range(1,len(consumable_history)):
         if (ID==consumable_history[i][1]): #posisi id di csv
-            id_barang=consumable_history[i][0]
+            id_barang=consumable_history[i][2]
             jumlah=consumable_history[i][4]
             if (id_barang in inventory):
                 inventory[id_barang]+=jumlah
@@ -40,6 +39,19 @@ def maxrarity(a,b):
         return a
     else:
         return b
+
+def generate_id_transaksi (datas):
+    tmp = datas[-1][0]
+    tmp2 = []
+    tmp_id = ""
+    for i in tmp:
+        tmp2.append(i)
+    for i in range (1,(len(tmp2))):
+        tmp_id += tmp2[i]
+    tmp_id = int(tmp_id) + 1
+    id_transaksi = tmp2[0]+str(tmp_id)
+    return id_transaksi
+
     
 def gacha(ID, consumable_history, consumable):
     global inventory
@@ -119,7 +131,7 @@ def gacha(ID, consumable_history, consumable):
     #quality roll
     if rarity!="S":
         rank=["C","B","A","S"] #array temporary urutan rarity
-        if random()>total:
+        if random()<total:
             rarity=rank[rank.index(rarity)+1] #upgrade rarity
         #else rarity tetap
     
@@ -140,4 +152,23 @@ def gacha(ID, consumable_history, consumable):
     print("Selamat, anda mendapatkan", drops[item_index][1], "rarity", rarity )
     
     #transaction
+    #consumable_history
+    for i in used:
+        id_transaksi=generate_id_transaksi(consumable_history)
+        consumable_history.append([id_transaksi,ID,i,"11/11/1111",-1*used[i]]) #tanggal uniform
+    id_transaksi=generate_id_transaksi(consumable_history)
+    consumable_history.append([id_transaksi,ID,drops[item_index][0],"12/12/1212",1])
     
+    #consumable
+    for i in used:
+        for j in range(1,len(consumable)):
+            if i[0]==consumable[j][0]: #ID sama
+                consumable[j][3]+=i[1] #tambahkan
+                break
+    for j in range(1,len(consumable)):
+        if drops[item_index][0]==consumable[j][0]: #ID sama
+            consumable[j][3]-=1 #ambil 1
+            break
+    
+    #end
+    return [consumable_history,consumable]

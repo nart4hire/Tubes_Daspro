@@ -1,6 +1,7 @@
 # Varibale biasa, dipake biar rada enak dibaca oleh orang lain
 # kaya yang dari tutorial hehee
 
+posisi_id_di_data=0
 posisi_username_di_data = 1
 posisi_password_di_data = 4
 posisi_role_di_data=5
@@ -48,4 +49,4 @@ def login_user (datas):
             else:
                 not_login=True
                 print("username atau password salah")
-    return datas[posisi_password_user][posisi_role_di_data]
+    return [datas[posisi_password_user][posisi_id_di_data],datas[posisi_password_user][posisi_role_di_data]]

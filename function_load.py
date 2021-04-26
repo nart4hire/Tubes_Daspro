@@ -40,9 +40,9 @@ def load(folder):
     user=toInt(clean(raw_user.readlines()),[0])
     gadget=toInt(clean(raw_gadget.readlines()),[3,5])
     consumable=toInt(clean(raw_consumable.readlines()),[3])
-    consumable_history=toInt(clean(raw_consumable_history.readlines()),[4])
-    gadget_borrow_history=toInt(clean(raw_gadget_borrow_history.readlines()),[4])
-    gadget_return_history=toInt(clean(raw_gadget_return_history.readlines()),[])
+    consumable_history=toInt(clean(raw_consumable_history.readlines()),[1,4])
+    gadget_borrow_history=toInt(clean(raw_gadget_borrow_history.readlines()),[1,4])
+    gadget_return_history=toInt(clean(raw_gadget_return_history.readlines()),[1,4])
     
     #close
     raw_user.close()
