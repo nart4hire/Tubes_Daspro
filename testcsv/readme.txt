@@ -1,1 +1,1 @@
-csv made using semicolon seperator to fit specs; change this is system settings
+csv made using semicolon seperator to fit specs; change this in system settings
