@@ -1,14 +1,13 @@
-# Tubes_Daspro v1 changelog
+# Tubes_Daspro v2
 
-File names cleaned  
-  
-login_user from function_login.py now returns user role  
-login_user from function login.py now return user id
-login_user from function_login.py now loops until logged in  
-  
-load.py: all user_id and tahun_ditemukan from gadget.csv now converted to integer to fix issues  
-  
-kantongajaib.py added all available functions  
-kantongajaib.py now forces login before accessing other commands  
-kantongajaib.py added role variable  
-kantongajaib.py added ID variable
+changelog:
+- external files major overhaul
+- all available functions loaded
+
+known issues:
+- pinjam function can't handle multiple requests of the same gadget (even if gadget is still in stock)
+- user can't escape pinjam if they don't know the gadget codes (force return solution possible)
+- kembalikan function can't handle users who never borrowed (only way to escape is by error)
+
+not loaded:
+- riwayatpinjam, riwayatkembali, riwayatambil
