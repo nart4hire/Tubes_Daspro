@@ -1,0 +1,4 @@
+﻿id;id_peminjam;id_consumable;tanggal_peminjaman;jumlah_peminjaman;is_returned
+B1;2;G3;23/23/2023;10;TRUE
+B2;1;G3;12/12/1212;10;FALSE
+B3;1;G2;23/23/2323;90;FALSE
