@@ -43,9 +43,22 @@ def sort_date(matrix):
 
 
 def riwayatambil():
-    f = open('consumable_history.csv', 'r')
-    history = csv_to_matrix(f)
-    print(sort_date(history)[:5])
+    f = open('testcsv/consumable_history.csv', 'r')
+    g = open('testcsv/consumable.csv', 'r')
+    history = sort_date(csv_to_matrix(f))
+    gadgets = csv_to_matrix(g)
+
+    again = True
+    n = 0
+    while again is True:
+        for i in range(n, n + 5):
+            print('ID pengambilan :' + )
+        if input('Lihat 5 berikut? (Y/N) :') != 'Y':
+            again = False
+
+        n += 5
     f.close()
 
-riwayatambil()
+
+if __name__ == '__main__':
+    riwayatambil()
