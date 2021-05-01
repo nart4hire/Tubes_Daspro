@@ -162,8 +162,8 @@ def gacha(ID, consumable_history, consumable):
     #consumable
     for i in used:
         for j in range(1,len(consumable)):
-            if i[0]==consumable[j][0]: #ID sama
-                consumable[j][3]+=i[1] #tambahkan
+            if i==consumable[j][0]: #ID sama
+                consumable[j][3]+=used[i] #tambahkan
                 break
     for j in range(1,len(consumable)):
         if drops[item_index][0]==consumable[j][0]: #ID sama
