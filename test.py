@@ -16,11 +16,3 @@ def get_func_index(function):
         return functions.index(function)
     return None
 
-
-while True:
-    if __name__ == '__main__':
-        func = str(input()).strip().lower()
-        root = get_root_func(func)
-    else:
-        break
-

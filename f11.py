@@ -1,64 +1,34 @@
 from datetime import datetime
 
 
-def csv_to_matrix(file):
-    data = file.read()
-
-    count = 0
-    index_nline = []
-    for char in data:
-        if char == '\n':
-            index_nline.append(count)
-        count += 1
-
-    matrix = []
-    prev = -1
-    for index in index_nline:
-        matrix.append(data[prev + 1:index])
-        prev = index
-
-    for i in range(len(matrix)):
-        line = matrix[i]
-        count = 0
-        index_comma = []
-        for char in line:
-            if char == ',':
-                index_comma.append(count)
-            count += 1
-        lst = []
-        prev = -1
-        for index in index_comma:
-            lst.append(line[prev + 1:index])
-            prev = index
-            if prev == index_comma[-1]:
-                lst.append(line[prev + 1:])
-        matrix[i] = lst
-
-    return matrix[1:]
-
-
 def sort_date(matrix):
     matrix.sort(key=lambda line: datetime.strptime(line[3], '%d/%m/%Y'), reverse=True)
     return matrix
 
 
-def riwayatambil():
-    f = open('testcsv/consumable_history.csv', 'r')
-    g = open('testcsv/consumable.csv', 'r')
-    history = sort_date(csv_to_matrix(f))
-    gadgets = csv_to_matrix(g)
+def find_from_id(reff, item_id):
+    for entries in reff:
+        if entries[0] == item_id:
+            return entries[1]
+    return 'Item not found!'
 
+
+def riwayatpinjam(items, data):
     again = True
-    n = 0
+    matrix = sort_date(data[1:])
+    times = 0
     while again is True:
-        for i in range(n, n + 5):
-            print('ID pengambilan :' + )
-        if input('Lihat 5 berikut? (Y/N) :') != 'Y':
-            again = False
-
-        n += 5
-    f.close()
-
-
-if __name__ == '__main__':
-    riwayatambil()
+        for i in range(5):
+            item = find_from_id(items, matrix[i + (5 * times)][2])
+            print('\nID Peminjaman      : {}'.format(matrix[i + (5 * times)][0]))
+            print('Nama Peminjam      : {}'.format(matrix[i + (5 * times)][1]))
+            print('Nama Gadget        : {}'.format(item))
+            print('Tanggal Peminjaman : {}'.format(matrix[i + (5 * times)][3]))
+            print('Jumlah             : {}'.format(matrix[i + (5 * times)][4]))
+        while True:
+            f_more = input('\nCetak lima lagi? (y/n): ').lower()
+            if f_more == 'y' or f_more == 'n':
+                again = False if f_more == 'n' else True
+                break
+            print('\nMasukan tidak valid! Masukkan input yang valid!\n')
+        times += 1
