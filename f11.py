@@ -26,6 +26,9 @@ def riwayatpinjam(users, items, data):
     times = 0
     while again is True:
         for i in range(5):
+            if i + (5 * times) == len(matrix) or matrix[i + (5 * times)][3] == '01/01/0001':
+                print('\nData sudah habis!')
+                break
             name = name_from_id(users, matrix[i + (5 * times)][1])
             item = item_from_id(items, matrix[i + (5 * times)][2])
             if matrix[i + (5 * times)][5] == 'True':
@@ -41,9 +44,16 @@ def riwayatpinjam(users, items, data):
             print('Jumlah             : {}'.format(matrix[i + (5 * times)][4]))
             print('Status Peminjaman  : {}'.format(returned))
         while True:
-            f_more = input('\nCetak lima lagi? (y/n): ').lower()
-            if f_more == 'y' or f_more == 'n':
-                again = False if f_more == 'n' else True
-                break
+            if len(matrix) - 5 * times >= 5:
+                f_more = input('\nCetak lima lagi? (y/n): ').lower()
+                if f_more == 'y' or f_more == 'n':
+                    again = False if f_more == 'n' else True
+                    break
+            else:
+                ulang = input('\nUlang print dari awal? (y/n)').lower()
+                if ulang == 'y' or ulang == 'n':
+                    again = False if ulang == 'n' else True
+                    times = 0
+                    break
             print('\nMasukan tidak valid! Masukkan input yang valid!\n')
         times += 1

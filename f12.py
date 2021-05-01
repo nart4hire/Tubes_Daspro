@@ -32,6 +32,9 @@ def riwayatkembali(users, items, taken, returned):
     times = 0
     while again is True:
         for i in range(5):
+            if i + (5 * times) == len(matrix):
+                print('\nData sudah habis!')
+                break
             referral = matrix[i + (5 * times)][1]
             user_id, gadget_id, total = iden_from_ref(taken, referral)
             name = name_from_id(users, user_id)
@@ -46,9 +49,16 @@ def riwayatkembali(users, items, taken, returned):
             print('Tanggal Pengembalian : {}'.format(matrix[i + (5 * times)][2]))
             print('Jumlah Pengembalian  : {}'.format(returned))
         while True:
-            f_more = input('\nCetak lima lagi? (y/n): ').lower()
-            if f_more == 'y' or f_more == 'n':
-                again = False if f_more == 'n' else True
-                break
+            if len(matrix) - 5 * times >= 5:
+                f_more = input('\nCetak lima lagi? (y/n): ').lower()
+                if f_more == 'y' or f_more == 'n':
+                    again = False if f_more == 'n' else True
+                    break
+            else:
+                ulang = input('\nUlang print dari awal? (y/n)').lower()
+                if ulang == 'y' or ulang == 'n':
+                    again = False if ulang == 'n' else True
+                    times = 0
+                    break
             print('\nMasukan tidak valid! Masukkan input yang valid!\n')
         times += 1
