@@ -15,7 +15,7 @@ def caritahun(gadget):
     print(" ")
     if kategori == "<" :                                            
         for i in range (1, len(gadget)):
-            if gadget[i][5] < tahuninput:
+            if int(gadget[i][5]) < tahuninput:
                 found=True
                 print("ID : ", gadget[i][0])
                 print("Nama : ", gadget[i][1])
@@ -27,7 +27,7 @@ def caritahun(gadget):
 
     if kategori == ">" : 
         for i in range (1, len(gadget)):
-            if gadget[i][5] > tahuninput:
+            if int(gadget[i][5]) > tahuninput:
                 found=True
                 print("ID : ", gadget[i][0])
                 print("Nama : ", gadget[i][1])
@@ -39,7 +39,7 @@ def caritahun(gadget):
 
     if kategori == ">=" : 
         for i in range (1, len(gadget)):
-            if gadget[i][5] >= tahuninput:
+            if int(gadget[i][5]) >= tahuninput:
                 found=True
                 print("ID : ", gadget[i][0])
                 print("Nama : ", gadget[i][1])
@@ -51,7 +51,7 @@ def caritahun(gadget):
 
     if kategori == "<=" : 
         for i in range (1, len(gadget)):
-            if gadget[i][5] <= tahuninput:
+            if int(gadget[i][5]) <= tahuninput:
                 found=True
                 print("ID : ", gadget[i][0])
                 print("Nama : ", gadget[i][1])
@@ -63,7 +63,7 @@ def caritahun(gadget):
 
     if kategori == "=" : 
         for i in range (1, len(gadget)):
-            if gadget[i][5] == tahuninput:
+            if int(gadget[i][5]) == tahuninput:
                 found=True
                 print("ID : ", gadget[i][0])
                 print("Nama : ", gadget[i][1])
