@@ -1,6 +1,7 @@
 # main program
 import argparse
 import os
+import time
 
 from function_exit import keluar  # F17
 from function_help import bantuan  # F16 (not done)
@@ -34,6 +35,7 @@ def dir_path(filename):  # argparse awal, dengan mengecek apakah file lengkap
 
 if __name__ == '__main__':
     # auto load sequence
+    print('loading...')
     parser = argparse.ArgumentParser()
     parser.add_argument('path', type=dir_path)
     args = parser.parse_args()
@@ -44,10 +46,12 @@ if __name__ == '__main__':
     consumable_history = arr[3]
     gadget_borrow_history = arr[4]
     gadget_return_history = arr[5]
+    time.sleep(1)
+    print('\nSelamat datang di "Kantong Ajaib!"\n')
 
     command = ""
     while command != "exit":
-        command = str(input())
+        command = str(input('>>>'))
         if command == "save":
             save(user, gadget, consumable, consumable_history, gadget_borrow_history, gadget_return_history)
         elif command == "help":

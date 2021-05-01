@@ -1,3 +1,1000 @@
 ﻿id;nama;deskripsi;jumlah;rarity;tahun_ditemukan
-G001;Amos' Bow;bla bla;1;S;2001
-G666;Amber;bla lba laaa;12;B;201
+G001;Amos' Bow;Amos' Trusty Bow;1;S;2021
+G002;Iron Cleats;A/an Cleats that is made of Iron. Other than that it appears to have no special effects.;137;B;1297
+G003;Ruby Tiara;A/an Tiara that is made of Ruby. Other than that it appears to have no special effects.;76;B;328
+G004;Robe;Just a/an normal Robe. It has no special effects.;613;C;1183
+G005;Iron Ring;A/an Ring that is made of Iron. Other than that it appears to have no special effects.;191;B;1161
+G006;Iron Key;A/an Key that is made of Iron. Other than that it appears to have no special effects.;121;B;1268
+G007;Sapphire Crown;A/an Crown that is made of Sapphire. Other than that it appears to have no special effects.;128;B;1401
+G008;Spiritual Ruby Hairpin;A/an Spiritual Hairpin that is made of Ruby. It has Spiritual origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;13;A;881
+G009;Steel Armor;A/an Armor that is made of Steel. Other than that it appears to have no special effects.;89;B;349
+G010;Abyssal Platinum Cloak of Light;A/an Abyssal Cloak that is made of Platinum. It radiates Abyssal energy and when used will imbue its actions with the attribute of Light. Very rare!;6;S;1175
+G011;Chaotic Gold Tiara;A/an Chaotic Tiara that is made of Gold. It has Chaotic origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;24;A;804
+G012;Explosive Iron Shield;A/an Explosive Shield that is made of Iron. It has Explosive origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;16;A;614
+G013;Elven Sapphire Robe;A/an Elven Robe that is made of Sapphire. It has Elven origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;19;A;1350
+G014;Topaz Cloak;A/an Cloak that is made of Topaz. Other than that it appears to have no special effects.;21;B;501
+G015;Ruby Crossbow;A/an Crossbow that is made of Ruby. Other than that it appears to have no special effects.;145;B;1068
+G016;Silver Tiara;A/an Tiara that is made of Silver. Other than that it appears to have no special effects.;20;B;740
+G017;Hairpin;Just a/an normal Hairpin. It has no special effects.;819;C;165
+G018;Sapphire Shield;A/an Shield that is made of Sapphire. Other than that it appears to have no special effects.;135;B;1304
+G019;Jade Cloak;A/an Cloak that is made of Jade. Other than that it appears to have no special effects.;12;B;1497
+G020;Jade Crown;A/an Crown that is made of Jade. Other than that it appears to have no special effects.;91;B;431
+G021;Grand Iron Crossbow;A/an Grand Crossbow that is made of Iron. It has Grand origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;9;A;1084
+G022;Poisonous Ruby Sword;A/an Poisonous Sword that is made of Ruby. It has Poisonous origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;5;A;97
+G023;Corrupted Silver Cloak;A/an Corrupted Cloak that is made of Silver. It has Corrupted origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;23;A;228
+G024;Copper Crown;A/an Crown that is made of Copper. Other than that it appears to have no special effects.;15;B;836
+G025;Ruby Ring;A/an Ring that is made of Ruby. Other than that it appears to have no special effects.;195;B;798
+G026;Topaz Bracelet;A/an Bracelet that is made of Topaz. Other than that it appears to have no special effects.;127;B;570
+G027;Dwarven Platinum Cloak;A/an Dwarven Cloak that is made of Platinum. It has Dwarven origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;22;A;1193
+G028;Jade Tome;A/an Tome that is made of Jade. Other than that it appears to have no special effects.;79;B;231
+G029;Silver Robe;A/an Robe that is made of Silver. Other than that it appears to have no special effects.;159;B;1025
+G030;Poisonous Topaz Cloak;A/an Poisonous Cloak that is made of Topaz. It has Poisonous origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;7;A;1400
+G031;Emerald Shield;A/an Shield that is made of Emerald. Other than that it appears to have no special effects.;108;B;768
+G032;Blessed Emerald Circlet;A/an Blessed Circlet that is made of Emerald. It has Blessed origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;19;A;508
+G033;Grail;Just a/an normal Grail. It has no special effects.;254;C;1174
+G034;Grand Gold Crossbow;A/an Grand Crossbow that is made of Gold. It has Grand origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;19;A;503
+G035;Crossbow;Just a/an normal Crossbow. It has no special effects.;256;C;542
+G036;Saber;Just a/an normal Saber. It has no special effects.;495;C;1455
+G037;Dwarven Gold Pauldrons;A/an Dwarven Pauldrons that is made of Gold. It has Dwarven origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;15;A;1377
+G038;Abyssal Copper Amulet of Water;A/an Abyssal Amulet that is made of Copper. It radiates Abyssal energy and when used will imbue its actions with the attribute of Water. Very rare!;5;S;1072
+G039;Greataxe;Just a/an normal Greataxe. It has no special effects.;331;C;1077
+G040;Copper Amulet;A/an Amulet that is made of Copper. Other than that it appears to have no special effects.;28;B;491
+G041;Poisonous Iron Pauldrons;A/an Poisonous Pauldrons that is made of Iron. It has Poisonous origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;19;A;464
+G042;Corrupted Platinum Whip;A/an Corrupted Whip that is made of Platinum. It has Corrupted origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;14;A;553
+G043;Blessed Silver Amulet;A/an Blessed Amulet that is made of Silver. It has Blessed origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;16;A;680
+G044;Jade Tiara;A/an Tiara that is made of Jade. Other than that it appears to have no special effects.;148;B;1395
+G045;Jade Grail;A/an Grail that is made of Jade. Other than that it appears to have no special effects.;115;B;1347
+G046;Poisonous Jade Necklace of Lightning;A/an Poisonous Necklace that is made of Jade. It radiates Poisonous energy and when used will imbue its actions with the attribute of Lightning. Very rare!;9;S;1343
+G047;Emerald Whip;A/an Whip that is made of Emerald. Other than that it appears to have no special effects.;157;B;1052
+G048;Silver Sword;A/an Sword that is made of Silver. Other than that it appears to have no special effects.;109;B;1289
+G049;Copper Tiara;A/an Tiara that is made of Copper. Other than that it appears to have no special effects.;120;B;881
+G050;Platinum Bracelet;A/an Bracelet that is made of Platinum. Other than that it appears to have no special effects.;125;B;220
+G051;Emerald Bracelet;A/an Bracelet that is made of Emerald. Other than that it appears to have no special effects.;69;B;1122
+G052;Explosive Iron Bracelet;A/an Explosive Bracelet that is made of Iron. It has Explosive origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;22;A;632
+G053;Explosive Silver Sword;A/an Explosive Sword that is made of Silver. It has Explosive origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;9;A;684
+G054;Poisonous Steel Ring;A/an Poisonous Ring that is made of Steel. It has Poisonous origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;13;A;1074
+G055;Emerald Circlet;A/an Circlet that is made of Emerald. Other than that it appears to have no special effects.;17;B;827
+G056;Divine Sapphire Pauldrons;A/an Divine Pauldrons that is made of Sapphire. It has Divine origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;14;A;746
+G057;Spiritual Jade Grail;A/an Spiritual Grail that is made of Jade. It has Spiritual origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;14;A;1309
+G058;Sapphire Greataxe;A/an Greataxe that is made of Sapphire. Other than that it appears to have no special effects.;112;B;564
+G059;Elven Ruby Shield;A/an Elven Shield that is made of Ruby. It has Elven origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;19;A;529
+G060;Jade Amulet;A/an Amulet that is made of Jade. Other than that it appears to have no special effects.;16;B;760
+G061;Iron Grail;A/an Grail that is made of Iron. Other than that it appears to have no special effects.;47;B;1081
+G062;Topaz Crown;A/an Crown that is made of Topaz. Other than that it appears to have no special effects.;191;B;575
+G063;Ruby Key;A/an Key that is made of Ruby. Other than that it appears to have no special effects.;179;B;56
+G064;Iron Crossbow;A/an Crossbow that is made of Iron. Other than that it appears to have no special effects.;89;B;452
+G065;Grand Gold Bracelet;A/an Grand Bracelet that is made of Gold. It has Grand origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;8;A;134
+G066;Chaotic Gold Robe;A/an Chaotic Robe that is made of Gold. It has Chaotic origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;30;A;1234
+G067;Evil Topaz Amulet;A/an Evil Amulet that is made of Topaz. It has Evil origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;5;A;379
+G068;Gold Whip;A/an Whip that is made of Gold. Other than that it appears to have no special effects.;116;B;1435
+G069;Amulet;Just a/an normal Amulet. It has no special effects.;968;C;442
+G070;Copper Ring;A/an Ring that is made of Copper. Other than that it appears to have no special effects.;198;B;1200
+G071;Elven Ruby Greataxe;A/an Elven Greataxe that is made of Ruby. It has Elven origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;7;A;1365
+G072;Sapphire Robe;A/an Robe that is made of Sapphire. Other than that it appears to have no special effects.;195;B;546
+G073;Spiritual Platinum Bracelet;A/an Spiritual Bracelet that is made of Platinum. It has Spiritual origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;20;A;916
+G074;Jade Saber;A/an Saber that is made of Jade. Other than that it appears to have no special effects.;197;B;1296
+G075;Chaotic Emerald Necklace;A/an Chaotic Necklace that is made of Emerald. It has Chaotic origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;9;A;629
+G076;Evil Gold Necklace;A/an Evil Necklace that is made of Gold. It has Evil origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;21;A;1012
+G077;Poisonous Gold Necklace;A/an Poisonous Necklace that is made of Gold. It has Poisonous origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;12;A;676
+G078;Silver Bracelet;A/an Bracelet that is made of Silver. Other than that it appears to have no special effects.;26;B;1472
+G079;Ruby Necklace;A/an Necklace that is made of Ruby. Other than that it appears to have no special effects.;85;B;365
+G080;Grand Topaz Bow of Death;A/an Grand Bow that is made of Topaz. It radiates Grand energy and when used will imbue its actions with the attribute of Death. Very rare!;2;S;1449
+G081;Ruby Cloak;A/an Cloak that is made of Ruby. Other than that it appears to have no special effects.;12;B;432
+G082;Evil Copper Greataxe;A/an Evil Greataxe that is made of Copper. It has Evil origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;24;A;1258
+G083;Spiritual Copper Bracelet of Space;A/an Spiritual Bracelet that is made of Copper. It radiates Spiritual energy and when used will imbue its actions with the attribute of Space. Very rare!;1;S;374
+G084;Jade Ring;A/an Ring that is made of Jade. Other than that it appears to have no special effects.;145;B;1479
+G085;Divine Copper Circlet;A/an Divine Circlet that is made of Copper. It has Divine origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;7;A;3
+G086;Abyssal Copper Sword;A/an Abyssal Sword that is made of Copper. It has Abyssal origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;8;A;1499
+G087;Gold Key;A/an Key that is made of Gold. Other than that it appears to have no special effects.;38;B;752
+G088;Copper Key;A/an Key that is made of Copper. Other than that it appears to have no special effects.;144;B;517
+G089;Ruby Whip;A/an Whip that is made of Ruby. Other than that it appears to have no special effects.;143;B;559
+G090;Grand Platinum Greataxe;A/an Grand Greataxe that is made of Platinum. It has Grand origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;15;A;1243
+G091;Steel Ring;A/an Ring that is made of Steel. Other than that it appears to have no special effects.;47;B;683
+G092;Ruby Bracelet;A/an Bracelet that is made of Ruby. Other than that it appears to have no special effects.;15;B;333
+G093;Spiritual Gold Ring;A/an Spiritual Ring that is made of Gold. It has Spiritual origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;21;A;249
+G094;Divine Platinum Pauldrons;A/an Divine Pauldrons that is made of Platinum. It has Divine origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;14;A;859
+G095;Jade Bow;A/an Bow that is made of Jade. Other than that it appears to have no special effects.;74;B;708
+G096;Grand Emerald Bracelet;A/an Grand Bracelet that is made of Emerald. It has Grand origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;29;A;1076
+G097;Circlet;Just a/an normal Circlet. It has no special effects.;870;C;286
+G098;Gold Bow;A/an Bow that is made of Gold. Other than that it appears to have no special effects.;180;B;1069
+G099;Sapphire Hairpin;A/an Hairpin that is made of Sapphire. Other than that it appears to have no special effects.;40;B;1109
+G100;Jade Key;A/an Key that is made of Jade. Other than that it appears to have no special effects.;67;B;39
+G101;Steel Tome;A/an Tome that is made of Steel. Other than that it appears to have no special effects.;77;B;1219
+G102;Platinum Circlet;A/an Circlet that is made of Platinum. Other than that it appears to have no special effects.;53;B;76
+G103;Evil Jade Armor of Earth;A/an Evil Armor that is made of Jade. It radiates Evil energy and when used will imbue its actions with the attribute of Earth. Very rare!;7;S;1392
+G104;Sapphire Amulet;A/an Amulet that is made of Sapphire. Other than that it appears to have no special effects.;24;B;439
+G105;Abyssal Silver Necklace;A/an Abyssal Necklace that is made of Silver. It has Abyssal origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;30;A;693
+G106;Ring;Just a/an normal Ring. It has no special effects.;587;C;348
+G107;Topaz Crossbow;A/an Crossbow that is made of Topaz. Other than that it appears to have no special effects.;70;B;406
+G108;Jade Hairpin;A/an Hairpin that is made of Jade. Other than that it appears to have no special effects.;38;B;554
+G109;Gold Shield;A/an Shield that is made of Gold. Other than that it appears to have no special effects.;158;B;442
+G110;Grand Ruby Key;A/an Grand Key that is made of Ruby. It has Grand origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;11;A;957
+G111;Silver Amulet;A/an Amulet that is made of Silver. Other than that it appears to have no special effects.;100;B;1193
+G112;Grand Gold Tome;A/an Grand Tome that is made of Gold. It has Grand origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;12;A;745
+G113;Magical Steel Bracelet;A/an Magical Bracelet that is made of Steel. It has Magical origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;10;A;390
+G114;Grand Silver Key;A/an Grand Key that is made of Silver. It has Grand origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;30;A;354
+G115;Platinum Whip;A/an Whip that is made of Platinum. Other than that it appears to have no special effects.;161;B;318
+G116;Divine Topaz Grail;A/an Divine Grail that is made of Topaz. It has Divine origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;29;A;576
+G117;Grand Emerald Cloak of Earth;A/an Grand Cloak that is made of Emerald. It radiates Grand energy and when used will imbue its actions with the attribute of Earth. Very rare!;4;S;752
+G118;Dwarven Iron Whip;A/an Dwarven Whip that is made of Iron. It has Dwarven origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;8;A;1130
+G119;Steel Whip;A/an Whip that is made of Steel. Other than that it appears to have no special effects.;72;B;622
+G120;Gold Bracelet;A/an Bracelet that is made of Gold. Other than that it appears to have no special effects.;155;B;409
+G121;Blessed Iron Necklace;A/an Blessed Necklace that is made of Iron. It has Blessed origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;23;A;592
+G122;Topaz Ring;A/an Ring that is made of Topaz. Other than that it appears to have no special effects.;196;B;264
+G123;Iron Amulet;A/an Amulet that is made of Iron. Other than that it appears to have no special effects.;191;B;1284
+G124;Emerald Cleats;A/an Cleats that is made of Emerald. Other than that it appears to have no special effects.;29;B;355
+G125;Iron Crown;A/an Crown that is made of Iron. Other than that it appears to have no special effects.;65;B;182
+G126;Copper Saber;A/an Saber that is made of Copper. Other than that it appears to have no special effects.;154;B;487
+G127;Steel Hairpin;A/an Hairpin that is made of Steel. Other than that it appears to have no special effects.;54;B;108
+G128;Ruby Shield;A/an Shield that is made of Ruby. Other than that it appears to have no special effects.;99;B;1291
+G129;Divine Iron Saber;A/an Divine Saber that is made of Iron. It has Divine origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;22;A;685
+G130;Dwarven Steel Greataxe of Light;A/an Dwarven Greataxe that is made of Steel. It radiates Dwarven energy and when used will imbue its actions with the attribute of Light. Very rare!;7;S;307
+G131;Topaz Bow;A/an Bow that is made of Topaz. Other than that it appears to have no special effects.;104;B;1108
+G132;Platinum Key;A/an Key that is made of Platinum. Other than that it appears to have no special effects.;48;B;3
+G133;Abyssal Platinum Key;A/an Abyssal Key that is made of Platinum. It has Abyssal origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;24;A;78
+G134;Silver Crossbow;A/an Crossbow that is made of Silver. Other than that it appears to have no special effects.;154;B;505
+G135;Cleats;Just a/an normal Cleats. It has no special effects.;322;C;1429
+G136;Steel Necklace;A/an Necklace that is made of Steel. Other than that it appears to have no special effects.;156;B;611
+G137;Blessed Iron Crossbow;A/an Blessed Crossbow that is made of Iron. It has Blessed origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;30;A;44
+G138;Iron Greataxe;A/an Greataxe that is made of Iron. Other than that it appears to have no special effects.;80;B;1194
+G139;Steel Amulet;A/an Amulet that is made of Steel. Other than that it appears to have no special effects.;112;B;72
+G140;Spiritual Ruby Circlet;A/an Spiritual Circlet that is made of Ruby. It has Spiritual origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;8;A;1136
+G141;Copper Bow;A/an Bow that is made of Copper. Other than that it appears to have no special effects.;193;B;582
+G142;Topaz Key;A/an Key that is made of Topaz. Other than that it appears to have no special effects.;171;B;613
+G143;Silver Armor;A/an Armor that is made of Silver. Other than that it appears to have no special effects.;80;B;4
+G144;Abyssal Gold Key;A/an Abyssal Key that is made of Gold. It has Abyssal origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;13;A;310
+G145;Silver Greataxe;A/an Greataxe that is made of Silver. Other than that it appears to have no special effects.;81;B;1493
+G146;Divine Silver Crown;A/an Divine Crown that is made of Silver. It has Divine origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;17;A;871
+G147;Gold Crossbow;A/an Crossbow that is made of Gold. Other than that it appears to have no special effects.;34;B;1190
+G148;Grand Ruby Robe;A/an Grand Robe that is made of Ruby. It has Grand origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;14;A;1001
+G149;Iron Hairpin;A/an Hairpin that is made of Iron. Other than that it appears to have no special effects.;60;B;373
+G150;Key;Just a/an normal Key. It has no special effects.;323;C;1010
+G151;Explosive Platinum Tiara;A/an Explosive Tiara that is made of Platinum. It has Explosive origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;20;A;513
+G152;Corrupted Ruby Amulet of Water;A/an Corrupted Amulet that is made of Ruby. It radiates Corrupted energy and when used will imbue its actions with the attribute of Water. Very rare!;3;S;829
+G153;Whip;Just a/an normal Whip. It has no special effects.;125;C;199
+G154;Emerald Key;A/an Key that is made of Emerald. Other than that it appears to have no special effects.;122;B;611
+G155;Divine Gold Tiara of Wind;A/an Divine Tiara that is made of Gold. It radiates Divine energy and when used will imbue its actions with the attribute of Wind. Very rare!;5;S;270
+G156;Gold Crown;A/an Crown that is made of Gold. Other than that it appears to have no special effects.;163;B;674
+G157;Explosive Copper Key;A/an Explosive Key that is made of Copper. It has Explosive origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;13;A;1291
+G158;Magical Sapphire Robe;A/an Magical Robe that is made of Sapphire. It has Magical origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;25;A;575
+G159;Divine Emerald Robe;A/an Divine Robe that is made of Emerald. It has Divine origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;30;A;896
+G160;Abyssal Platinum Cloak of Earth;A/an Abyssal Cloak that is made of Platinum. It radiates Abyssal energy and when used will imbue its actions with the attribute of Earth. Very rare!;8;S;832
+G161;Abyssal Ruby Crown;A/an Abyssal Crown that is made of Ruby. It has Abyssal origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;28;A;1315
+G162;Blessed Emerald Amulet;A/an Blessed Amulet that is made of Emerald. It has Blessed origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;5;A;1271
+G163;Poisonous Iron Bracelet;A/an Poisonous Bracelet that is made of Iron. It has Poisonous origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;28;A;1175
+G164;Explosive Emerald Ring;A/an Explosive Ring that is made of Emerald. It has Explosive origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;25;A;782
+G165;Grand Steel Ring;A/an Grand Ring that is made of Steel. It has Grand origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;27;A;1211
+G166;Sapphire Whip;A/an Whip that is made of Sapphire. Other than that it appears to have no special effects.;118;B;106
+G167;Pauldrons;Just a/an normal Pauldrons. It has no special effects.;296;C;1010
+G168;Armor;Just a/an normal Armor. It has no special effects.;760;C;1253
+G169;Corrupted Copper Cleats;A/an Corrupted Cleats that is made of Copper. It has Corrupted origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;5;A;1431
+G170;Jade Sword;A/an Sword that is made of Jade. Other than that it appears to have no special effects.;33;B;1341
+G171;Spiritual Iron Circlet;A/an Spiritual Circlet that is made of Iron. It has Spiritual origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;29;A;1136
+G172;Grand Copper Bow;A/an Grand Bow that is made of Copper. It has Grand origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;14;A;862
+G173;Bracelet;Just a/an normal Bracelet. It has no special effects.;786;C;1096
+G174;Necklace;Just a/an normal Necklace. It has no special effects.;280;C;1044
+G175;Platinum Amulet;A/an Amulet that is made of Platinum. Other than that it appears to have no special effects.;66;B;314
+G176;Sword;Just a/an normal Sword. It has no special effects.;464;C;690
+G177;Grand Topaz Shield;A/an Grand Shield that is made of Topaz. It has Grand origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;11;A;1098
+G178;Iron Circlet;A/an Circlet that is made of Iron. Other than that it appears to have no special effects.;50;B;187
+G179;Evil Copper Amulet;A/an Evil Amulet that is made of Copper. It has Evil origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;6;A;1389
+G180;Ruby Greataxe;A/an Greataxe that is made of Ruby. Other than that it appears to have no special effects.;197;B;333
+G181;Elven Jade Greataxe;A/an Elven Greataxe that is made of Jade. It has Elven origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;19;A;10
+G182;Divine Platinum Saber of Light;A/an Divine Saber that is made of Platinum. It radiates Divine energy and when used will imbue its actions with the attribute of Light. Very rare!;3;S;171
+G183;Gold Ring;A/an Ring that is made of Gold. Other than that it appears to have no special effects.;67;B;468
+G184;Blessed Copper Robe;A/an Blessed Robe that is made of Copper. It has Blessed origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;30;A;90
+G185;Iron Whip;A/an Whip that is made of Iron. Other than that it appears to have no special effects.;44;B;74
+G186;Grand Platinum Tome;A/an Grand Tome that is made of Platinum. It has Grand origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;5;A;1029
+G187;Gold Greataxe;A/an Greataxe that is made of Gold. Other than that it appears to have no special effects.;137;B;257
+G188;Platinum Shield;A/an Shield that is made of Platinum. Other than that it appears to have no special effects.;95;B;1188
+G189;Chaotic Iron Circlet;A/an Chaotic Circlet that is made of Iron. It has Chaotic origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;10;A;1086
+G190;Chaotic Jade Greataxe of Space;A/an Chaotic Greataxe that is made of Jade. It radiates Chaotic energy and when used will imbue its actions with the attribute of Space. Very rare!;7;S;673
+G191;Steel Grail;A/an Grail that is made of Steel. Other than that it appears to have no special effects.;83;B;323
+G192;Grand Copper Necklace;A/an Grand Necklace that is made of Copper. It has Grand origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;10;A;45
+G193;Cloak;Just a/an normal Cloak. It has no special effects.;183;C;1076
+G194;Evil Topaz Cleats;A/an Evil Cleats that is made of Topaz. It has Evil origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;27;A;523
+G195;Abyssal Steel Amulet of Water;A/an Abyssal Amulet that is made of Steel. It radiates Abyssal energy and when used will imbue its actions with the attribute of Water. Very rare!;5;S;360
+G196;Tiara;Just a/an normal Tiara. It has no special effects.;431;C;197
+G197;Emerald Armor;A/an Armor that is made of Emerald. Other than that it appears to have no special effects.;29;B;293
+G198;Ruby Pauldrons;A/an Pauldrons that is made of Ruby. Other than that it appears to have no special effects.;12;B;927
+G199;Explosive Ruby Amulet;A/an Explosive Amulet that is made of Ruby. It has Explosive origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;16;A;733
+G200;Explosive Silver Pauldrons;A/an Explosive Pauldrons that is made of Silver. It has Explosive origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;7;A;104
+G201;Blessed Iron Robe;A/an Blessed Robe that is made of Iron. It has Blessed origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;12;A;194
+G202;Dwarven Emerald Cloak;A/an Dwarven Cloak that is made of Emerald. It has Dwarven origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;27;A;700
+G203;Magical Platinum Grail;A/an Magical Grail that is made of Platinum. It has Magical origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;13;A;1306
+G204;Sapphire Bow;A/an Bow that is made of Sapphire. Other than that it appears to have no special effects.;81;B;537
+G205;Emerald Tiara;A/an Tiara that is made of Emerald. Other than that it appears to have no special effects.;72;B;143
+G206;Blessed Copper Sword;A/an Blessed Sword that is made of Copper. It has Blessed origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;11;A;873
+G207;Copper Greataxe;A/an Greataxe that is made of Copper. Other than that it appears to have no special effects.;48;B;589
+G208;Steel Circlet;A/an Circlet that is made of Steel. Other than that it appears to have no special effects.;161;B;552
+G209;Abyssal Gold Grail;A/an Abyssal Grail that is made of Gold. It has Abyssal origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;12;A;458
+G210;Abyssal Sapphire Circlet of Time;A/an Abyssal Circlet that is made of Sapphire. It radiates Abyssal energy and when used will imbue its actions with the attribute of Time. Very rare!;5;S;672
+G211;Ruby Cleats;A/an Cleats that is made of Ruby. Other than that it appears to have no special effects.;136;B;462
+G212;Dwarven Platinum Hairpin;A/an Dwarven Hairpin that is made of Platinum. It has Dwarven origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;28;A;87
+G213;Elven Gold Necklace of Ice;A/an Elven Necklace that is made of Gold. It radiates Elven energy and when used will imbue its actions with the attribute of Ice. Very rare!;3;S;172
+G214;Evil Emerald Tiara;A/an Evil Tiara that is made of Emerald. It has Evil origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;30;A;10
+G215;Silver Necklace;A/an Necklace that is made of Silver. Other than that it appears to have no special effects.;197;B;1221
+G216;Magical Jade Necklace;A/an Magical Necklace that is made of Jade. It has Magical origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;10;A;480
+G217;Platinum Crown;A/an Crown that is made of Platinum. Other than that it appears to have no special effects.;76;B;242
+G218;Sapphire Pauldrons;A/an Pauldrons that is made of Sapphire. Other than that it appears to have no special effects.;78;B;816
+G219;Elven Sapphire Sword;A/an Elven Sword that is made of Sapphire. It has Elven origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;19;A;52
+G220;Grand Sapphire Grail;A/an Grand Grail that is made of Sapphire. It has Grand origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;13;A;271
+G221;Ruby Armor;A/an Armor that is made of Ruby. Other than that it appears to have no special effects.;103;B;436
+G222;Corrupted Silver Robe;A/an Corrupted Robe that is made of Silver. It has Corrupted origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;13;A;291
+G223;Copper Pauldrons;A/an Pauldrons that is made of Copper. Other than that it appears to have no special effects.;164;B;459
+G224;Dwarven Sapphire Tiara of Venom;A/an Dwarven Tiara that is made of Sapphire. It radiates Dwarven energy and when used will imbue its actions with the attribute of Venom. Very rare!;8;S;804
+G225;Iron Armor;A/an Armor that is made of Iron. Other than that it appears to have no special effects.;168;B;1262
+G226;Evil Copper Tiara;A/an Evil Tiara that is made of Copper. It has Evil origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;11;A;598
+G227;Gold Sword;A/an Sword that is made of Gold. Other than that it appears to have no special effects.;187;B;719
+G228;Evil Topaz Pauldrons;A/an Evil Pauldrons that is made of Topaz. It has Evil origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;18;A;261
+G229;Blessed Copper Crossbow of Water;A/an Blessed Crossbow that is made of Copper. It radiates Blessed energy and when used will imbue its actions with the attribute of Water. Very rare!;3;S;59
+G230;Evil Ruby Crossbow;A/an Evil Crossbow that is made of Ruby. It has Evil origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;28;A;454
+G231;Explosive Topaz Tiara;A/an Explosive Tiara that is made of Topaz. It has Explosive origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;15;A;476
+G232;Topaz Greataxe;A/an Greataxe that is made of Topaz. Other than that it appears to have no special effects.;185;B;1013
+G233;Gold Tiara;A/an Tiara that is made of Gold. Other than that it appears to have no special effects.;140;B;354
+G234;Topaz Armor;A/an Armor that is made of Topaz. Other than that it appears to have no special effects.;157;B;147
+G235;Topaz Circlet;A/an Circlet that is made of Topaz. Other than that it appears to have no special effects.;151;B;812
+G236;Steel Shield;A/an Shield that is made of Steel. Other than that it appears to have no special effects.;39;B;213
+G237;Elven Topaz Tome;A/an Elven Tome that is made of Topaz. It has Elven origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;6;A;1387
+G238;Grand Topaz Crossbow;A/an Grand Crossbow that is made of Topaz. It has Grand origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;27;A;1360
+G239;Dwarven Sapphire Shield;A/an Dwarven Shield that is made of Sapphire. It has Dwarven origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;10;A;1036
+G240;Gold Tome;A/an Tome that is made of Gold. Other than that it appears to have no special effects.;86;B;1374
+G241;Dwarven Steel Tiara of Death;A/an Dwarven Tiara that is made of Steel. It radiates Dwarven energy and when used will imbue its actions with the attribute of Death. Very rare!;9;S;966
+G242;Abyssal Iron Crossbow;A/an Abyssal Crossbow that is made of Iron. It has Abyssal origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;26;A;1362
+G243;Explosive Emerald Whip;A/an Explosive Whip that is made of Emerald. It has Explosive origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;17;A;407
+G244;Sapphire Armor;A/an Armor that is made of Sapphire. Other than that it appears to have no special effects.;107;B;237
+G245;Platinum Saber;A/an Saber that is made of Platinum. Other than that it appears to have no special effects.;60;B;265
+G246;Steel Bracelet;A/an Bracelet that is made of Steel. Other than that it appears to have no special effects.;181;B;1446
+G247;Blessed Emerald Ring;A/an Blessed Ring that is made of Emerald. It has Blessed origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;26;A;1297
+G248;Explosive Sapphire Armor;A/an Explosive Armor that is made of Sapphire. It has Explosive origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;8;A;1336
+G249;Abyssal Topaz Robe;A/an Abyssal Robe that is made of Topaz. It has Abyssal origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;13;A;546
+G250;Dwarven Sapphire Bracelet of Earth;A/an Dwarven Bracelet that is made of Sapphire. It radiates Dwarven energy and when used will imbue its actions with the attribute of Earth. Very rare!;4;S;131
+G251;Dwarven Jade Tome;A/an Dwarven Tome that is made of Jade. It has Dwarven origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;11;A;121
+G252;Topaz Whip;A/an Whip that is made of Topaz. Other than that it appears to have no special effects.;187;B;280
+G253;Copper Sword;A/an Sword that is made of Copper. Other than that it appears to have no special effects.;196;B;1344
+G254;Silver Cloak;A/an Cloak that is made of Silver. Other than that it appears to have no special effects.;133;B;1209
+G255;Emerald Necklace;A/an Necklace that is made of Emerald. Other than that it appears to have no special effects.;186;B;779
+G256;Corrupted Ruby Pauldrons;A/an Corrupted Pauldrons that is made of Ruby. It has Corrupted origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;11;A;931
+G257;Explosive Gold Tome of Venom;A/an Explosive Tome that is made of Gold. It radiates Explosive energy and when used will imbue its actions with the attribute of Venom. Very rare!;4;S;886
+G258;Jade Cleats;A/an Cleats that is made of Jade. Other than that it appears to have no special effects.;139;B;1054
+G259;Abyssal Ruby Whip of Darkness;A/an Abyssal Whip that is made of Ruby. It radiates Abyssal energy and when used will imbue its actions with the attribute of Darkness. Very rare!;7;S;903
+G260;Corrupted Emerald Saber;A/an Corrupted Saber that is made of Emerald. It has Corrupted origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;25;A;71
+G261;Emerald Bow;A/an Bow that is made of Emerald. Other than that it appears to have no special effects.;49;B;27
+G262;Blessed Jade Crossbow;A/an Blessed Crossbow that is made of Jade. It has Blessed origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;16;A;207
+G263;Spiritual Sapphire Bow;A/an Spiritual Bow that is made of Sapphire. It has Spiritual origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;22;A;202
+G264;Emerald Tome;A/an Tome that is made of Emerald. Other than that it appears to have no special effects.;67;B;972
+G265;Dwarven Emerald Amulet;A/an Dwarven Amulet that is made of Emerald. It has Dwarven origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;8;A;1495
+G266;Gold Grail;A/an Grail that is made of Gold. Other than that it appears to have no special effects.;30;B;103
+G267;Jade Shield;A/an Shield that is made of Jade. Other than that it appears to have no special effects.;17;B;102
+G268;Evil Jade Grail;A/an Evil Grail that is made of Jade. It has Evil origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;14;A;40
+G269;Divine Emerald Whip;A/an Divine Whip that is made of Emerald. It has Divine origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;24;A;373
+G270;Evil Topaz Bow;A/an Evil Bow that is made of Topaz. It has Evil origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;28;A;353
+G271;Sapphire Grail;A/an Grail that is made of Sapphire. Other than that it appears to have no special effects.;153;B;364
+G272;Dwarven Topaz Armor of Time;A/an Dwarven Armor that is made of Topaz. It radiates Dwarven energy and when used will imbue its actions with the attribute of Time. Very rare!;4;S;1361
+G273;Blessed Emerald Crossbow;A/an Blessed Crossbow that is made of Emerald. It has Blessed origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;30;A;681
+G274;Poisonous Emerald Ring;A/an Poisonous Ring that is made of Emerald. It has Poisonous origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;30;A;1094
+G275;Topaz Pauldrons;A/an Pauldrons that is made of Topaz. Other than that it appears to have no special effects.;42;B;155
+G276;Copper Crossbow;A/an Crossbow that is made of Copper. Other than that it appears to have no special effects.;153;B;1043
+G277;Elven Emerald Circlet;A/an Elven Circlet that is made of Emerald. It has Elven origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;11;A;1424
+G278;Grand Jade Robe;A/an Grand Robe that is made of Jade. It has Grand origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;29;A;559
+G279;Blessed Jade Cloak;A/an Blessed Cloak that is made of Jade. It has Blessed origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;7;A;1103
+G280;Magical Platinum Saber;A/an Magical Saber that is made of Platinum. It has Magical origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;27;A;1100
+G281;Ruby Sword;A/an Sword that is made of Ruby. Other than that it appears to have no special effects.;83;B;921
+G282;Steel Sword;A/an Sword that is made of Steel. Other than that it appears to have no special effects.;16;B;398
+G283;Ruby Tome;A/an Tome that is made of Ruby. Other than that it appears to have no special effects.;114;B;1165
+G284;Chaotic Gold Cleats;A/an Chaotic Cleats that is made of Gold. It has Chaotic origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;14;A;1345
+G285;Corrupted Sapphire Shield;A/an Corrupted Shield that is made of Sapphire. It has Corrupted origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;17;A;1462
+G286;Elven Steel Saber of Space;A/an Elven Saber that is made of Steel. It radiates Elven energy and when used will imbue its actions with the attribute of Space. Very rare!;3;S;1319
+G287;Iron Cloak;A/an Cloak that is made of Iron. Other than that it appears to have no special effects.;111;B;1115
+G288;Iron Tiara;A/an Tiara that is made of Iron. Other than that it appears to have no special effects.;35;B;543
+G289;Silver Key;A/an Key that is made of Silver. Other than that it appears to have no special effects.;150;B;1290
+G290;Blessed Steel Tiara;A/an Blessed Tiara that is made of Steel. It has Blessed origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;21;A;1487
+G291;Tome;Just a/an normal Tome. It has no special effects.;636;C;466
+G292;Magical Gold Necklace of Light;A/an Magical Necklace that is made of Gold. It radiates Magical energy and when used will imbue its actions with the attribute of Light. Very rare!;7;S;1225
+G293;Jade Circlet;A/an Circlet that is made of Jade. Other than that it appears to have no special effects.;194;B;577
+G294;Abyssal Platinum Greataxe;A/an Abyssal Greataxe that is made of Platinum. It has Abyssal origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;12;A;629
+G295;Poisonous Silver Pauldrons;A/an Poisonous Pauldrons that is made of Silver. It has Poisonous origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;16;A;1239
+G296;Platinum Sword;A/an Sword that is made of Platinum. Other than that it appears to have no special effects.;56;B;83
+G297;Corrupted Steel Ring;A/an Corrupted Ring that is made of Steel. It has Corrupted origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;10;A;141
+G298;Blessed Sapphire Bracelet;A/an Blessed Bracelet that is made of Sapphire. It has Blessed origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;19;A;1324
+G299;Evil Iron Cloak;A/an Evil Cloak that is made of Iron. It has Evil origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;20;A;1216
+G300;Jade Necklace;A/an Necklace that is made of Jade. Other than that it appears to have no special effects.;118;B;1426
+G301;Copper Tome;A/an Tome that is made of Copper. Other than that it appears to have no special effects.;110;B;230
+G302;Sapphire Circlet;A/an Circlet that is made of Sapphire. Other than that it appears to have no special effects.;196;B;475
+G303;Silver Tome;A/an Tome that is made of Silver. Other than that it appears to have no special effects.;138;B;1408
+G304;Magical Emerald Cleats;A/an Magical Cleats that is made of Emerald. It has Magical origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;16;A;1353
+G305;Steel Robe;A/an Robe that is made of Steel. Other than that it appears to have no special effects.;50;B;1199
+G306;Corrupted Platinum Sword of Venom;A/an Corrupted Sword that is made of Platinum. It radiates Corrupted energy and when used will imbue its actions with the attribute of Venom. Very rare!;4;S;698
+G307;Divine Steel Circlet;A/an Divine Circlet that is made of Steel. It has Divine origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;14;A;128
+G308;Divine Iron Tome;A/an Divine Tome that is made of Iron. It has Divine origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;9;A;113
+G309;Platinum Ring;A/an Ring that is made of Platinum. Other than that it appears to have no special effects.;77;B;499
+G310;Chaotic Platinum Tiara;A/an Chaotic Tiara that is made of Platinum. It has Chaotic origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;23;A;1106
+G311;Abyssal Gold Circlet of Time;A/an Abyssal Circlet that is made of Gold. It radiates Abyssal energy and when used will imbue its actions with the attribute of Time. Very rare!;5;S;410
+G312;Iron Necklace;A/an Necklace that is made of Iron. Other than that it appears to have no special effects.;13;B;1162
+G313;Abyssal Sapphire Bow;A/an Abyssal Bow that is made of Sapphire. It has Abyssal origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;13;A;663
+G314;Sapphire Necklace;A/an Necklace that is made of Sapphire. Other than that it appears to have no special effects.;33;B;715
+G315;Platinum Cleats;A/an Cleats that is made of Platinum. Other than that it appears to have no special effects.;13;B;402
+G316;Gold Cleats;A/an Cleats that is made of Gold. Other than that it appears to have no special effects.;132;B;767
+G317;Blessed Sapphire Key of Light;A/an Blessed Key that is made of Sapphire. It radiates Blessed energy and when used will imbue its actions with the attribute of Light. Very rare!;6;S;59
+G318;Silver Grail;A/an Grail that is made of Silver. Other than that it appears to have no special effects.;172;B;1155
+G319;Poisonous Copper Amulet;A/an Poisonous Amulet that is made of Copper. It has Poisonous origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;21;A;162
+G320;Chaotic Iron Crown;A/an Chaotic Crown that is made of Iron. It has Chaotic origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;20;A;672
+G321;Dwarven Ruby Bracelet of Space;A/an Dwarven Bracelet that is made of Ruby. It radiates Dwarven energy and when used will imbue its actions with the attribute of Space. Very rare!;7;S;756
+G322;Corrupted Sapphire Crossbow;A/an Corrupted Crossbow that is made of Sapphire. It has Corrupted origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;9;A;226
+G323;Magical Emerald Saber;A/an Magical Saber that is made of Emerald. It has Magical origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;11;A;844
+G324;Explosive Emerald Cleats;A/an Explosive Cleats that is made of Emerald. It has Explosive origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;22;A;1447
+G325;Topaz Grail;A/an Grail that is made of Topaz. Other than that it appears to have no special effects.;177;B;654
+G326;Abyssal Iron Bow;A/an Abyssal Bow that is made of Iron. It has Abyssal origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;5;A;894
+G327;Emerald Grail;A/an Grail that is made of Emerald. Other than that it appears to have no special effects.;118;B;954
+G328;Gold Armor;A/an Armor that is made of Gold. Other than that it appears to have no special effects.;77;B;267
+G329;Sapphire Tiara;A/an Tiara that is made of Sapphire. Other than that it appears to have no special effects.;108;B;996
+G330;Copper Hairpin;A/an Hairpin that is made of Copper. Other than that it appears to have no special effects.;106;B;1068
+G331;Grand Topaz Ring;A/an Grand Ring that is made of Topaz. It has Grand origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;25;A;1493
+G332;Dwarven Topaz Hairpin;A/an Dwarven Hairpin that is made of Topaz. It has Dwarven origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;11;A;330
+G333;Magical Steel Amulet;A/an Magical Amulet that is made of Steel. It has Magical origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;29;A;1251
+G334;Steel Cleats;A/an Cleats that is made of Steel. Other than that it appears to have no special effects.;93;B;1401
+G335;Magical Gold Hairpin;A/an Magical Hairpin that is made of Gold. It has Magical origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;7;A;686
+G336;Chaotic Emerald Tome;A/an Chaotic Tome that is made of Emerald. It has Chaotic origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;14;A;1380
+G337;Dwarven Ruby Cloak;A/an Dwarven Cloak that is made of Ruby. It has Dwarven origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;27;A;1193
+G338;Emerald Pauldrons;A/an Pauldrons that is made of Emerald. Other than that it appears to have no special effects.;20;B;798
+G339;Abyssal Platinum Ring;A/an Abyssal Ring that is made of Platinum. It has Abyssal origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;8;A;636
+G340;Chaotic Steel Necklace;A/an Chaotic Necklace that is made of Steel. It has Chaotic origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;19;A;1142
+G341;Spiritual Gold Pauldrons;A/an Spiritual Pauldrons that is made of Gold. It has Spiritual origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;5;A;725
+G342;Chaotic Sapphire Grail;A/an Chaotic Grail that is made of Sapphire. It has Chaotic origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;26;A;348
+G343;Abyssal Silver Cleats of Earth;A/an Abyssal Cleats that is made of Silver. It radiates Abyssal energy and when used will imbue its actions with the attribute of Earth. Very rare!;8;S;1272
+G344;Ruby Amulet;A/an Amulet that is made of Ruby. Other than that it appears to have no special effects.;102;B;1266
+G345;Sapphire Cleats;A/an Cleats that is made of Sapphire. Other than that it appears to have no special effects.;121;B;556
+G346;Poisonous Topaz Robe;A/an Poisonous Robe that is made of Topaz. It has Poisonous origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;25;A;508
+G347;Silver Hairpin;A/an Hairpin that is made of Silver. Other than that it appears to have no special effects.;93;B;400
+G348;Evil Iron Cleats;A/an Evil Cleats that is made of Iron. It has Evil origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;12;A;584
+G349;Topaz Shield;A/an Shield that is made of Topaz. Other than that it appears to have no special effects.;45;B;1194
+G350;Dwarven Gold Cleats;A/an Dwarven Cleats that is made of Gold. It has Dwarven origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;30;A;720
+G351;Grand Emerald Armor;A/an Grand Armor that is made of Emerald. It has Grand origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;7;A;329
+G352;Elven Emerald Robe;A/an Elven Robe that is made of Emerald. It has Elven origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;7;A;564
+G353;Dwarven Topaz Bow;A/an Dwarven Bow that is made of Topaz. It has Dwarven origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;22;A;1011
+G354;Evil Platinum Sword;A/an Evil Sword that is made of Platinum. It has Evil origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;16;A;1472
+G355;Ruby Grail;A/an Grail that is made of Ruby. Other than that it appears to have no special effects.;131;B;696
+G356;Copper Grail;A/an Grail that is made of Copper. Other than that it appears to have no special effects.;23;B;1366
+G357;Evil Emerald Sword of Life;A/an Evil Sword that is made of Emerald. It radiates Evil energy and when used will imbue its actions with the attribute of Life. Very rare!;8;S;746
+G358;Blessed Silver Whip;A/an Blessed Whip that is made of Silver. It has Blessed origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;14;A;174
+G359;Iron Sword;A/an Sword that is made of Iron. Other than that it appears to have no special effects.;58;B;1192
+G360;Poisonous Jade Robe of Fire;A/an Poisonous Robe that is made of Jade. It radiates Poisonous energy and when used will imbue its actions with the attribute of Fire. Very rare!;6;S;1258
+G361;Dwarven Emerald Circlet;A/an Dwarven Circlet that is made of Emerald. It has Dwarven origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;24;A;1365
+G362;Silver Circlet;A/an Circlet that is made of Silver. Other than that it appears to have no special effects.;39;B;1446
+G363;Emerald Cloak;A/an Cloak that is made of Emerald. Other than that it appears to have no special effects.;127;B;1308
+G364;Ruby Crown;A/an Crown that is made of Ruby. Other than that it appears to have no special effects.;72;B;345
+G365;Spiritual Silver Shield;A/an Spiritual Shield that is made of Silver. It has Spiritual origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;18;A;137
+G366;Corrupted Emerald Grail;A/an Corrupted Grail that is made of Emerald. It has Corrupted origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;12;A;549
+G367;Ruby Saber;A/an Saber that is made of Ruby. Other than that it appears to have no special effects.;141;B;636
+G368;Platinum Greataxe;A/an Greataxe that is made of Platinum. Other than that it appears to have no special effects.;55;B;1336
+G369;Chaotic Iron Grail;A/an Chaotic Grail that is made of Iron. It has Chaotic origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;19;A;1039
+G370;Corrupted Ruby Bracelet;A/an Corrupted Bracelet that is made of Ruby. It has Corrupted origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;13;A;215
+G371;Shield;Just a/an normal Shield. It has no special effects.;433;C;268
+G372;Poisonous Sapphire Whip;A/an Poisonous Whip that is made of Sapphire. It has Poisonous origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;6;A;445
+G373;Corrupted Topaz Tome;A/an Corrupted Tome that is made of Topaz. It has Corrupted origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;14;A;344
+G374;Dwarven Topaz Tome of Ice;A/an Dwarven Tome that is made of Topaz. It radiates Dwarven energy and when used will imbue its actions with the attribute of Ice. Very rare!;7;S;313
+G375;Abyssal Platinum Amulet;A/an Abyssal Amulet that is made of Platinum. It has Abyssal origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;8;A;1224
+G376;Chaotic Iron Key;A/an Chaotic Key that is made of Iron. It has Chaotic origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;22;A;94
+G377;Corrupted Iron Ring of Wind;A/an Corrupted Ring that is made of Iron. It radiates Corrupted energy and when used will imbue its actions with the attribute of Wind. Very rare!;8;S;955
+G378;Elven Silver Amulet of Wood;A/an Elven Amulet that is made of Silver. It radiates Elven energy and when used will imbue its actions with the attribute of Wood. Very rare!;6;S;966
+G379;Chaotic Sapphire Tome;A/an Chaotic Tome that is made of Sapphire. It has Chaotic origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;20;A;814
+G380;Abyssal Jade Amulet;A/an Abyssal Amulet that is made of Jade. It has Abyssal origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;8;A;304
+G381;Blessed Gold Tome of Water;A/an Blessed Tome that is made of Gold. It radiates Blessed energy and when used will imbue its actions with the attribute of Water. Very rare!;7;S;122
+G382;Platinum Crossbow;A/an Crossbow that is made of Platinum. Other than that it appears to have no special effects.;140;B;178
+G383;Explosive Emerald Bow;A/an Explosive Bow that is made of Emerald. It has Explosive origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;19;A;1103
+G384;Corrupted Sapphire Tome of Lightning;A/an Corrupted Tome that is made of Sapphire. It radiates Corrupted energy and when used will imbue its actions with the attribute of Lightning. Very rare!;3;S;1333
+G385;Grand Topaz Cloak;A/an Grand Cloak that is made of Topaz. It has Grand origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;27;A;950
+G386;Abyssal Silver Tiara;A/an Abyssal Tiara that is made of Silver. It has Abyssal origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;29;A;898
+G387;Explosive Gold Bracelet;A/an Explosive Bracelet that is made of Gold. It has Explosive origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;20;A;1032
+G388;Emerald Hairpin;A/an Hairpin that is made of Emerald. Other than that it appears to have no special effects.;54;B;866
+G389;Magical Gold Greataxe;A/an Magical Greataxe that is made of Gold. It has Magical origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;28;A;1293
+G390;Sapphire Key;A/an Key that is made of Sapphire. Other than that it appears to have no special effects.;125;B;1383
+G391;Bow;Just a/an normal Bow. It has no special effects.;688;C;1038
+G392;Silver Ring;A/an Ring that is made of Silver. Other than that it appears to have no special effects.;12;B;640
+G393;Steel Pauldrons;A/an Pauldrons that is made of Steel. Other than that it appears to have no special effects.;162;B;1486
+G394;Corrupted Silver Cloak of Wood;A/an Corrupted Cloak that is made of Silver. It radiates Corrupted energy and when used will imbue its actions with the attribute of Wood. Very rare!;1;S;1379
+G395;Chaotic Steel Hairpin;A/an Chaotic Hairpin that is made of Steel. It has Chaotic origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;27;A;790
+G396;Dwarven Emerald Greataxe;A/an Dwarven Greataxe that is made of Emerald. It has Dwarven origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;10;A;1304
+G397;Dwarven Platinum Sword;A/an Dwarven Sword that is made of Platinum. It has Dwarven origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;26;A;414
+G398;Silver Saber;A/an Saber that is made of Silver. Other than that it appears to have no special effects.;180;B;375
+G399;Dwarven Emerald Bracelet of Space;A/an Dwarven Bracelet that is made of Emerald. It radiates Dwarven energy and when used will imbue its actions with the attribute of Space. Very rare!;8;S;963
+G400;Sapphire Sword;A/an Sword that is made of Sapphire. Other than that it appears to have no special effects.;107;B;1154
+G401;Poisonous Topaz Pauldrons;A/an Poisonous Pauldrons that is made of Topaz. It has Poisonous origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;29;A;773
+G402;Magical Jade Armor;A/an Magical Armor that is made of Jade. It has Magical origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;8;A;1459
+G403;Chaotic Copper Pauldrons;A/an Chaotic Pauldrons that is made of Copper. It has Chaotic origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;15;A;694
+G404;Emerald Amulet;A/an Amulet that is made of Emerald. Other than that it appears to have no special effects.;98;B;817
+G405;Platinum Tiara;A/an Tiara that is made of Platinum. Other than that it appears to have no special effects.;65;B;1040
+G406;Copper Robe;A/an Robe that is made of Copper. Other than that it appears to have no special effects.;81;B;343
+G407;Explosive Ruby Necklace;A/an Explosive Necklace that is made of Ruby. It has Explosive origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;10;A;443
+G408;Grand Silver Robe of Darkness;A/an Grand Robe that is made of Silver. It radiates Grand energy and when used will imbue its actions with the attribute of Darkness. Very rare!;2;S;1332
+G409;Evil Iron Crossbow of Death;A/an Evil Crossbow that is made of Iron. It radiates Evil energy and when used will imbue its actions with the attribute of Death. Very rare!;6;S;88
+G410;Explosive Jade Grail;A/an Explosive Grail that is made of Jade. It has Explosive origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;29;A;558
+G411;Jade Crossbow;A/an Crossbow that is made of Jade. Other than that it appears to have no special effects.;12;B;1499
+G412;Dwarven Copper Armor;A/an Dwarven Armor that is made of Copper. It has Dwarven origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;23;A;287
+G413;Emerald Sword;A/an Sword that is made of Emerald. Other than that it appears to have no special effects.;49;B;1043
+G414;Divine Sapphire Bracelet;A/an Divine Bracelet that is made of Sapphire. It has Divine origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;22;A;785
+G415;Magical Silver Crossbow;A/an Magical Crossbow that is made of Silver. It has Magical origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;8;A;1456
+G416;Magical Iron Tome;A/an Magical Tome that is made of Iron. It has Magical origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;6;A;484
+G417;Elven Silver Saber of Water;A/an Elven Saber that is made of Silver. It radiates Elven energy and when used will imbue its actions with the attribute of Water. Very rare!;6;S;784
+G418;Corrupted Emerald Tome of Light;A/an Corrupted Tome that is made of Emerald. It radiates Corrupted energy and when used will imbue its actions with the attribute of Light. Very rare!;8;S;679
+G419;Dwarven Topaz Shield of Wood;A/an Dwarven Shield that is made of Topaz. It radiates Dwarven energy and when used will imbue its actions with the attribute of Wood. Very rare!;8;S;1396
+G420;Sapphire Cloak;A/an Cloak that is made of Sapphire. Other than that it appears to have no special effects.;178;B;1331
+G421;Jade Armor;A/an Armor that is made of Jade. Other than that it appears to have no special effects.;81;B;1376
+G422;Blessed Jade Shield of Darkness;A/an Blessed Shield that is made of Jade. It radiates Blessed energy and when used will imbue its actions with the attribute of Darkness. Very rare!;9;S;1431
+G423;Divine Topaz Saber;A/an Divine Saber that is made of Topaz. It has Divine origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;29;A;1090
+G424;Topaz Saber;A/an Saber that is made of Topaz. Other than that it appears to have no special effects.;87;B;952
+G425;Elven Emerald Cloak;A/an Elven Cloak that is made of Emerald. It has Elven origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;17;A;441
+G426;Explosive Jade Shield;A/an Explosive Shield that is made of Jade. It has Explosive origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;7;A;1198
+G427;Emerald Crown;A/an Crown that is made of Emerald. Other than that it appears to have no special effects.;97;B;668
+G428;Corrupted Gold Robe;A/an Corrupted Robe that is made of Gold. It has Corrupted origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;28;A;710
+G429;Crown;Just a/an normal Crown. It has no special effects.;475;C;1406
+G430;Platinum Necklace;A/an Necklace that is made of Platinum. Other than that it appears to have no special effects.;180;B;1303
+G431;Dwarven Copper Cloak;A/an Dwarven Cloak that is made of Copper. It has Dwarven origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;24;A;16
+G432;Steel Saber;A/an Saber that is made of Steel. Other than that it appears to have no special effects.;39;B;740
+G433;Copper Circlet;A/an Circlet that is made of Copper. Other than that it appears to have no special effects.;149;B;1197
+G434;Evil Emerald Whip of Darkness;A/an Evil Whip that is made of Emerald. It radiates Evil energy and when used will imbue its actions with the attribute of Darkness. Very rare!;8;S;1268
+G435;Silver Pauldrons;A/an Pauldrons that is made of Silver. Other than that it appears to have no special effects.;10;B;1361
+G436;Blessed Steel Cloak of Time;A/an Blessed Cloak that is made of Steel. It radiates Blessed energy and when used will imbue its actions with the attribute of Time. Very rare!;2;S;965
+G437;Silver Shield;A/an Shield that is made of Silver. Other than that it appears to have no special effects.;108;B;936
+G438;Evil Steel Key;A/an Evil Key that is made of Steel. It has Evil origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;24;A;343
+G439;Elven Iron Whip;A/an Elven Whip that is made of Iron. It has Elven origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;13;A;1036
+G440;Poisonous Steel Whip;A/an Poisonous Whip that is made of Steel. It has Poisonous origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;19;A;125
+G441;Chaotic Ruby Armor of Lightning;A/an Chaotic Armor that is made of Ruby. It radiates Chaotic energy and when used will imbue its actions with the attribute of Lightning. Very rare!;5;S;512
+G442;Blessed Steel Sword of Ice;A/an Blessed Sword that is made of Steel. It radiates Blessed energy and when used will imbue its actions with the attribute of Ice. Very rare!;5;S;770
+G443;Divine Sapphire Hairpin of Wind;A/an Divine Hairpin that is made of Sapphire. It radiates Divine energy and when used will imbue its actions with the attribute of Wind. Very rare!;1;S;1232
+G444;Divine Steel Hairpin;A/an Divine Hairpin that is made of Steel. It has Divine origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;29;A;156
+G445;Magical Silver Amulet;A/an Magical Amulet that is made of Silver. It has Magical origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;22;A;1351
+G446;Evil Steel Shield;A/an Evil Shield that is made of Steel. It has Evil origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;7;A;223
+G447;Grand Topaz Armor;A/an Grand Armor that is made of Topaz. It has Grand origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;5;A;1226
+G448;Jade Greataxe;A/an Greataxe that is made of Jade. Other than that it appears to have no special effects.;128;B;1267
+G449;Jade Whip;A/an Whip that is made of Jade. Other than that it appears to have no special effects.;180;B;680
+G450;Dwarven Sapphire Greataxe of Fire;A/an Dwarven Greataxe that is made of Sapphire. It radiates Dwarven energy and when used will imbue its actions with the attribute of Fire. Very rare!;1;S;1287
+G451;Elven Sapphire Cleats;A/an Elven Cleats that is made of Sapphire. It has Elven origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;14;A;674
+G452;Poisonous Gold Cleats;A/an Poisonous Cleats that is made of Gold. It has Poisonous origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;27;A;1016
+G453;Corrupted Silver Sword;A/an Corrupted Sword that is made of Silver. It has Corrupted origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;6;A;456
+G454;Iron Pauldrons;A/an Pauldrons that is made of Iron. Other than that it appears to have no special effects.;89;B;1349
+G455;Blessed Copper Shield;A/an Blessed Shield that is made of Copper. It has Blessed origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;15;A;1130
+G456;Blessed Ruby Pauldrons;A/an Blessed Pauldrons that is made of Ruby. It has Blessed origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;21;A;721
+G457;Explosive Copper Hairpin;A/an Explosive Hairpin that is made of Copper. It has Explosive origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;21;A;245
+G458;Chaotic Iron Ring;A/an Chaotic Ring that is made of Iron. It has Chaotic origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;19;A;745
+G459;Spiritual Emerald Crossbow;A/an Spiritual Crossbow that is made of Emerald. It has Spiritual origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;5;A;390
+G460;Chaotic Gold Armor;A/an Chaotic Armor that is made of Gold. It has Chaotic origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;29;A;1275
+G461;Chaotic Copper Key;A/an Chaotic Key that is made of Copper. It has Chaotic origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;15;A;1469
+G462;Chaotic Jade Saber;A/an Chaotic Saber that is made of Jade. It has Chaotic origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;26;A;877
+G463;Chaotic Silver Ring of Magma;A/an Chaotic Ring that is made of Silver. It radiates Chaotic energy and when used will imbue its actions with the attribute of Magma. Very rare!;8;S;607
+G464;Evil Copper Bracelet;A/an Evil Bracelet that is made of Copper. It has Evil origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;6;A;352
+G465;Evil Iron Crown of Death;A/an Evil Crown that is made of Iron. It radiates Evil energy and when used will imbue its actions with the attribute of Death. Very rare!;4;S;1344
+G466;Topaz Hairpin;A/an Hairpin that is made of Topaz. Other than that it appears to have no special effects.;76;B;839
+G467;Magical Iron Amulet;A/an Magical Amulet that is made of Iron. It has Magical origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;26;A;1027
+G468;Gold Pauldrons;A/an Pauldrons that is made of Gold. Other than that it appears to have no special effects.;42;B;399
+G469;Explosive Gold Saber of Wood;A/an Explosive Saber that is made of Gold. It radiates Explosive energy and when used will imbue its actions with the attribute of Wood. Very rare!;7;S;832
+G470;Spiritual Silver Crossbow;A/an Spiritual Crossbow that is made of Silver. It has Spiritual origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;22;A;1159
+G471;Grand Platinum Pauldrons;A/an Grand Pauldrons that is made of Platinum. It has Grand origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;21;A;1461
+G472;Chaotic Iron Cloak;A/an Chaotic Cloak that is made of Iron. It has Chaotic origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;24;A;276
+G473;Divine Gold Sword;A/an Divine Sword that is made of Gold. It has Divine origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;17;A;237
+G474;Divine Ruby Hairpin;A/an Divine Hairpin that is made of Ruby. It has Divine origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;25;A;86
+G475;Magical Jade Whip;A/an Magical Whip that is made of Jade. It has Magical origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;14;A;683
+G476;Divine Platinum Cleats of Wood;A/an Divine Cleats that is made of Platinum. It radiates Divine energy and when used will imbue its actions with the attribute of Wood. Very rare!;2;S;1171
+G477;Divine Gold Greataxe of Death;A/an Divine Greataxe that is made of Gold. It radiates Divine energy and when used will imbue its actions with the attribute of Death. Very rare!;7;S;176
+G478;Dwarven Topaz Robe of Life;A/an Dwarven Robe that is made of Topaz. It radiates Dwarven energy and when used will imbue its actions with the attribute of Life. Very rare!;7;S;804
+G479;Magical Jade Tiara;A/an Magical Tiara that is made of Jade. It has Magical origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;14;A;1183
+G480;Platinum Hairpin;A/an Hairpin that is made of Platinum. Other than that it appears to have no special effects.;108;B;375
+G481;Elven Emerald Grail of Water;A/an Elven Grail that is made of Emerald. It radiates Elven energy and when used will imbue its actions with the attribute of Water. Very rare!;4;S;1183
+G482;Blessed Emerald Pauldrons of Magma;A/an Blessed Pauldrons that is made of Emerald. It radiates Blessed energy and when used will imbue its actions with the attribute of Magma. Very rare!;5;S;1479
+G483;Poisonous Emerald Sword;A/an Poisonous Sword that is made of Emerald. It has Poisonous origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;29;A;1191
+G484;Magical Sapphire Armor;A/an Magical Armor that is made of Sapphire. It has Magical origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;18;A;1136
+G485;Abyssal Sapphire Robe;A/an Abyssal Robe that is made of Sapphire. It has Abyssal origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;9;A;152
+G486;Explosive Emerald Cloak;A/an Explosive Cloak that is made of Emerald. It has Explosive origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;14;A;564
+G487;Platinum Armor;A/an Armor that is made of Platinum. Other than that it appears to have no special effects.;158;B;991
+G488;Blessed Platinum Bow of Life;A/an Blessed Bow that is made of Platinum. It radiates Blessed energy and when used will imbue its actions with the attribute of Life. Very rare!;1;S;622
+G489;Evil Silver Robe of Time;A/an Evil Robe that is made of Silver. It radiates Evil energy and when used will imbue its actions with the attribute of Time. Very rare!;5;S;614
+G490;Platinum Bow;A/an Bow that is made of Platinum. Other than that it appears to have no special effects.;196;B;1141
+G491;Abyssal Sapphire Hairpin;A/an Abyssal Hairpin that is made of Sapphire. It has Abyssal origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;24;A;500
+G492;Evil Copper Amulet of Earth;A/an Evil Amulet that is made of Copper. It radiates Evil energy and when used will imbue its actions with the attribute of Earth. Very rare!;2;S;1149
+G493;Corrupted Jade Robe;A/an Corrupted Robe that is made of Jade. It has Corrupted origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;12;A;158
+G494;Blessed Copper Circlet;A/an Blessed Circlet that is made of Copper. It has Blessed origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;28;A;1299
+G495;Corrupted Topaz Tiara;A/an Corrupted Tiara that is made of Topaz. It has Corrupted origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;16;A;986
+G496;Silver Bow;A/an Bow that is made of Silver. Other than that it appears to have no special effects.;102;B;285
+G497;Explosive Silver Key;A/an Explosive Key that is made of Silver. It has Explosive origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;11;A;336
+G498;Chaotic Jade Armor;A/an Chaotic Armor that is made of Jade. It has Chaotic origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;27;A;1471
+G499;Copper Bracelet;A/an Bracelet that is made of Copper. Other than that it appears to have no special effects.;189;B;54
+G500;Magical Silver Robe of Venom;A/an Magical Robe that is made of Silver. It radiates Magical energy and when used will imbue its actions with the attribute of Venom. Very rare!;8;S;1048
+G501;Magical Topaz Necklace;A/an Magical Necklace that is made of Topaz. It has Magical origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;7;A;908
+G502;Gold Amulet;A/an Amulet that is made of Gold. Other than that it appears to have no special effects.;20;B;620
+G503;Magical Sapphire Cleats;A/an Magical Cleats that is made of Sapphire. It has Magical origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;13;A;253
+G504;Gold Saber;A/an Saber that is made of Gold. Other than that it appears to have no special effects.;118;B;503
+G505;Corrupted Iron Bow of Earth;A/an Corrupted Bow that is made of Iron. It radiates Corrupted energy and when used will imbue its actions with the attribute of Earth. Very rare!;6;S;676
+G506;Jade Pauldrons;A/an Pauldrons that is made of Jade. Other than that it appears to have no special effects.;138;B;566
+G507;Topaz Sword;A/an Sword that is made of Topaz. Other than that it appears to have no special effects.;190;B;165
+G508;Magical Silver Whip;A/an Magical Whip that is made of Silver. It has Magical origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;10;A;157
+G509;Iron Bracelet;A/an Bracelet that is made of Iron. Other than that it appears to have no special effects.;176;B;523
+G510;Gold Necklace;A/an Necklace that is made of Gold. Other than that it appears to have no special effects.;33;B;1143
+G511;Spiritual Silver Hairpin of Wind;A/an Spiritual Hairpin that is made of Silver. It radiates Spiritual energy and when used will imbue its actions with the attribute of Wind. Very rare!;3;S;418
+G512;Grand Topaz Cloak of Magma;A/an Grand Cloak that is made of Topaz. It radiates Grand energy and when used will imbue its actions with the attribute of Magma. Very rare!;4;S;1233
+G513;Dwarven Silver Bow;A/an Dwarven Bow that is made of Silver. It has Dwarven origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;30;A;204
+G514;Blessed Copper Crown;A/an Blessed Crown that is made of Copper. It has Blessed origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;30;A;1041
+G515;Elven Platinum Tiara;A/an Elven Tiara that is made of Platinum. It has Elven origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;16;A;1399
+G516;Corrupted Gold Greataxe;A/an Corrupted Greataxe that is made of Gold. It has Corrupted origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;9;A;1066
+G517;Divine Copper Crossbow of Lightning;A/an Divine Crossbow that is made of Copper. It radiates Divine energy and when used will imbue its actions with the attribute of Lightning. Very rare!;1;S;910
+G518;Dwarven Steel Shield;A/an Dwarven Shield that is made of Steel. It has Dwarven origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;10;A;1085
+G519;Gold Robe;A/an Robe that is made of Gold. Other than that it appears to have no special effects.;43;B;811
+G520;Topaz Tiara;A/an Tiara that is made of Topaz. Other than that it appears to have no special effects.;168;B;784
+G521;Chaotic Emerald Shield;A/an Chaotic Shield that is made of Emerald. It has Chaotic origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;12;A;433
+G522;Chaotic Steel Crossbow;A/an Chaotic Crossbow that is made of Steel. It has Chaotic origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;10;A;160
+G523;Corrupted Steel Tiara;A/an Corrupted Tiara that is made of Steel. It has Corrupted origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;29;A;1333
+G524;Steel Greataxe;A/an Greataxe that is made of Steel. Other than that it appears to have no special effects.;70;B;631
+G525;Evil Topaz Necklace;A/an Evil Necklace that is made of Topaz. It has Evil origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;13;A;83
+G526;Iron Bow;A/an Bow that is made of Iron. Other than that it appears to have no special effects.;131;B;1250
+G527;Grand Steel Cleats;A/an Grand Cleats that is made of Steel. It has Grand origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;27;A;513
+G528;Iron Robe;A/an Robe that is made of Iron. Other than that it appears to have no special effects.;182;B;1193
+G529;Chaotic Topaz Key;A/an Chaotic Key that is made of Topaz. It has Chaotic origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;24;A;451
+G530;Poisonous Steel Shield;A/an Poisonous Shield that is made of Steel. It has Poisonous origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;23;A;466
+G531;Copper Armor;A/an Armor that is made of Copper. Other than that it appears to have no special effects.;13;B;1105
+G532;Chaotic Platinum Crown;A/an Chaotic Crown that is made of Platinum. It has Chaotic origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;16;A;964
+G533;Elven Jade Armor of Space;A/an Elven Armor that is made of Jade. It radiates Elven energy and when used will imbue its actions with the attribute of Space. Very rare!;5;S;243
+G534;Abyssal Sapphire Whip;A/an Abyssal Whip that is made of Sapphire. It has Abyssal origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;7;A;335
+G535;Explosive Gold Necklace of Lightning;A/an Explosive Necklace that is made of Gold. It radiates Explosive energy and when used will imbue its actions with the attribute of Lightning. Very rare!;9;S;1070
+G536;Abyssal Ruby Bracelet;A/an Abyssal Bracelet that is made of Ruby. It has Abyssal origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;25;A;822
+G537;Platinum Tome;A/an Tome that is made of Platinum. Other than that it appears to have no special effects.;151;B;1263
+G538;Magical Steel Grail of Ice;A/an Magical Grail that is made of Steel. It radiates Magical energy and when used will imbue its actions with the attribute of Ice. Very rare!;9;S;562
+G539;Chaotic Steel Bow of Earth;A/an Chaotic Bow that is made of Steel. It radiates Chaotic energy and when used will imbue its actions with the attribute of Earth. Very rare!;4;S;905
+G540;Blessed Gold Saber;A/an Blessed Saber that is made of Gold. It has Blessed origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;29;A;206
+G541;Magical Silver Whip of Lightning;A/an Magical Whip that is made of Silver. It radiates Magical energy and when used will imbue its actions with the attribute of Lightning. Very rare!;8;S;509
+G542;Elven Ruby Crossbow of Time;A/an Elven Crossbow that is made of Ruby. It radiates Elven energy and when used will imbue its actions with the attribute of Time. Very rare!;4;S;1251
+G543;Evil Sapphire Hairpin;A/an Evil Hairpin that is made of Sapphire. It has Evil origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;23;A;794
+G544;Elven Steel Cloak;A/an Elven Cloak that is made of Steel. It has Elven origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;18;A;67
+G545;Sapphire Tome;A/an Tome that is made of Sapphire. Other than that it appears to have no special effects.;44;B;22
+G546;Topaz Robe;A/an Robe that is made of Topaz. Other than that it appears to have no special effects.;199;B;723
+G547;Steel Key;A/an Key that is made of Steel. Other than that it appears to have no special effects.;58;B;1130
+G548;Elven Jade Cleats;A/an Elven Cleats that is made of Jade. It has Elven origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;17;A;1289
+G549;Evil Copper Armor of Wood;A/an Evil Armor that is made of Copper. It radiates Evil energy and when used will imbue its actions with the attribute of Wood. Very rare!;5;S;271
+G550;Poisonous Copper Grail;A/an Poisonous Grail that is made of Copper. It has Poisonous origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;28;A;1411
+G551;Steel Bow;A/an Bow that is made of Steel. Other than that it appears to have no special effects.;31;B;249
+G552;Evil Topaz Greataxe;A/an Evil Greataxe that is made of Topaz. It has Evil origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;7;A;791
+G553;Spiritual Ruby Cloak;A/an Spiritual Cloak that is made of Ruby. It has Spiritual origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;19;A;71
+G554;Spiritual Ruby Tome;A/an Spiritual Tome that is made of Ruby. It has Spiritual origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;25;A;491
+G555;Abyssal Sapphire Necklace of Magma;A/an Abyssal Necklace that is made of Sapphire. It radiates Abyssal energy and when used will imbue its actions with the attribute of Magma. Very rare!;2;S;1497
+G556;Poisonous Emerald Whip;A/an Poisonous Whip that is made of Emerald. It has Poisonous origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;10;A;122
+G557;Sapphire Ring;A/an Ring that is made of Sapphire. Other than that it appears to have no special effects.;75;B;1336
+G558;Silver Whip;A/an Whip that is made of Silver. Other than that it appears to have no special effects.;125;B;356
+G559;Evil Iron Necklace;A/an Evil Necklace that is made of Iron. It has Evil origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;21;A;976
+G560;Poisonous Topaz Armor;A/an Poisonous Armor that is made of Topaz. It has Poisonous origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;15;A;1477
+G561;Poisonous Copper Key;A/an Poisonous Key that is made of Copper. It has Poisonous origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;16;A;1256
+G562;Evil Steel Hairpin;A/an Evil Hairpin that is made of Steel. It has Evil origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;26;A;1040
+G563;Magical Topaz Key of Time;A/an Magical Key that is made of Topaz. It radiates Magical energy and when used will imbue its actions with the attribute of Time. Very rare!;6;S;294
+G564;Explosive Silver Saber;A/an Explosive Saber that is made of Silver. It has Explosive origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;7;A;103
+G565;Copper Shield;A/an Shield that is made of Copper. Other than that it appears to have no special effects.;79;B;246
+G566;Divine Platinum Amulet of Fire;A/an Divine Amulet that is made of Platinum. It radiates Divine energy and when used will imbue its actions with the attribute of Fire. Very rare!;1;S;646
+G567;Magical Silver Whip of Space;A/an Magical Whip that is made of Silver. It radiates Magical energy and when used will imbue its actions with the attribute of Space. Very rare!;8;S;671
+G568;Gold Cloak;A/an Cloak that is made of Gold. Other than that it appears to have no special effects.;185;B;448
+G569;Emerald Greataxe;A/an Greataxe that is made of Emerald. Other than that it appears to have no special effects.;19;B;102
+G570;Explosive Jade Armor;A/an Explosive Armor that is made of Jade. It has Explosive origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;27;A;402
+G571;Corrupted Copper Tiara;A/an Corrupted Tiara that is made of Copper. It has Corrupted origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;21;A;1204
+G572;Blessed Jade Cloak of Wind;A/an Blessed Cloak that is made of Jade. It radiates Blessed energy and when used will imbue its actions with the attribute of Wind. Very rare!;9;S;1463
+G573;Blessed Platinum Sword;A/an Blessed Sword that is made of Platinum. It has Blessed origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;16;A;849
+G574;Blessed Emerald Necklace;A/an Blessed Necklace that is made of Emerald. It has Blessed origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;27;A;293
+G575;Magical Jade Crown;A/an Magical Crown that is made of Jade. It has Magical origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;21;A;608
+G576;Platinum Robe;A/an Robe that is made of Platinum. Other than that it appears to have no special effects.;161;B;183
+G577;Explosive Platinum Bracelet;A/an Explosive Bracelet that is made of Platinum. It has Explosive origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;14;A;1351
+G578;Elven Copper Shield of Ice;A/an Elven Shield that is made of Copper. It radiates Elven energy and when used will imbue its actions with the attribute of Ice. Very rare!;9;S;142
+G579;Magical Copper Grail of Venom;A/an Magical Grail that is made of Copper. It radiates Magical energy and when used will imbue its actions with the attribute of Venom. Very rare!;3;S;1409
+G580;Poisonous Silver Key;A/an Poisonous Key that is made of Silver. It has Poisonous origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;8;A;693
+G581;Spiritual Jade Whip of Lightning;A/an Spiritual Whip that is made of Jade. It radiates Spiritual energy and when used will imbue its actions with the attribute of Lightning. Very rare!;8;S;1010
+G582;Corrupted Steel Cleats of Lightning;A/an Corrupted Cleats that is made of Steel. It radiates Corrupted energy and when used will imbue its actions with the attribute of Lightning. Very rare!;9;S;819
+G583;Poisonous Gold Greataxe;A/an Poisonous Greataxe that is made of Gold. It has Poisonous origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;9;A;1226
+G584;Poisonous Iron Grail;A/an Poisonous Grail that is made of Iron. It has Poisonous origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;28;A;670
+G585;Explosive Iron Crown of Water;A/an Explosive Crown that is made of Iron. It radiates Explosive energy and when used will imbue its actions with the attribute of Water. Very rare!;2;S;920
+G586;Silver Cleats;A/an Cleats that is made of Silver. Other than that it appears to have no special effects.;48;B;1430
+G587;Magical Steel Whip;A/an Magical Whip that is made of Steel. It has Magical origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;21;A;616
+G588;Divine Silver Shield;A/an Divine Shield that is made of Silver. It has Divine origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;6;A;1403
+G589;Chaotic Topaz Grail;A/an Chaotic Grail that is made of Topaz. It has Chaotic origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;18;A;892
+G590;Corrupted Platinum Hairpin;A/an Corrupted Hairpin that is made of Platinum. It has Corrupted origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;14;A;857
+G591;Evil Silver Circlet;A/an Evil Circlet that is made of Silver. It has Evil origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;5;A;1411
+G592;Abyssal Sapphire Amulet;A/an Abyssal Amulet that is made of Sapphire. It has Abyssal origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;25;A;879
+G593;Elven Ruby Key;A/an Elven Key that is made of Ruby. It has Elven origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;28;A;64
+G594;Dwarven Copper Crossbow;A/an Dwarven Crossbow that is made of Copper. It has Dwarven origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;14;A;1009
+G595;Steel Crossbow;A/an Crossbow that is made of Steel. Other than that it appears to have no special effects.;91;B;134
+G596;Blessed Silver Grail;A/an Blessed Grail that is made of Silver. It has Blessed origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;19;A;717
+G597;Explosive Copper Pauldrons;A/an Explosive Pauldrons that is made of Copper. It has Explosive origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;19;A;1231
+G598;Magical Steel Key of Magma;A/an Magical Key that is made of Steel. It radiates Magical energy and when used will imbue its actions with the attribute of Magma. Very rare!;3;S;816
+G599;Grand Ruby Tome;A/an Grand Tome that is made of Ruby. It has Grand origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;13;A;1495
+G600;Abyssal Jade Crown of Venom;A/an Abyssal Crown that is made of Jade. It radiates Abyssal energy and when used will imbue its actions with the attribute of Venom. Very rare!;6;S;248
+G601;Dwarven Platinum Whip;A/an Dwarven Whip that is made of Platinum. It has Dwarven origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;23;A;613
+G602;Dwarven Gold Circlet of Wood;A/an Dwarven Circlet that is made of Gold. It radiates Dwarven energy and when used will imbue its actions with the attribute of Wood. Very rare!;5;S;1424
+G603;Grand Platinum Amulet;A/an Grand Amulet that is made of Platinum. It has Grand origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;8;A;795
+G604;Dwarven Silver Cleats;A/an Dwarven Cleats that is made of Silver. It has Dwarven origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;18;A;1261
+G605;Chaotic Platinum Amulet;A/an Chaotic Amulet that is made of Platinum. It has Chaotic origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;10;A;856
+G606;Elven Iron Robe;A/an Elven Robe that is made of Iron. It has Elven origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;6;A;1342
+G607;Divine Gold Cleats;A/an Divine Cleats that is made of Gold. It has Divine origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;6;A;591
+G608;Spiritual Steel Cleats;A/an Spiritual Cleats that is made of Steel. It has Spiritual origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;17;A;438
+G609;Corrupted Silver Cloak of Light;A/an Corrupted Cloak that is made of Silver. It radiates Corrupted energy and when used will imbue its actions with the attribute of Light. Very rare!;2;S;278
+G610;Abyssal Sapphire Ring;A/an Abyssal Ring that is made of Sapphire. It has Abyssal origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;12;A;217
+G611;Iron Saber;A/an Saber that is made of Iron. Other than that it appears to have no special effects.;75;B;883
+G612;Poisonous Iron Sword;A/an Poisonous Sword that is made of Iron. It has Poisonous origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;26;A;807
+G613;Magical Gold Tome;A/an Magical Tome that is made of Gold. It has Magical origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;6;A;260
+G614;Evil Gold Crossbow;A/an Evil Crossbow that is made of Gold. It has Evil origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;12;A;99
+G615;Copper Cloak;A/an Cloak that is made of Copper. Other than that it appears to have no special effects.;171;B;1390
+G616;Explosive Steel Necklace of Space;A/an Explosive Necklace that is made of Steel. It radiates Explosive energy and when used will imbue its actions with the attribute of Space. Very rare!;2;S;1042
+G617;Steel Tiara;A/an Tiara that is made of Steel. Other than that it appears to have no special effects.;190;B;1145
+G618;Magical Gold Saber;A/an Magical Saber that is made of Gold. It has Magical origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;28;A;1153
+G619;Evil Copper Saber;A/an Evil Saber that is made of Copper. It has Evil origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;16;A;532
+G620;Grand Ruby Sword;A/an Grand Sword that is made of Ruby. It has Grand origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;23;A;69
+G621;Poisonous Gold Circlet;A/an Poisonous Circlet that is made of Gold. It has Poisonous origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;15;A;468
+G622;Divine Steel Tiara;A/an Divine Tiara that is made of Steel. It has Divine origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;12;A;507
+G623;Chaotic Platinum Ring of Wind;A/an Chaotic Ring that is made of Platinum. It radiates Chaotic energy and when used will imbue its actions with the attribute of Wind. Very rare!;3;S;615
+G624;Dwarven Platinum Circlet;A/an Dwarven Circlet that is made of Platinum. It has Dwarven origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;27;A;606
+G625;Poisonous Topaz Tome;A/an Poisonous Tome that is made of Topaz. It has Poisonous origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;7;A;262
+G626;Explosive Emerald Amulet;A/an Explosive Amulet that is made of Emerald. It has Explosive origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;13;A;1101
+G627;Corrupted Iron Bracelet of Lightning;A/an Corrupted Bracelet that is made of Iron. It radiates Corrupted energy and when used will imbue its actions with the attribute of Lightning. Very rare!;2;S;1387
+G628;Grand Silver Tiara;A/an Grand Tiara that is made of Silver. It has Grand origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;24;A;325
+G629;Blessed Sapphire Saber;A/an Blessed Saber that is made of Sapphire. It has Blessed origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;16;A;539
+G630;Sapphire Saber;A/an Saber that is made of Sapphire. Other than that it appears to have no special effects.;156;B;1343
+G631;Magical Gold Amulet;A/an Magical Amulet that is made of Gold. It has Magical origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;11;A;51
+G632;Iron Shield;A/an Shield that is made of Iron. Other than that it appears to have no special effects.;125;B;50
+G633;Poisonous Gold Cloak;A/an Poisonous Cloak that is made of Gold. It has Poisonous origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;28;A;947
+G634;Grand Platinum Bow;A/an Grand Bow that is made of Platinum. It has Grand origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;7;A;683
+G635;Elven Ruby Crown;A/an Elven Crown that is made of Ruby. It has Elven origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;9;A;360
+G636;Ruby Hairpin;A/an Hairpin that is made of Ruby. Other than that it appears to have no special effects.;16;B;1150
+G637;Abyssal Topaz Crossbow;A/an Abyssal Crossbow that is made of Topaz. It has Abyssal origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;22;A;1434
+G638;Emerald Saber;A/an Saber that is made of Emerald. Other than that it appears to have no special effects.;93;B;807
+G639;Spiritual Silver Amulet of Death;A/an Spiritual Amulet that is made of Silver. It radiates Spiritual energy and when used will imbue its actions with the attribute of Death. Very rare!;9;S;560
+G640;Divine Iron Sword;A/an Divine Sword that is made of Iron. It has Divine origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;21;A;204
+G641;Corrupted Platinum Cleats;A/an Corrupted Cleats that is made of Platinum. It has Corrupted origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;7;A;1091
+G642;Emerald Ring;A/an Ring that is made of Emerald. Other than that it appears to have no special effects.;80;B;1342
+G643;Spiritual Platinum Bow;A/an Spiritual Bow that is made of Platinum. It has Spiritual origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;26;A;1315
+G644;Corrupted Gold Key of Water;A/an Corrupted Key that is made of Gold. It radiates Corrupted energy and when used will imbue its actions with the attribute of Water. Very rare!;1;S;1222
+G645;Grand Silver Whip of Magma;A/an Grand Whip that is made of Silver. It radiates Grand energy and when used will imbue its actions with the attribute of Magma. Very rare!;6;S;261
+G646;Chaotic Jade Bracelet;A/an Chaotic Bracelet that is made of Jade. It has Chaotic origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;25;A;499
+G647;Evil Gold Tome;A/an Evil Tome that is made of Gold. It has Evil origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;19;A;1321
+G648;Grand Jade Necklace;A/an Grand Necklace that is made of Jade. It has Grand origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;10;A;939
+G649;Evil Steel Cloak;A/an Evil Cloak that is made of Steel. It has Evil origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;12;A;231
+G650;Evil Iron Bow of Earth;A/an Evil Bow that is made of Iron. It radiates Evil energy and when used will imbue its actions with the attribute of Earth. Very rare!;9;S;567
+G651;Gold Circlet;A/an Circlet that is made of Gold. Other than that it appears to have no special effects.;128;B;1193
+G652;Elven Gold Crown;A/an Elven Crown that is made of Gold. It has Elven origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;22;A;419
+G653;Corrupted Copper Ring;A/an Corrupted Ring that is made of Copper. It has Corrupted origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;18;A;1002
+G654;Copper Whip;A/an Whip that is made of Copper. Other than that it appears to have no special effects.;64;B;626
+G655;Grand Silver Pauldrons;A/an Grand Pauldrons that is made of Silver. It has Grand origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;7;A;63
+G656;Evil Iron Shield of Wood;A/an Evil Shield that is made of Iron. It radiates Evil energy and when used will imbue its actions with the attribute of Wood. Very rare!;4;S;106
+G657;Chaotic Ruby Whip;A/an Chaotic Whip that is made of Ruby. It has Chaotic origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;28;A;1218
+G658;Spiritual Topaz Amulet of Life;A/an Spiritual Amulet that is made of Topaz. It radiates Spiritual energy and when used will imbue its actions with the attribute of Life. Very rare!;3;S;38
+G659;Magical Silver Shield;A/an Magical Shield that is made of Silver. It has Magical origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;7;A;1032
+G660;Poisonous Ruby Armor;A/an Poisonous Armor that is made of Ruby. It has Poisonous origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;23;A;1272
+G661;Divine Copper Pauldrons;A/an Divine Pauldrons that is made of Copper. It has Divine origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;7;A;239
+G662;Dwarven Copper Circlet;A/an Dwarven Circlet that is made of Copper. It has Dwarven origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;20;A;641
+G663;Ruby Bow;A/an Bow that is made of Ruby. Other than that it appears to have no special effects.;174;B;170
+G664;Chaotic Steel Cloak;A/an Chaotic Cloak that is made of Steel. It has Chaotic origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;17;A;1413
+G665;Abyssal Sapphire Key;A/an Abyssal Key that is made of Sapphire. It has Abyssal origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;25;A;1252
+G666;Abyssal Topaz Key;A/an Abyssal Key that is made of Topaz. It has Abyssal origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;8;A;1274
+G667;Dwarven Silver Greataxe of Magma;A/an Dwarven Greataxe that is made of Silver. It radiates Dwarven energy and when used will imbue its actions with the attribute of Magma. Very rare!;3;S;70
+G668;Divine Emerald Pauldrons;A/an Divine Pauldrons that is made of Emerald. It has Divine origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;22;A;807
+G669;Divine Jade Greataxe;A/an Divine Greataxe that is made of Jade. It has Divine origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;30;A;501
+G670;Steel Cloak;A/an Cloak that is made of Steel. Other than that it appears to have no special effects.;161;B;195
+G671;Poisonous Ruby Circlet;A/an Poisonous Circlet that is made of Ruby. It has Poisonous origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;16;A;1329
+G672;Abyssal Sapphire Tome;A/an Abyssal Tome that is made of Sapphire. It has Abyssal origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;29;A;364
+G673;Abyssal Platinum Crossbow of Wind;A/an Abyssal Crossbow that is made of Platinum. It radiates Abyssal energy and when used will imbue its actions with the attribute of Wind. Very rare!;3;S;506
+G674;Divine Silver Key;A/an Divine Key that is made of Silver. It has Divine origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;26;A;511
+G675;Dwarven Gold Amulet;A/an Dwarven Amulet that is made of Gold. It has Dwarven origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;21;A;554
+G676;Spiritual Copper Pauldrons;A/an Spiritual Pauldrons that is made of Copper. It has Spiritual origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;5;A;307
+G677;Corrupted Topaz Greataxe;A/an Corrupted Greataxe that is made of Topaz. It has Corrupted origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;26;A;121
+G678;Divine Copper Amulet of Fire;A/an Divine Amulet that is made of Copper. It radiates Divine energy and when used will imbue its actions with the attribute of Fire. Very rare!;5;S;1077
+G679;Divine Iron Whip;A/an Divine Whip that is made of Iron. It has Divine origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;23;A;472
+G680;Elven Silver Whip;A/an Elven Whip that is made of Silver. It has Elven origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;6;A;788
+G681;Blessed Topaz Robe;A/an Blessed Robe that is made of Topaz. It has Blessed origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;5;A;1153
+G682;Abyssal Platinum Tiara;A/an Abyssal Tiara that is made of Platinum. It has Abyssal origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;29;A;880
+G683;Explosive Gold Shield of Life;A/an Explosive Shield that is made of Gold. It radiates Explosive energy and when used will imbue its actions with the attribute of Life. Very rare!;7;S;649
+G684;Poisonous Steel Pauldrons;A/an Poisonous Pauldrons that is made of Steel. It has Poisonous origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;10;A;1328
+G685;Evil Jade Crown;A/an Evil Crown that is made of Jade. It has Evil origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;20;A;1463
+G686;Sapphire Crossbow;A/an Crossbow that is made of Sapphire. Other than that it appears to have no special effects.;21;B;1051
+G687;Abyssal Ruby Tiara;A/an Abyssal Tiara that is made of Ruby. It has Abyssal origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;24;A;287
+G688;Blessed Iron Tome;A/an Blessed Tome that is made of Iron. It has Blessed origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;20;A;1315
+G689;Abyssal Silver Sword of Magma;A/an Abyssal Sword that is made of Silver. It radiates Abyssal energy and when used will imbue its actions with the attribute of Magma. Very rare!;7;S;1296
+G690;Magical Ruby Bracelet;A/an Magical Bracelet that is made of Ruby. It has Magical origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;11;A;369
+G691;Corrupted Emerald Robe of Ice;A/an Corrupted Robe that is made of Emerald. It radiates Corrupted energy and when used will imbue its actions with the attribute of Ice. Very rare!;2;S;942
+G692;Poisonous Copper Robe of Death;A/an Poisonous Robe that is made of Copper. It radiates Poisonous energy and when used will imbue its actions with the attribute of Death. Very rare!;5;S;793
+G693;Poisonous Copper Ring of Time;A/an Poisonous Ring that is made of Copper. It radiates Poisonous energy and when used will imbue its actions with the attribute of Time. Very rare!;6;S;555
+G694;Ruby Circlet;A/an Circlet that is made of Ruby. Other than that it appears to have no special effects.;198;B;1305
+G695;Evil Topaz Key;A/an Evil Key that is made of Topaz. It has Evil origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;6;A;964
+G696;Chaotic Emerald Ring;A/an Chaotic Ring that is made of Emerald. It has Chaotic origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;13;A;35
+G697;Evil Jade Tome;A/an Evil Tome that is made of Jade. It has Evil origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;29;A;488
+G698;Elven Iron Pauldrons of Wind;A/an Elven Pauldrons that is made of Iron. It radiates Elven energy and when used will imbue its actions with the attribute of Wind. Very rare!;4;S;1037
+G699;Chaotic Jade Whip;A/an Chaotic Whip that is made of Jade. It has Chaotic origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;23;A;417
+G700;Poisonous Topaz Cleats;A/an Poisonous Cleats that is made of Topaz. It has Poisonous origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;29;A;101
+G701;Blessed Platinum Cloak;A/an Blessed Cloak that is made of Platinum. It has Blessed origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;25;A;1044
+G702;Explosive Iron Sword of Fire;A/an Explosive Sword that is made of Iron. It radiates Explosive energy and when used will imbue its actions with the attribute of Fire. Very rare!;8;S;1345
+G703;Evil Steel Tiara;A/an Evil Tiara that is made of Steel. It has Evil origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;7;A;44
+G704;Evil Jade Key;A/an Evil Key that is made of Jade. It has Evil origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;21;A;490
+G705;Chaotic Steel Armor;A/an Chaotic Armor that is made of Steel. It has Chaotic origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;8;A;833
+G706;Abyssal Silver Tome;A/an Abyssal Tome that is made of Silver. It has Abyssal origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;13;A;564
+G707;Abyssal Silver Key;A/an Abyssal Key that is made of Silver. It has Abyssal origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;18;A;1156
+G708;Spiritual Iron Cleats;A/an Spiritual Cleats that is made of Iron. It has Spiritual origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;5;A;210
+G709;Poisonous Gold Sword;A/an Poisonous Sword that is made of Gold. It has Poisonous origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;15;A;1445
+G710;Topaz Amulet;A/an Amulet that is made of Topaz. Other than that it appears to have no special effects.;169;B;797
+G711;Explosive Jade Crown;A/an Explosive Crown that is made of Jade. It has Explosive origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;17;A;471
+G712;Chaotic Topaz Cleats;A/an Chaotic Cleats that is made of Topaz. It has Chaotic origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;22;A;147
+G713;Platinum Cloak;A/an Cloak that is made of Platinum. Other than that it appears to have no special effects.;191;B;602
+G714;Corrupted Gold Shield;A/an Corrupted Shield that is made of Gold. It has Corrupted origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;23;A;1048
+G715;Explosive Sapphire Pauldrons;A/an Explosive Pauldrons that is made of Sapphire. It has Explosive origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;8;A;1077
+G716;Explosive Steel Tome;A/an Explosive Tome that is made of Steel. It has Explosive origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;27;A;1242
+G717;Dwarven Gold Sword of Venom;A/an Dwarven Sword that is made of Gold. It radiates Dwarven energy and when used will imbue its actions with the attribute of Venom. Very rare!;3;S;879
+G718;Corrupted Iron Key of Wind;A/an Corrupted Key that is made of Iron. It radiates Corrupted energy and when used will imbue its actions with the attribute of Wind. Very rare!;3;S;431
+G719;Evil Copper Pauldrons;A/an Evil Pauldrons that is made of Copper. It has Evil origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;15;A;81
+G720;Explosive Platinum Cloak;A/an Explosive Cloak that is made of Platinum. It has Explosive origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;13;A;707
+G721;Blessed Jade Grail;A/an Blessed Grail that is made of Jade. It has Blessed origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;10;A;950
+G722;Elven Jade Tome of Death;A/an Elven Tome that is made of Jade. It radiates Elven energy and when used will imbue its actions with the attribute of Death. Very rare!;3;S;1059
+G723;Explosive Sapphire Cleats;A/an Explosive Cleats that is made of Sapphire. It has Explosive origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;5;A;930
+G724;Poisonous Copper Hairpin;A/an Poisonous Hairpin that is made of Copper. It has Poisonous origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;9;A;1014
+G725;Corrupted Gold Whip;A/an Corrupted Whip that is made of Gold. It has Corrupted origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;24;A;1176
+G726;Explosive Jade Key;A/an Explosive Key that is made of Jade. It has Explosive origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;18;A;237
+G727;Blessed Topaz Cleats;A/an Blessed Cleats that is made of Topaz. It has Blessed origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;30;A;1356
+G728;Jade Bracelet;A/an Bracelet that is made of Jade. Other than that it appears to have no special effects.;134;B;30
+G729;Iron Tome;A/an Tome that is made of Iron. Other than that it appears to have no special effects.;74;B;659
+G730;Platinum Grail;A/an Grail that is made of Platinum. Other than that it appears to have no special effects.;121;B;183
+G731;Dwarven Emerald Whip of Fire;A/an Dwarven Whip that is made of Emerald. It radiates Dwarven energy and when used will imbue its actions with the attribute of Fire. Very rare!;6;S;513
+G732;Explosive Ruby Shield;A/an Explosive Shield that is made of Ruby. It has Explosive origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;10;A;1496
+G733;Evil Gold Circlet;A/an Evil Circlet that is made of Gold. It has Evil origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;27;A;10
+G734;Magical Silver Key;A/an Magical Key that is made of Silver. It has Magical origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;20;A;425
+G735;Magical Ruby Saber of Time;A/an Magical Saber that is made of Ruby. It radiates Magical energy and when used will imbue its actions with the attribute of Time. Very rare!;9;S;1284
+G736;Dwarven Copper Key;A/an Dwarven Key that is made of Copper. It has Dwarven origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;30;A;313
+G737;Chaotic Steel Circlet of Magma;A/an Chaotic Circlet that is made of Steel. It radiates Chaotic energy and when used will imbue its actions with the attribute of Magma. Very rare!;5;S;437
+G738;Elven Topaz Shield;A/an Elven Shield that is made of Topaz. It has Elven origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;13;A;1113
+G739;Divine Silver Tome;A/an Divine Tome that is made of Silver. It has Divine origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;16;A;463
+G740;Evil Platinum Pauldrons;A/an Evil Pauldrons that is made of Platinum. It has Evil origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;8;A;593
+G741;Abyssal Steel Pauldrons of Magma;A/an Abyssal Pauldrons that is made of Steel. It radiates Abyssal energy and when used will imbue its actions with the attribute of Magma. Very rare!;9;S;837
+G742;Blessed Emerald Amulet of Lightning;A/an Blessed Amulet that is made of Emerald. It radiates Blessed energy and when used will imbue its actions with the attribute of Lightning. Very rare!;4;S;807
+G743;Emerald Robe;A/an Robe that is made of Emerald. Other than that it appears to have no special effects.;106;B;734
+G744;Elven Silver Circlet of Earth;A/an Elven Circlet that is made of Silver. It radiates Elven energy and when used will imbue its actions with the attribute of Earth. Very rare!;9;S;486
+G745;Copper Cleats;A/an Cleats that is made of Copper. Other than that it appears to have no special effects.;192;B;230
+G746;Abyssal Topaz Whip;A/an Abyssal Whip that is made of Topaz. It has Abyssal origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;6;A;1439
+G747;Chaotic Platinum Circlet of Ice;A/an Chaotic Circlet that is made of Platinum. It radiates Chaotic energy and when used will imbue its actions with the attribute of Ice. Very rare!;5;S;312
+G748;Grand Gold Grail;A/an Grand Grail that is made of Gold. It has Grand origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;7;A;221
+G749;Abyssal Topaz Armor;A/an Abyssal Armor that is made of Topaz. It has Abyssal origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;6;A;1498
+G750;Divine Gold Pauldrons;A/an Divine Pauldrons that is made of Gold. It has Divine origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;25;A;1478
+G751;Explosive Platinum Crossbow;A/an Explosive Crossbow that is made of Platinum. It has Explosive origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;24;A;565
+G752;Magical Ruby Crossbow;A/an Magical Crossbow that is made of Ruby. It has Magical origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;26;A;1277
+G753;Dwarven Platinum Shield;A/an Dwarven Shield that is made of Platinum. It has Dwarven origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;20;A;103
+G754;Spiritual Topaz Shield;A/an Spiritual Shield that is made of Topaz. It has Spiritual origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;10;A;118
+G755;Elven Topaz Sword;A/an Elven Sword that is made of Topaz. It has Elven origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;19;A;1028
+G756;Abyssal Topaz Necklace;A/an Abyssal Necklace that is made of Topaz. It has Abyssal origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;13;A;949
+G757;Blessed Ruby Saber of Water;A/an Blessed Saber that is made of Ruby. It radiates Blessed energy and when used will imbue its actions with the attribute of Water. Very rare!;3;S;36
+G758;Sapphire Bracelet;A/an Bracelet that is made of Sapphire. Other than that it appears to have no special effects.;131;B;160
+G759;Spiritual Sapphire Grail;A/an Spiritual Grail that is made of Sapphire. It has Spiritual origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;15;A;1117
+G760;Chaotic Topaz Circlet of Space;A/an Chaotic Circlet that is made of Topaz. It radiates Chaotic energy and when used will imbue its actions with the attribute of Space. Very rare!;4;S;838
+G761;Evil Copper Ring;A/an Evil Ring that is made of Copper. It has Evil origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;22;A;1230
+G762;Evil Topaz Grail;A/an Evil Grail that is made of Topaz. It has Evil origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;6;A;524
+G763;Poisonous Platinum Pauldrons of Water;A/an Poisonous Pauldrons that is made of Platinum. It radiates Poisonous energy and when used will imbue its actions with the attribute of Water. Very rare!;6;S;509
+G764;Blessed Ruby Bow;A/an Blessed Bow that is made of Ruby. It has Blessed origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;5;A;793
+G765;Abyssal Steel Bow;A/an Abyssal Bow that is made of Steel. It has Abyssal origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;14;A;122
+G766;Chaotic Gold Amulet;A/an Chaotic Amulet that is made of Gold. It has Chaotic origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;23;A;399
+G767;Topaz Cleats;A/an Cleats that is made of Topaz. Other than that it appears to have no special effects.;148;B;717
+G768;Magical Steel Hairpin;A/an Magical Hairpin that is made of Steel. It has Magical origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;30;A;1469
+G769;Corrupted Ruby Bow;A/an Corrupted Bow that is made of Ruby. It has Corrupted origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;17;A;1272
+G770;Explosive Sapphire Necklace;A/an Explosive Necklace that is made of Sapphire. It has Explosive origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;28;A;200
+G771;Divine Topaz Hairpin of Fire;A/an Divine Hairpin that is made of Topaz. It radiates Divine energy and when used will imbue its actions with the attribute of Fire. Very rare!;1;S;211
+G772;Blessed Gold Crown;A/an Blessed Crown that is made of Gold. It has Blessed origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;26;A;693
+G773;Spiritual Iron Armor;A/an Spiritual Armor that is made of Iron. It has Spiritual origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;29;A;405
+G774;Spiritual Steel Circlet of Magma;A/an Spiritual Circlet that is made of Steel. It radiates Spiritual energy and when used will imbue its actions with the attribute of Magma. Very rare!;4;S;1269
+G775;Corrupted Copper Hairpin;A/an Corrupted Hairpin that is made of Copper. It has Corrupted origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;25;A;1393
+G776;Spiritual Gold Cloak;A/an Spiritual Cloak that is made of Gold. It has Spiritual origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;20;A;1000
+G777;Grand Sapphire Hairpin;A/an Grand Hairpin that is made of Sapphire. It has Grand origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;20;A;1457
+G778;Grand Gold Whip;A/an Grand Whip that is made of Gold. It has Grand origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;6;A;706
+G779;Evil Sapphire Pauldrons;A/an Evil Pauldrons that is made of Sapphire. It has Evil origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;13;A;474
+G780;Magical Topaz Whip;A/an Magical Whip that is made of Topaz. It has Magical origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;8;A;1364
+G781;Divine Copper Key;A/an Divine Key that is made of Copper. It has Divine origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;24;A;923
+G782;Chaotic Platinum Greataxe;A/an Chaotic Greataxe that is made of Platinum. It has Chaotic origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;25;A;1010
+G783;Chaotic Emerald Amulet;A/an Chaotic Amulet that is made of Emerald. It has Chaotic origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;27;A;906
+G784;Corrupted Silver Sword of Lightning;A/an Corrupted Sword that is made of Silver. It radiates Corrupted energy and when used will imbue its actions with the attribute of Lightning. Very rare!;5;S;517
+G785;Magical Copper Necklace;A/an Magical Necklace that is made of Copper. It has Magical origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;14;A;526
+G786;Dwarven Copper Tiara;A/an Dwarven Tiara that is made of Copper. It has Dwarven origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;26;A;1140
+G787;Abyssal Gold Tiara;A/an Abyssal Tiara that is made of Gold. It has Abyssal origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;26;A;628
+G788;Dwarven Ruby Bracelet;A/an Dwarven Bracelet that is made of Ruby. It has Dwarven origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;7;A;1489
+G789;Poisonous Ruby Tiara;A/an Poisonous Tiara that is made of Ruby. It has Poisonous origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;18;A;602
+G790;Chaotic Platinum Circlet of Light;A/an Chaotic Circlet that is made of Platinum. It radiates Chaotic energy and when used will imbue its actions with the attribute of Light. Very rare!;1;S;16
+G791;Magical Platinum Bow;A/an Magical Bow that is made of Platinum. It has Magical origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;17;A;548
+G792;Grand Steel Sword of Lightning;A/an Grand Sword that is made of Steel. It radiates Grand energy and when used will imbue its actions with the attribute of Lightning. Very rare!;9;S;187
+G793;Blessed Sapphire Key;A/an Blessed Key that is made of Sapphire. It has Blessed origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;29;A;685
+G794;Abyssal Steel Armor;A/an Abyssal Armor that is made of Steel. It has Abyssal origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;16;A;1494
+G795;Corrupted Ruby Amulet;A/an Corrupted Amulet that is made of Ruby. It has Corrupted origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;10;A;384
+G796;Corrupted Iron Ring;A/an Corrupted Ring that is made of Iron. It has Corrupted origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;28;A;1036
+G797;Spiritual Gold Saber;A/an Spiritual Saber that is made of Gold. It has Spiritual origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;5;A;717
+G798;Chaotic Ruby Ring;A/an Chaotic Ring that is made of Ruby. It has Chaotic origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;24;A;531
+G799;Grand Ruby Robe of Life;A/an Grand Robe that is made of Ruby. It radiates Grand energy and when used will imbue its actions with the attribute of Life. Very rare!;8;S;565
+G800;Dwarven Ruby Tome;A/an Dwarven Tome that is made of Ruby. It has Dwarven origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;22;A;478
+G801;Divine Jade Robe;A/an Divine Robe that is made of Jade. It has Divine origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;7;A;737
+G802;Abyssal Copper Whip;A/an Abyssal Whip that is made of Copper. It has Abyssal origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;16;A;949
+G803;Elven Topaz Bow;A/an Elven Bow that is made of Topaz. It has Elven origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;12;A;1283
+G804;Chaotic Emerald Crown;A/an Chaotic Crown that is made of Emerald. It has Chaotic origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;26;A;1277
+G805;Abyssal Sapphire Crossbow;A/an Abyssal Crossbow that is made of Sapphire. It has Abyssal origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;15;A;1199
+G806;Blessed Iron Cloak of Magma;A/an Blessed Cloak that is made of Iron. It radiates Blessed energy and when used will imbue its actions with the attribute of Magma. Very rare!;1;S;847
+G807;Corrupted Steel Tiara of Life;A/an Corrupted Tiara that is made of Steel. It radiates Corrupted energy and when used will imbue its actions with the attribute of Life. Very rare!;6;S;89
+G808;Platinum Pauldrons;A/an Pauldrons that is made of Platinum. Other than that it appears to have no special effects.;79;B;859
+G809;Poisonous Platinum Grail;A/an Poisonous Grail that is made of Platinum. It has Poisonous origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;13;A;1056
+G810;Blessed Topaz Grail of Venom;A/an Blessed Grail that is made of Topaz. It radiates Blessed energy and when used will imbue its actions with the attribute of Venom. Very rare!;6;S;290
+G811;Elven Topaz Cloak of Space;A/an Elven Cloak that is made of Topaz. It radiates Elven energy and when used will imbue its actions with the attribute of Space. Very rare!;6;S;1365
+G812;Dwarven Emerald Robe;A/an Dwarven Robe that is made of Emerald. It has Dwarven origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;9;A;120
+G813;Abyssal Steel Tiara;A/an Abyssal Tiara that is made of Steel. It has Abyssal origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;5;A;970
+G814;Divine Jade Tome;A/an Divine Tome that is made of Jade. It has Divine origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;19;A;1379
+G815;Spiritual Topaz Bow;A/an Spiritual Bow that is made of Topaz. It has Spiritual origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;12;A;1183
+G816;Divine Copper Whip of Death;A/an Divine Whip that is made of Copper. It radiates Divine energy and when used will imbue its actions with the attribute of Death. Very rare!;9;S;743
+G817;Magical Steel Armor;A/an Magical Armor that is made of Steel. It has Magical origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;8;A;1014
+G818;Corrupted Iron Sword;A/an Corrupted Sword that is made of Iron. It has Corrupted origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;17;A;593
+G819;Magical Steel Crossbow of Wind;A/an Magical Crossbow that is made of Steel. It radiates Magical energy and when used will imbue its actions with the attribute of Wind. Very rare!;8;S;563
+G820;Blessed Steel Hairpin;A/an Blessed Hairpin that is made of Steel. It has Blessed origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;21;A;581
+G821;Blessed Platinum Ring;A/an Blessed Ring that is made of Platinum. It has Blessed origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;7;A;543
+G822;Dwarven Iron Key;A/an Dwarven Key that is made of Iron. It has Dwarven origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;22;A;1284
+G823;Corrupted Topaz Cleats;A/an Corrupted Cleats that is made of Topaz. It has Corrupted origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;30;A;575
+G824;Spiritual Emerald Robe of Earth;A/an Spiritual Robe that is made of Emerald. It radiates Spiritual energy and when used will imbue its actions with the attribute of Earth. Very rare!;7;S;1384
+G825;Magical Jade Whip of Time;A/an Magical Whip that is made of Jade. It radiates Magical energy and when used will imbue its actions with the attribute of Time. Very rare!;3;S;1458
+G826;Divine Sapphire Robe;A/an Divine Robe that is made of Sapphire. It has Divine origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;15;A;1117
+G827;Chaotic Topaz Circlet;A/an Chaotic Circlet that is made of Topaz. It has Chaotic origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;15;A;280
+G828;Chaotic Jade Crossbow;A/an Chaotic Crossbow that is made of Jade. It has Chaotic origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;20;A;1344
+G829;Dwarven Steel Crossbow of Venom;A/an Dwarven Crossbow that is made of Steel. It radiates Dwarven energy and when used will imbue its actions with the attribute of Venom. Very rare!;4;S;633
+G830;Explosive Iron Robe;A/an Explosive Robe that is made of Iron. It has Explosive origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;30;A;424
+G831;Blessed Jade Grail of Darkness;A/an Blessed Grail that is made of Jade. It radiates Blessed energy and when used will imbue its actions with the attribute of Darkness. Very rare!;9;S;220
+G832;Spiritual Gold Sword;A/an Spiritual Sword that is made of Gold. It has Spiritual origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;24;A;237
+G833;Explosive Ruby Crossbow of Wood;A/an Explosive Crossbow that is made of Ruby. It radiates Explosive energy and when used will imbue its actions with the attribute of Wood. Very rare!;8;S;432
+G834;Abyssal Copper Whip of Darkness;A/an Abyssal Whip that is made of Copper. It radiates Abyssal energy and when used will imbue its actions with the attribute of Darkness. Very rare!;5;S;750
+G835;Blessed Iron Sword;A/an Blessed Sword that is made of Iron. It has Blessed origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;12;A;879
+G836;Chaotic Emerald Armor;A/an Chaotic Armor that is made of Emerald. It has Chaotic origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;22;A;186
+G837;Explosive Sapphire Amulet of Death;A/an Explosive Amulet that is made of Sapphire. It radiates Explosive energy and when used will imbue its actions with the attribute of Death. Very rare!;7;S;371
+G838;Grand Steel Saber;A/an Grand Saber that is made of Steel. It has Grand origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;11;A;719
+G839;Grand Silver Cleats;A/an Grand Cleats that is made of Silver. It has Grand origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;11;A;289
+G840;Magical Steel Tiara;A/an Magical Tiara that is made of Steel. It has Magical origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;24;A;627
+G841;Divine Jade Tiara;A/an Divine Tiara that is made of Jade. It has Divine origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;9;A;740
+G842;Blessed Sapphire Bow;A/an Blessed Bow that is made of Sapphire. It has Blessed origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;24;A;183
+G843;Corrupted Silver Tome;A/an Corrupted Tome that is made of Silver. It has Corrupted origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;8;A;39
+G844;Poisonous Copper Tome;A/an Poisonous Tome that is made of Copper. It has Poisonous origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;16;A;40
+G845;Chaotic Iron Cloak of Time;A/an Chaotic Cloak that is made of Iron. It radiates Chaotic energy and when used will imbue its actions with the attribute of Time. Very rare!;7;S;528
+G846;Abyssal Steel Crown;A/an Abyssal Crown that is made of Steel. It has Abyssal origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;26;A;407
+G847;Blessed Iron Grail;A/an Blessed Grail that is made of Iron. It has Blessed origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;7;A;1032
+G848;Explosive Sapphire Sword;A/an Explosive Sword that is made of Sapphire. It has Explosive origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;22;A;1112
+G849;Chaotic Copper Bow;A/an Chaotic Bow that is made of Copper. It has Chaotic origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;16;A;245
+G850;Chaotic Platinum Tome;A/an Chaotic Tome that is made of Platinum. It has Chaotic origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;19;A;1099
+G851;Grand Emerald Key;A/an Grand Key that is made of Emerald. It has Grand origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;20;A;584
+G852;Blessed Emerald Cloak;A/an Blessed Cloak that is made of Emerald. It has Blessed origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;15;A;1179
+G853;Elven Topaz Pauldrons;A/an Elven Pauldrons that is made of Topaz. It has Elven origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;23;A;335
+G854;Magical Platinum Sword;A/an Magical Sword that is made of Platinum. It has Magical origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;16;A;409
+G855;Dwarven Silver Necklace;A/an Dwarven Necklace that is made of Silver. It has Dwarven origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;15;A;1293
+G856;Spiritual Gold Robe;A/an Spiritual Robe that is made of Gold. It has Spiritual origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;25;A;1353
+G857;Abyssal Emerald Greataxe of Light;A/an Abyssal Greataxe that is made of Emerald. It radiates Abyssal energy and when used will imbue its actions with the attribute of Light. Very rare!;5;S;91
+G858;Abyssal Silver Tiara of Water;A/an Abyssal Tiara that is made of Silver. It radiates Abyssal energy and when used will imbue its actions with the attribute of Water. Very rare!;2;S;302
+G859;Grand Iron Whip of Space;A/an Grand Whip that is made of Iron. It radiates Grand energy and when used will imbue its actions with the attribute of Space. Very rare!;2;S;1278
+G860;Blessed Jade Tome;A/an Blessed Tome that is made of Jade. It has Blessed origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;11;A;1305
+G861;Elven Gold Bracelet;A/an Elven Bracelet that is made of Gold. It has Elven origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;17;A;1463
+G862;Ruby Robe;A/an Robe that is made of Ruby. Other than that it appears to have no special effects.;105;B;966
+G863;Spiritual Jade Tome;A/an Spiritual Tome that is made of Jade. It has Spiritual origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;15;A;197
+G864;Topaz Tome;A/an Tome that is made of Topaz. Other than that it appears to have no special effects.;17;B;1271
+G865;Explosive Copper Cloak of Space;A/an Explosive Cloak that is made of Copper. It radiates Explosive energy and when used will imbue its actions with the attribute of Space. Very rare!;1;S;12
+G866;Dwarven Silver Amulet of Ice;A/an Dwarven Amulet that is made of Silver. It radiates Dwarven energy and when used will imbue its actions with the attribute of Ice. Very rare!;2;S;1098
+G867;Explosive Platinum Sword;A/an Explosive Sword that is made of Platinum. It has Explosive origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;17;A;1150
+G868;Explosive Ruby Tome of Life;A/an Explosive Tome that is made of Ruby. It radiates Explosive energy and when used will imbue its actions with the attribute of Life. Very rare!;4;S;1223
+G869;Gold Hairpin;A/an Hairpin that is made of Gold. Other than that it appears to have no special effects.;28;B;1325
+G870;Evil Platinum Armor;A/an Evil Armor that is made of Platinum. It has Evil origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;6;A;886
+G871;Poisonous Platinum Tome;A/an Poisonous Tome that is made of Platinum. It has Poisonous origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;8;A;361
+G872;Grand Emerald Cloak of Death;A/an Grand Cloak that is made of Emerald. It radiates Grand energy and when used will imbue its actions with the attribute of Death. Very rare!;7;S;1306
+G873;Poisonous Topaz Ring;A/an Poisonous Ring that is made of Topaz. It has Poisonous origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;11;A;1441
+G874;Poisonous Topaz Shield of Earth;A/an Poisonous Shield that is made of Topaz. It radiates Poisonous energy and when used will imbue its actions with the attribute of Earth. Very rare!;3;S;425
+G875;Spiritual Jade Saber;A/an Spiritual Saber that is made of Jade. It has Spiritual origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;27;A;999
+G876;Dwarven Gold Whip;A/an Dwarven Whip that is made of Gold. It has Dwarven origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;17;A;50
+G877;Spiritual Silver Saber;A/an Spiritual Saber that is made of Silver. It has Spiritual origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;30;A;827
+G878;Abyssal Jade Shield;A/an Abyssal Shield that is made of Jade. It has Abyssal origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;27;A;410
+G879;Abyssal Topaz Crown;A/an Abyssal Crown that is made of Topaz. It has Abyssal origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;18;A;609
+G880;Spiritual Silver Tome;A/an Spiritual Tome that is made of Silver. It has Spiritual origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;7;A;1254
+G881;Evil Gold Armor of Light;A/an Evil Armor that is made of Gold. It radiates Evil energy and when used will imbue its actions with the attribute of Light. Very rare!;4;S;54
+G882;Blessed Steel Amulet;A/an Blessed Amulet that is made of Steel. It has Blessed origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;14;A;24
+G883;Magical Silver Ring;A/an Magical Ring that is made of Silver. It has Magical origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;27;A;401
+G884;Blessed Jade Cleats of Space;A/an Blessed Cleats that is made of Jade. It radiates Blessed energy and when used will imbue its actions with the attribute of Space. Very rare!;2;S;385
+G885;Dwarven Jade Robe of Light;A/an Dwarven Robe that is made of Jade. It radiates Dwarven energy and when used will imbue its actions with the attribute of Light. Very rare!;1;S;1262
+G886;Poisonous Gold Hairpin;A/an Poisonous Hairpin that is made of Gold. It has Poisonous origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;14;A;1339
+G887;Explosive Emerald Pauldrons;A/an Explosive Pauldrons that is made of Emerald. It has Explosive origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;23;A;634
+G888;Magical Platinum Whip;A/an Magical Whip that is made of Platinum. It has Magical origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;23;A;318
+G889;Abyssal Iron Crown of Space;A/an Abyssal Crown that is made of Iron. It radiates Abyssal energy and when used will imbue its actions with the attribute of Space. Very rare!;9;S;756
+G890;Spiritual Gold Tome;A/an Spiritual Tome that is made of Gold. It has Spiritual origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;18;A;416
+G891;Blessed Jade Necklace;A/an Blessed Necklace that is made of Jade. It has Blessed origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;23;A;974
+G892;Elven Iron Tome;A/an Elven Tome that is made of Iron. It has Elven origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;23;A;873
+G893;Elven Silver Circlet of Light;A/an Elven Circlet that is made of Silver. It radiates Elven energy and when used will imbue its actions with the attribute of Light. Very rare!;8;S;47
+G894;Poisonous Gold Armor of Wood;A/an Poisonous Armor that is made of Gold. It radiates Poisonous energy and when used will imbue its actions with the attribute of Wood. Very rare!;5;S;736
+G895;Chaotic Topaz Crown of Time;A/an Chaotic Crown that is made of Topaz. It radiates Chaotic energy and when used will imbue its actions with the attribute of Time. Very rare!;1;S;614
+G896;Grand Copper Cleats;A/an Grand Cleats that is made of Copper. It has Grand origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;19;A;377
+G897;Divine Topaz Whip of Venom;A/an Divine Whip that is made of Topaz. It radiates Divine energy and when used will imbue its actions with the attribute of Venom. Very rare!;5;S;931
+G898;Magical Copper Armor;A/an Magical Armor that is made of Copper. It has Magical origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;7;A;645
+G899;Spiritual Topaz Whip of Death;A/an Spiritual Whip that is made of Topaz. It radiates Spiritual energy and when used will imbue its actions with the attribute of Death. Very rare!;4;S;1003
+G900;Spiritual Sapphire Cloak;A/an Spiritual Cloak that is made of Sapphire. It has Spiritual origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;19;A;65
+G901;Divine Iron Cloak of Darkness;A/an Divine Cloak that is made of Iron. It radiates Divine energy and when used will imbue its actions with the attribute of Darkness. Very rare!;5;S;52
+G902;Elven Silver Whip of Magma;A/an Elven Whip that is made of Silver. It radiates Elven energy and when used will imbue its actions with the attribute of Magma. Very rare!;2;S;15
+G903;Grand Jade Circlet of Magma;A/an Grand Circlet that is made of Jade. It radiates Grand energy and when used will imbue its actions with the attribute of Magma. Very rare!;1;S;1488
+G904;Corrupted Silver Ring;A/an Corrupted Ring that is made of Silver. It has Corrupted origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;30;A;1091
+G905;Abyssal Silver Shield;A/an Abyssal Shield that is made of Silver. It has Abyssal origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;26;A;316
+G906;Divine Steel Crown;A/an Divine Crown that is made of Steel. It has Divine origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;27;A;970
+G907;Abyssal Iron Bracelet;A/an Abyssal Bracelet that is made of Iron. It has Abyssal origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;13;A;861
+G908;Spiritual Sapphire Ring of Ice;A/an Spiritual Ring that is made of Sapphire. It radiates Spiritual energy and when used will imbue its actions with the attribute of Ice. Very rare!;1;S;473
+G909;Elven Steel Sword;A/an Elven Sword that is made of Steel. It has Elven origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;17;A;1311
+G910;Abyssal Iron Robe;A/an Abyssal Robe that is made of Iron. It has Abyssal origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;30;A;1109
+G911;Dwarven Steel Bracelet;A/an Dwarven Bracelet that is made of Steel. It has Dwarven origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;10;A;626
+G912;Dwarven Silver Robe;A/an Dwarven Robe that is made of Silver. It has Dwarven origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;8;A;583
+G913;Explosive Gold Robe;A/an Explosive Robe that is made of Gold. It has Explosive origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;20;A;617
+G914;Dwarven Gold Robe;A/an Dwarven Robe that is made of Gold. It has Dwarven origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;27;A;1093
+G915;Corrupted Sapphire Whip;A/an Corrupted Whip that is made of Sapphire. It has Corrupted origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;13;A;929
+G916;Explosive Iron Grail of Venom;A/an Explosive Grail that is made of Iron. It radiates Explosive energy and when used will imbue its actions with the attribute of Venom. Very rare!;4;S;585
+G917;Explosive Sapphire Tiara of Death;A/an Explosive Tiara that is made of Sapphire. It radiates Explosive energy and when used will imbue its actions with the attribute of Death. Very rare!;9;S;752
+G918;Magical Emerald Grail;A/an Magical Grail that is made of Emerald. It has Magical origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;15;A;333
+G919;Magical Jade Bow;A/an Magical Bow that is made of Jade. It has Magical origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;29;A;1350
+G920;Abyssal Gold Sword;A/an Abyssal Sword that is made of Gold. It has Abyssal origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;12;A;438
+G921;Abyssal Gold Ring;A/an Abyssal Ring that is made of Gold. It has Abyssal origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;17;A;509
+G922;Corrupted Jade Bow;A/an Corrupted Bow that is made of Jade. It has Corrupted origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;17;A;628
+G923;Spiritual Ruby Crossbow;A/an Spiritual Crossbow that is made of Ruby. It has Spiritual origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;11;A;438
+G924;Abyssal Emerald Whip;A/an Abyssal Whip that is made of Emerald. It has Abyssal origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;26;A;803
+G925;Explosive Steel Grail;A/an Explosive Grail that is made of Steel. It has Explosive origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;26;A;723
+G926;Explosive Emerald Grail;A/an Explosive Grail that is made of Emerald. It has Explosive origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;9;A;743
+G927;Grand Topaz Tiara;A/an Grand Tiara that is made of Topaz. It has Grand origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;10;A;338
+G928;Poisonous Sapphire Ring;A/an Poisonous Ring that is made of Sapphire. It has Poisonous origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;14;A;1137
+G929;Evil Silver Key;A/an Evil Key that is made of Silver. It has Evil origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;9;A;1280
+G930;Magical Platinum Crown;A/an Magical Crown that is made of Platinum. It has Magical origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;9;A;1203
+G931;Elven Platinum Tome of Life;A/an Elven Tome that is made of Platinum. It radiates Elven energy and when used will imbue its actions with the attribute of Life. Very rare!;7;S;1167
+G932;Chaotic Jade Bow of Water;A/an Chaotic Bow that is made of Jade. It radiates Chaotic energy and when used will imbue its actions with the attribute of Water. Very rare!;7;S;302
+G933;Corrupted Ruby Saber;A/an Corrupted Saber that is made of Ruby. It has Corrupted origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;29;A;1426
+G934;Blessed Steel Sword;A/an Blessed Sword that is made of Steel. It has Blessed origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;29;A;614
+G935;Divine Copper Cleats of Wind;A/an Divine Cleats that is made of Copper. It radiates Divine energy and when used will imbue its actions with the attribute of Wind. Very rare!;5;S;58
+G936;Explosive Topaz Armor of Wood;A/an Explosive Armor that is made of Topaz. It radiates Explosive energy and when used will imbue its actions with the attribute of Wood. Very rare!;5;S;617
+G937;Divine Emerald Circlet of Death;A/an Divine Circlet that is made of Emerald. It radiates Divine energy and when used will imbue its actions with the attribute of Death. Very rare!;5;S;127
+G938;Poisonous Sapphire Saber of Lightning;A/an Poisonous Saber that is made of Sapphire. It radiates Poisonous energy and when used will imbue its actions with the attribute of Lightning. Very rare!;9;S;1187
+G939;Spiritual Silver Sword;A/an Spiritual Sword that is made of Silver. It has Spiritual origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;12;A;889
+G940;Divine Copper Tiara;A/an Divine Tiara that is made of Copper. It has Divine origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;8;A;1261
+G941;Abyssal Copper Key;A/an Abyssal Key that is made of Copper. It has Abyssal origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;11;A;371
+G942;Magical Silver Crown;A/an Magical Crown that is made of Silver. It has Magical origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;7;A;1069
+G943;Divine Ruby Armor of Darkness;A/an Divine Armor that is made of Ruby. It radiates Divine energy and when used will imbue its actions with the attribute of Darkness. Very rare!;9;S;947
+G944;Abyssal Platinum Shield;A/an Abyssal Shield that is made of Platinum. It has Abyssal origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;18;A;1375
+G945;Elven Copper Ring;A/an Elven Ring that is made of Copper. It has Elven origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;5;A;790
+G946;Poisonous Gold Shield;A/an Poisonous Shield that is made of Gold. It has Poisonous origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;11;A;1287
+G947;Grand Ruby Pauldrons of Death;A/an Grand Pauldrons that is made of Ruby. It radiates Grand energy and when used will imbue its actions with the attribute of Death. Very rare!;6;S;395
+G948;Divine Jade Grail;A/an Divine Grail that is made of Jade. It has Divine origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;24;A;1232
+G949;Poisonous Topaz Tiara;A/an Poisonous Tiara that is made of Topaz. It has Poisonous origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;25;A;990
+G950;Divine Platinum Robe;A/an Divine Robe that is made of Platinum. It has Divine origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;27;A;1001
+G951;Poisonous Ruby Hairpin;A/an Poisonous Hairpin that is made of Ruby. It has Poisonous origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;23;A;512
+G952;Corrupted Silver Tome of Venom;A/an Corrupted Tome that is made of Silver. It radiates Corrupted energy and when used will imbue its actions with the attribute of Venom. Very rare!;4;S;451
+G953;Abyssal Ruby Key;A/an Abyssal Key that is made of Ruby. It has Abyssal origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;17;A;1366
+G954;Spiritual Sapphire Shield;A/an Spiritual Shield that is made of Sapphire. It has Spiritual origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;22;A;1159
+G955;Abyssal Emerald Robe;A/an Abyssal Robe that is made of Emerald. It has Abyssal origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;9;A;371
+G956;Dwarven Gold Crossbow;A/an Dwarven Crossbow that is made of Gold. It has Dwarven origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;20;A;894
+G957;Poisonous Sapphire Crossbow;A/an Poisonous Crossbow that is made of Sapphire. It has Poisonous origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;13;A;1336
+G958;Abyssal Emerald Whip of Light;A/an Abyssal Whip that is made of Emerald. It radiates Abyssal energy and when used will imbue its actions with the attribute of Light. Very rare!;7;S;309
+G959;Chaotic Jade Greataxe;A/an Chaotic Greataxe that is made of Jade. It has Chaotic origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;15;A;452
+G960;Chaotic Gold Bracelet;A/an Chaotic Bracelet that is made of Gold. It has Chaotic origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;29;A;1335
+G961;Chaotic Copper Grail;A/an Chaotic Grail that is made of Copper. It has Chaotic origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;22;A;1283
+G962;Poisonous Iron Whip;A/an Poisonous Whip that is made of Iron. It has Poisonous origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;21;A;371
+G963;Corrupted Jade Amulet;A/an Corrupted Amulet that is made of Jade. It has Corrupted origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;8;A;1241
+G964;Magical Ruby Cloak;A/an Magical Cloak that is made of Ruby. It has Magical origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;23;A;311
+G965;Abyssal Steel Key;A/an Abyssal Key that is made of Steel. It has Abyssal origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;21;A;1045
+G966;Abyssal Silver Robe;A/an Abyssal Robe that is made of Silver. It has Abyssal origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;14;A;1251
+G967;Elven Emerald Crossbow of Magma;A/an Elven Crossbow that is made of Emerald. It radiates Elven energy and when used will imbue its actions with the attribute of Magma. Very rare!;3;S;746
+G968;Spiritual Iron Greataxe;A/an Spiritual Greataxe that is made of Iron. It has Spiritual origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;9;A;862
+G969;Blessed Silver Necklace;A/an Blessed Necklace that is made of Silver. It has Blessed origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;26;A;831
+G970;Spiritual Silver Amulet;A/an Spiritual Amulet that is made of Silver. It has Spiritual origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;29;A;543
+G971;Dwarven Steel Amulet;A/an Dwarven Amulet that is made of Steel. It has Dwarven origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;14;A;1371
+G972;Magical Topaz Sword of Water;A/an Magical Sword that is made of Topaz. It radiates Magical energy and when used will imbue its actions with the attribute of Water. Very rare!;8;S;1434
+G973;Abyssal Topaz Bow of Life;A/an Abyssal Bow that is made of Topaz. It radiates Abyssal energy and when used will imbue its actions with the attribute of Life. Very rare!;5;S;597
+G974;Chaotic Silver Sword of Space;A/an Chaotic Sword that is made of Silver. It radiates Chaotic energy and when used will imbue its actions with the attribute of Space. Very rare!;9;S;862
+G975;Abyssal Steel Bracelet;A/an Abyssal Bracelet that is made of Steel. It has Abyssal origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;19;A;602
+G976;Blessed Silver Tome;A/an Blessed Tome that is made of Silver. It has Blessed origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;9;A;1307
+G977;Elven Gold Pauldrons of Magma;A/an Elven Pauldrons that is made of Gold. It radiates Elven energy and when used will imbue its actions with the attribute of Magma. Very rare!;3;S;135
+G978;Evil Topaz Whip of Wood;A/an Evil Whip that is made of Topaz. It radiates Evil energy and when used will imbue its actions with the attribute of Wood. Very rare!;4;S;432
+G979;Corrupted Sapphire Cleats;A/an Corrupted Cleats that is made of Sapphire. It has Corrupted origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;14;A;936
+G980;Divine Jade Cleats;A/an Divine Cleats that is made of Jade. It has Divine origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;24;A;812
+G981;Evil Ruby Greataxe;A/an Evil Greataxe that is made of Ruby. It has Evil origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;23;A;192
+G982;Spiritual Iron Crossbow of Wood;A/an Spiritual Crossbow that is made of Iron. It radiates Spiritual energy and when used will imbue its actions with the attribute of Wood. Very rare!;1;S;1280
+G983;Dwarven Silver Shield of Death;A/an Dwarven Shield that is made of Silver. It radiates Dwarven energy and when used will imbue its actions with the attribute of Death. Very rare!;6;S;800
+G984;Blessed Silver Greataxe of Life;A/an Blessed Greataxe that is made of Silver. It radiates Blessed energy and when used will imbue its actions with the attribute of Life. Very rare!;5;S;1109
+G985;Magical Silver Necklace;A/an Magical Necklace that is made of Silver. It has Magical origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;16;A;1369
+G986;Chaotic Topaz Crown;A/an Chaotic Crown that is made of Topaz. It has Chaotic origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;6;A;1126
+G987;Grand Emerald Robe;A/an Grand Robe that is made of Emerald. It has Grand origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;10;A;1026
+G988;Abyssal Emerald Key;A/an Abyssal Key that is made of Emerald. It has Abyssal origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;6;A;87
+G989;Evil Iron Shield;A/an Evil Shield that is made of Iron. It has Evil origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;18;A;416
+G990;Chaotic Silver Shield;A/an Chaotic Shield that is made of Silver. It has Chaotic origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;28;A;397
+G991;Magical Steel Cleats of Lightning;A/an Magical Cleats that is made of Steel. It radiates Magical energy and when used will imbue its actions with the attribute of Lightning. Very rare!;2;S;928
+G992;Corrupted Jade Greataxe;A/an Corrupted Greataxe that is made of Jade. It has Corrupted origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;16;A;1060
+G993;Spiritual Jade Saber of Space;A/an Spiritual Saber that is made of Jade. It radiates Spiritual energy and when used will imbue its actions with the attribute of Space. Very rare!;4;S;862
+G994;Spiritual Steel Pauldrons;A/an Spiritual Pauldrons that is made of Steel. It has Spiritual origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;19;A;662
+G995;Abyssal Steel Necklace;A/an Abyssal Necklace that is made of Steel. It has Abyssal origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;28;A;115
+G996;Elven Copper Robe;A/an Elven Robe that is made of Copper. It has Elven origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;30;A;586
+G997;Divine Emerald Bow;A/an Divine Bow that is made of Emerald. It has Divine origins and though no one knows what its special effects are. Maybe its creator made it on a whim.;22;A;595
+G998;Abyssal Ruby Bracelet of Ice;A/an Abyssal Bracelet that is made of Ruby. It radiates Abyssal energy and when used will imbue its actions with the attribute of Ice. Very rare!;4;S;731
+G999;Steel Crown;A/an Crown that is made of Steel. Other than that it appears to have no special effects.;99;B;1198
