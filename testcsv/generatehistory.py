@@ -19,7 +19,7 @@ def make_csv(divvy):
             f.write('{};{};{};{};{};{}\n'.format(a, b, c, d, e, i_r))
 
         f.close()
-    elif handle == 2:
+    elif divvy == 2:
         f = open('consumable_history.csv', 'w')
         f.write('id,id_pengambil,id_consumable,tanggal_peminjaman,jumlah\n')
 
@@ -32,6 +32,7 @@ def make_csv(divvy):
             f.write('{},{},{},{},{}\n'.format(a, b, c, d, e))
 
         f.close()
+
     return None
 
 
