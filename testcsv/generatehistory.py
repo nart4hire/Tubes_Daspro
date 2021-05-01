@@ -21,13 +21,13 @@ def make_csv(divvy):
         f.close()
     elif divvy == 2:
         f = open('consumable_history.csv', 'w')
-        f.write('id,id_pengambil,id_consumable,tanggal_peminjaman,jumlah\n')
+        f.write('id;id_pengambil;id_consumable;tanggal_pengambilan;jumlah\n')
 
         for i in range(101):
             b = 'U{:03d}'.format(random.randint(1, 101))
             c = 'C{:03d}'.format(random.randint(0, 999))
             d = '{:02d}/{:02d}/{}'.format(random.randint(1, 28), random.randint(1, 12), random.randint(2000, 2020))
-            e = random.randint(1, 999)
+            e = random.randint(1, 200)
             a = 'T' + b.lstrip('U') + c.lstrip('C') + '{:03d}'.format(e)
             f.write('{},{},{},{},{}\n'.format(a, b, c, d, e))
 
