@@ -135,3 +135,18 @@ g.write(datas_g_as_string)
 g.close()
 
 
+
+##################### (start) #######################
+def convert_datas_to_string():
+  string_data = ",".join(header) + "\n"
+  for arr_data in datas:
+    arr_data_all_string = [str(var) for var in arr_data]
+    string_data += ",".join(arr_data_all_string)
+    string_data += "\n"
+  return string_data
+
+datas_as_string = convert_datas_to_string()
+f=open("gadget_tmp.csv","w")
+f.write(datas_as_string)
+f.close()
+##################### (end) #######################

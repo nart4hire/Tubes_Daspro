@@ -1,4 +1,4 @@
 id,id_peminjam,id_gadget,tanggal_peminjaman,jumlah_peminjaman,is_returned
-B1,U2,G3,2/3/2020,10,TRUE
-B2,U1,G3,2/3/2020,10,FALSE
-B3,U1,G2,1/3/1995,90,FALSE
+B1,U2,G3,27/10/2020,10,TRUE
+B2,U1,G3,28/05/2021,10,FALSE
+B3,U1,G2,28/05/2021,90,FALSE
