@@ -81,6 +81,21 @@ def valid_tanggal(tanggal):
                     if int(tanggal[0])<0 or int(tanggal[0])>28:
                         valid = False
     return (valid)
+
+# Fungsi ini biar tanggal sesuai spesifikasi tugas
+##################### (start) #######################
+def cnvrt_tanggal (tanggal):
+    tmp = []
+    real_tanggal = ""
+    for i in  (tanggal):
+        tmp.append(int(i))
+    for i in range (2):
+        if tmp[i] <10:
+            tmp[i] = "0" + str(tmp[i])
+        else:
+            tmp[i] = str(tmp[i])
+    real_tanggal = real_tanggal + tmp[0] + "/"+ tmp[1] + "/"+ str(tmp[2])
+    return (real_tanggal)
 ##################### (end) #######################
 
 def meminta_consumable (datas):
@@ -130,9 +145,14 @@ def meminta_consumable (datas):
             print("\nTanggal tidak valid!!!")
             print("Contoh input yang valid 03/04/2002\n")
             not_valid_tanggal = True
+    # Ubah bentuk tanggal biar sesuai dengan spesifikasi tubes
+    raw_tanggal = tanggal_split(tanggal_permintaan)
+    real_tanggal = cnvrt_tanggal(raw_tanggal)
+    tanggal_permintaan = real_tanggal
     ##################### (end) #######################
     nama_consum = datas[row_consum][1]
     print("\nItem "+str(nama_consum)+" (x"+str(jumlah) + ") telah berhasil diambil" )
+
     # Update tentang jumlah consumable tersisa
     datas[row_consum][3] -= jumlah
 

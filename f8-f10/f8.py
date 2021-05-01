@@ -27,10 +27,10 @@ def find_id_item(id_item,datas):
 # Fungsi is_returned mencari nilai is_returned pada gadget yang dicari
 # Jika is_returned = True, maka gadget sudah dikembalikan
 ##################### (start) #######################
-def is_returned(id_item,datas):
+def is_returned(id_item,datas,id_peminjam):
     tmp = 0
     for i in range (len(datas)):
-        if id_item == datas[i][2]:
+        if id_item == datas[i][2] and id_peminjam == datas[i][1]:
             tmp = i
     return datas[tmp][5]
 ##################### (end) #######################
@@ -105,15 +105,30 @@ def valid_tanggal(tanggal):
 ##################### (end) #######################
 
 # Fungsi cnvrt_tanggal
-# Contoh : 03/020/002020 -> 3/20/2020
+# Contoh : 3/2/002020 -> 03/02/2020
 ##################### (start) #######################
 def cnvrt_tanggal (tanggal):
     tmp = []
     real_tanggal = ""
     for i in  (tanggal):
         tmp.append(int(i))
-    real_tanggal = real_tanggal + str(tmp[0]) + "/"+ str(tmp[1]) + "/"+ str(tmp[2])
+    for i in range (2):
+        if tmp[i] <10:
+            tmp[i] = "0" + str(tmp[i])
+        else:
+            tmp[i] = str(tmp[i])
+    real_tanggal = real_tanggal + tmp[0] + "/"+ tmp[1] + "/"+ str(tmp[2])
     return (real_tanggal)
+##################### (end) #######################
+
+# Fungsi stok_gadget
+##################### (start) #######################
+def stok_gadget (datas,id_item):
+    stok = 0
+    for i in range (len(datas)):
+        if id_item == datas[i][0]:
+            stok = datas[i][3]
+    return stok
 ##################### (end) #######################
 
 # Fungsi generate id transaksi 
@@ -142,7 +157,7 @@ def meminjam_gadget(datas1,datas2,id_user):
     # Validasi input id item
     # urutan validasinya
     # 1. gadget yang diminta ada atau tidak [file gadgdet.cv].
-    # 2. Jika ada, check adakah user yang pernah meminjam gadget di [file gadget_borrow_history.cv].
+    # 2. Jika ada, check pernahkah user meminjam gadget di [file gadget_borrow_history.cv].
     # 3. jika ada, check apakah gadget sudah dikembalikan atau belom [file gadget_borrow_history.cv].
     # 4. jika sudah dikembalikan, maka bisa dipinjam. Kalo belom dikembalikan
     # Tidak bisa dipinjam
@@ -161,14 +176,22 @@ def meminjam_gadget(datas1,datas2,id_user):
             # proses (2) start
             if id_item_not_in_borrow_history(id_item,datas2) == False:
                 # proses (3) start
-                if is_returned(id_item,datas2) == "FALSE":
-                    print("\nData yang anda pingin pinjam, sedang dipinjam oleh orang lain")
+                if str(is_returned(id_item,datas2,id_peminjam)).capitalize() == "False" :
+                    print("\nGadget yang Anda pilih sedang Anda pinjam, harus dikembalikan terlebih dahulu")
                     not_valid_item = True
-                elif is_returned(id_item,datas2) == "TRUE":
-                    not_valid_item = False
+                elif str(is_returned(id_item,datas2,id_peminjam)).capitalize() == "True":
+                    if stok_gadget(datas1,id_item) == 0:
+                        print("Stok gadget sedang abis")
+                        not_valid_item = True
+                    else:
+                        not_valid_item = False
                 # proses (3) end
             elif id_item_not_in_borrow_history(id_item,datas2)==True:
-                not_valid_item = False
+                if stok_gadget(datas1,id_item) == 0:
+                    print("Stok gadget sedang abis")
+                    not_valid_item = True
+                else:
+                    not_valid_item = False
             # proses (2) end
     ##################### (end) #######################
 
@@ -212,4 +235,10 @@ def meminjam_gadget(datas1,datas2,id_user):
     new_data_history_pinjam.append(tmp_new_data_history_pinjam)
     datas2 += new_data_history_pinjam
     ##################### (end) #######################
+
+    # Update stok gadget
+    ##################### (start) #######################
+    datas1[row_gadget][3] -= jumlah_peminjaman
+    ##################### (end) #######################
+    
 ##################### (end) #######################
