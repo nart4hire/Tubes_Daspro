@@ -10,14 +10,16 @@ def id_gadgets_borrowed (datas,id_peminjam):
     borrowed = []
     idx_gadgets = []
     row_gadgets = []
+    id_transaksi_pinjam=[]
     boolean = ["False","True"]
     for i in range (len(datas)):
         if id_peminjam == datas[i][1] and (str(datas[i][5]).capitalize()=="False" or str(datas[i][5]).capitalize() not in boolean) :
             borrowed.append(datas[i][2])
             row_gadgets.append(i)
+            id_transaksi_pinjam.append(datas[i][0])
     for i in range (len(datas)):
         idx_gadgets.append(i+1)
-    return (borrowed,idx_gadgets,row_gadgets)
+    return (borrowed,idx_gadgets,row_gadgets,id_transaksi_pinjam)
 ##################### (end) #######################
 
 # Fungsi ini buat dapet row ke - n  di file gadget.csv dari gadget yang dipilih user 
@@ -169,6 +171,7 @@ def generate_id_transaksi (datas):
 # id_user = ngambil dari main program (saat proses login)
 def mengembalikan_gadget (datas1,datas2,datas3,id_user):
     id_peminjam = id_user
+    id_transaksi_pinjam=id_gadgets_borrowed(datas2, id_peminjam)[3]
     gadgets_borrowed = id_gadgets_borrowed(datas2,id_peminjam)[0] # id_gadget yang dipinjam user (yang dipilih is_returned = FALSE)
     list_nama_gadget = nama_gadgets(datas1,gadgets_borrowed) # list dari nama gadget yang dipinjam
     if len(gadgets_borrowed) == 0:
@@ -273,7 +276,7 @@ def mengembalikan_gadget (datas1,datas2,datas3,id_user):
     ##################### (start) #######################
     new_id_history_returned =generate_id_transaksi(datas3) # membuat id transaksi terbaru
     new_data_history_kembali = []
-    tmp_new_data_history_kembali = [new_id_history_returned,id_peminjam,real_tanggal,id_gadget_borrowed,jumlah_pengembalian]
+    tmp_new_data_history_kembali = [new_id_history_returned.zfill(9),id_transaksi_pinjam[nomor_peminjaman-1],real_tanggal,jumlah_pengembalian]
     new_data_history_kembali.append(tmp_new_data_history_kembali)
     datas3 += new_data_history_kembali
     ##################### (end) #######################
