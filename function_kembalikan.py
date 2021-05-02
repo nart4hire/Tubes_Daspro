@@ -1,3 +1,4 @@
+
 # Fungsi id_gadgets_borrowed ngehasilin beberapa values
 # 1. list borrowed, list gadgets yang dipinjam user. 
 # Contoh borrowed = ["G002","G666"]
@@ -10,7 +11,7 @@ def id_gadgets_borrowed (datas,id_peminjam):
     idx_gadgets = []
     row_gadgets = []
     for i in range (len(datas)):
-        if id_peminjam == datas[i][1] and datas[i][5]=="FALSE":
+        if id_peminjam == datas[i][1] and str(datas[i][5]).capitalize()=="False":
             borrowed.append(datas[i][2])
             row_gadgets.append(i)
     for i in range (len(datas)):
@@ -18,6 +19,15 @@ def id_gadgets_borrowed (datas,id_peminjam):
     return (borrowed,idx_gadgets,row_gadgets)
 ##################### (end) #######################
 
+# Fungsi ini buat dapet row ke - n  di file gadget.csv dari gadget yang dipilih user 
+##################### (start) #######################
+def row_gadget_in_gadget_csv (datas,id_item):
+    row = 0
+    for i in range (len(datas)):
+        if id_item == datas[i][0]:
+            row = i
+    return row
+##################### (end) #######################
 # Fungsi nama_gadgets, mengambil nama gadget yang user pinjam [file gadget.cv ]
 ##################### (start) #######################
 def nama_gadgets (datas,borrowed):
@@ -85,33 +95,44 @@ def valid_tanggal(tanggal):
 ##################### (end) #######################
 
 # Fungsi cnvrt_tanggal
-# Contoh : 03/020/002020 -> 3/20/2020
+# Contoh : 3/2/002020 -> 03/02/2020
 ##################### (start) #######################
 def cnvrt_tanggal (tanggal):
     tmp = []
     real_tanggal = ""
     for i in  (tanggal):
         tmp.append(int(i))
-    real_tanggal = real_tanggal + str(tmp[0]) + "/"+ str(tmp[1]) + "/"+ str(tmp[2])
+    for i in range (2):
+        if tmp[i] <10:
+            tmp[i] = "0" + str(tmp[i])
+        else:
+            tmp[i] = str(tmp[i])
+    real_tanggal = real_tanggal + tmp[0] + "/"+ tmp[1] + "/"+ str(tmp[2])
     return (real_tanggal)
 ##################### (end) #######################
+
 # Fungsi jumlah_gadget_borrowed, mengambil jumlah gadget yang dipinjam user [file gadget_borrow_history.cv ]
 ##################### (start) #######################
 def jumlah_gadget_borrowed (datas,id_gadget,id_peminjam):
     jmlh_gadget = -1
+    jmlh_gadget_returned = 0
+    for i in range (len(datas)):
+        if id_peminjam == datas[i][1] and id_gadget == datas[i][2] and str(datas[i][5]).capitalize() == "True":
+            jmlh_gadget_returned += datas[i][4]
     for i in range (len(datas)):
         if id_peminjam == datas[i][1] and id_gadget == datas[i][2]:
             jmlh_gadget = datas[i][4]
-    return jmlh_gadget
+    return jmlh_gadget,jmlh_gadget_returned
 ##################### (end) #######################
 
 # Fungsi returned_gadget, menjumlah total yang sudah pernah dikembalikan user
 ##################### (start) #######################
-def returned_gadget (datas,id_peminjam,id_gadget):
+def returned_gadget (datas,id_peminjam,id_gadget,total_returned):
     total = 0
     for i in range (len(datas)):
         if id_peminjam == datas[i][1] and id_gadget == datas[i][3]:
             total += datas[i][4]
+    total -= total_returned
     return total
 ##################### (end) #######################
 
@@ -177,10 +198,11 @@ def mengembalikan_gadget (datas1,datas2,datas3,id_user):
     id_gadget_borrowed = gadgets_borrowed[nomor_peminjaman-1] # Mendapatkan value id_gadget yang sudah dipilih oleh user
     nama_gadget = list_nama_gadget[nomor_peminjaman-1] # Mendapatkan nama gadget yang sudah dipilih oleh user
 
-    jumlah_gadget = jumlah_gadget_borrowed(datas2,id_gadget_borrowed,id_peminjam) # Mendapatkan jumlah_peminjaman
+    jumlah_gadget = jumlah_gadget_borrowed(datas2,id_gadget_borrowed,id_peminjam)[0] # Mendapatkan jumlah_peminjaman
     print("\nAnda sudah meminjam "+nama_gadget+" sebanyak : " + str(jumlah_gadget)) # Menampilkan jumlah_peminjaman
 
-    jumlah_gadget_returned = returned_gadget(datas3,id_peminjam,id_gadget_borrowed) # Mendapatkan total dari jumlah_pengembalian
+    total_returned = jumlah_gadget_borrowed(datas2,id_gadget_borrowed,id_peminjam)[1]
+    jumlah_gadget_returned = returned_gadget(datas3,id_peminjam,id_gadget_borrowed,total_returned) # Mendapatkan total dari jumlah_pengembalian
     print("Jumlah yang sudah Anda kembalikan : "+ str(jumlah_gadget_returned)) # Menampilkan total dari jumlah_pengembalian
 
     sisa_gadget = jumlah_gadget - jumlah_gadget_returned # Mendapatkan jumlah gadget yang masih perlu dikembalikan oleh user
@@ -220,5 +242,10 @@ def mengembalikan_gadget (datas1,datas2,datas3,id_user):
         datas2[row_asking_gadget][5] = "TRUE" # Mengubah is_returned menjadi TRUE, karena jumlah yang dikembalikan sudah sama dengan yang dipinjam
     else:
         print("\nItem "+ str(nama_gadget)+ " (x" + str(jumlah_pengembalian)+") telah dikembalikan")
-    return [datas1,datas2,datas3]
+    ##################### (end) #######################
+ 
+    # Update stok gadget
+    ##################### (start) #######################
+    row_in_gadget_csv = row_gadget_in_gadget_csv(datas1,id_gadget_borrowed)
+    datas1[row_in_gadget_csv][3] += jumlah_pengembalian
     ##################### (end) #######################

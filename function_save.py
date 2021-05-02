@@ -13,7 +13,6 @@ def writecsv(data,folder,file): #membuat csv baru/overwrite pada path yang diber
     f.close()
     
 def save(user,gadget,consumable,consumable_history,gadget_borrow_history,gadget_return_history): 
-
     filename=str(input("Masukkan nama folder penyimpanan:"))
     print("Saving...")
     fullfilename=filename

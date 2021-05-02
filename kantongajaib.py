@@ -10,6 +10,9 @@ from function_ubahjumlah import ubahjumlah #F07
 from function_pinjam import meminjam_gadget #F08
 from function_kembalikan import mengembalikan_gadget #F09
 from function_minta import meminta_consumable #F10
+from function_riwayatpinjam import riwayatpinjam #F11
+from function_riwayatkembali import riwayatkembali #F12
+from function_riwayatambil import riwayatambil #F13
 from function_load import load #F14
 from function_save import save #F15
 from function_help import bantuan #F16
@@ -92,6 +95,12 @@ if __name__== '__main__':
             arr=meminta_consumable(consumable,consumable_history,ID)
             consumable=arr[0]
             consumable_history=arr[1]
+        elif command=="riwayatpinjam" and role=="admin":
+            riwayatpinjam(user,gadget,gadget_borrow_history)
+        elif command=="riwayatkembali" and role=="admin":
+            riwayatkembali(user,gadget,gadget_borrow_history,gadget_return_history)
+        elif command=="riwayatambil" and role=="admin":
+            riwayatambil(user,consumable,consumable_history)
         elif command=="save":
             save(user,gadget,consumable,consumable_history,gadget_borrow_history,gadget_return_history)
         elif command=="help":

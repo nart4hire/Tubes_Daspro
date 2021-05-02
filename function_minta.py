@@ -81,21 +81,24 @@ def valid_tanggal(tanggal):
                     if int(tanggal[0])<0 or int(tanggal[0])>28:
                         valid = False
     return (valid)
+
+# Fungsi ini biar tanggal sesuai spesifikasi tugas
+##################### (start) #######################
+def cnvrt_tanggal (tanggal):
+    tmp = []
+    real_tanggal = ""
+    for i in  (tanggal):
+        tmp.append(int(i))
+    for i in range (2):
+        if tmp[i] <10:
+            tmp[i] = "0" + str(tmp[i])
+        else:
+            tmp[i] = str(tmp[i])
+    real_tanggal = real_tanggal + tmp[0] + "/"+ tmp[1] + "/"+ str(tmp[2])
+    return (real_tanggal)
 ##################### (end) #######################
 
-def generate_id_transaksi (datas):
-    tmp = datas[-1][0]
-    tmp2 = []
-    tmp_id = ""
-    for i in tmp:
-        tmp2.append(i)
-    for i in range (1,(len(tmp2))):
-        tmp_id += tmp2[i]
-    tmp_id = int(tmp_id) + 1
-    id_transaksi = tmp2[0]+str(tmp_id)
-    return id_transaksi
-
-def meminta_consumable (datas,datas_history,ID):
+def meminta_consumable (datas):
     # Validasi id item
     ##################### (start) #######################
     not_valid_id_item = True
@@ -142,13 +145,13 @@ def meminta_consumable (datas,datas_history,ID):
             print("\nTanggal tidak valid!!!")
             print("Contoh input yang valid 03/04/2002\n")
             not_valid_tanggal = True
+    # Ubah bentuk tanggal biar sesuai dengan spesifikasi tubes
+    raw_tanggal = tanggal_split(tanggal_permintaan)
+    real_tanggal = cnvrt_tanggal(raw_tanggal)
+    tanggal_permintaan = real_tanggal
     ##################### (end) #######################
     nama_consum = datas[row_consum][1]
     print("\nItem "+str(nama_consum)+" (x"+str(jumlah) + ") telah berhasil diambil" )
+
     # Update tentang jumlah consumable tersisa
     datas[row_consum][3] -= jumlah
-    
-    # Update history
-    id_transaksi=generate_id_transaksi(datas_history)
-    datas_history.append([id_transaksi,ID,id_item,tanggal_permintaan,jumlah])
-    return [datas,datas_history]
