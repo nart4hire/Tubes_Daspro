@@ -274,9 +274,10 @@ def mengembalikan_gadget (datas1,datas2,datas3,id_user):
 
     # Menambahkan data baru returned [file gadget_returned_history.cv ]
     ##################### (start) #######################
-    new_id_history_returned =generate_id_transaksi(datas3) # membuat id transaksi terbaru
+    borrow=id_transaksi_pinjam[nomor_peminjaman-1]
+    returned="R"+borrow[1:-3]+str(jumlah_pengembalian).zfill(3)
     new_data_history_kembali = []
-    tmp_new_data_history_kembali = [new_id_history_returned.zfill(9),id_transaksi_pinjam[nomor_peminjaman-1],real_tanggal,jumlah_pengembalian]
+    tmp_new_data_history_kembali = [returned,borrow,real_tanggal,jumlah_pengembalian]
     new_data_history_kembali.append(tmp_new_data_history_kembali)
     datas3 += new_data_history_kembali
     ##################### (end) #######################
