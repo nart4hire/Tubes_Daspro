@@ -248,7 +248,7 @@ def meminjam_gadget(datas1,datas2,id_user):
     ##################### (start) #######################
     new_id_history_borrow = generate_id_transaksi(datas2) # membuat id transaksi terbaru
     new_data_history_pinjam = []
-    tmp_new_data_history_pinjam = [new_id_history_borrow,id_peminjam,id_item,real_tanggal,jumlah_peminjaman,"FALSE"]
+    tmp_new_data_history_pinjam = [new_id_history_borrow,id_peminjam,id_item,real_tanggal,jumlah_peminjaman,False]
     new_data_history_pinjam.append(tmp_new_data_history_pinjam)
     datas2 += new_data_history_pinjam
     ##################### (end) #######################
