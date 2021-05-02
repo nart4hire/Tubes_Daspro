@@ -47,7 +47,17 @@ def nama_ada_di_data(new_user_nama,datas):
             break
     return check
 ##################### (end) #######################
-
+def generate_id (datas):
+    tmp = datas[-1][0]
+    tmp2 = []
+    tmp_id = ""
+    for i in tmp:
+        tmp2.append(i)
+    for i in range (1,(len(tmp2))):
+        tmp_id += tmp2[i]
+    tmp_id = int(tmp_id) + 1
+    id_transaksi = tmp2[0]+str(tmp_id)
+    return id_transaksi
 
 # Fungsi register 
 def register_user(datas):
@@ -64,7 +74,7 @@ def register_user(datas):
 
         if nama_ada_di_data(new_user_nama,datas) == False:
             not_registered = False
-            new_user_id = datas[-1][posisi_id_di_data] + 1
+            new_user_id = generate_id(datas)
             new_user_role = "user"
             new_user = [new_user_id,new_user_username,new_user_nama,new_user_alamat,new_user_password,new_user_role]
                 
