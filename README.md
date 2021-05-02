@@ -2,4 +2,4 @@
 
 F09 belum selesai
 
-external file sudah dihash
+external file dan login/register sudah dihash
