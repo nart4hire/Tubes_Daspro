@@ -257,5 +257,5 @@ def meminjam_gadget(datas1,datas2,id_user):
     ##################### (start) #######################
     datas1[row_gadget][3] -= jumlah_peminjaman
     ##################### (end) #######################
-    
+    return [datas1,datas2]
 ##################### (end) #######################
