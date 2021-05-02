@@ -27,8 +27,9 @@ def interface():
     print("==========Inventory==========")
     counter=0
     for i in inventory:
-        print(counter+1,end="")
-        print(".", daftar_nama[i][0], "|Rarity", daftar_nama[i][1],"|", inventory[i],"buah")
+        if inventory[i]>0:
+            print(counter+1,end="")
+            print(".", daftar_nama[i][0], "|Rarity", daftar_nama[i][1],"|", inventory[i],"buah")
         counter+=1
     print("=============================")
     print()
@@ -85,7 +86,7 @@ def gacha(ID, consumable_history, consumable):
     while (repeat=="y" or repeat=="Y") and total<100:
         interface()
         choice=int(input("Pilih consumable yang ingin digunakan: "))
-        while (choice>len(idlist)):
+        while (choice>len(idlist) or choice<1 or inventory[idlist[choice-1]]==0):
             print("Masukan tidak valid")
             choice=int(input("Pilih consumable yang ingin digunakan: "))
         choice-=1 #keperluan array
@@ -107,7 +108,11 @@ def gacha(ID, consumable_history, consumable):
         if rarity!="S": print("Peluang anda mengupgrade benda rarity", rarity, "adalah", round(total*100/mod,2),"%")
         else: print("Peluang anda mendapatkan benda rarity", rarity, "adalah", 100,"%")
         if total==100: break
-        repeat=input("Tambahkan item lagi?(y/n): ")
+        if all (inventory[i]==0 for i in inventory):
+            print("Inventory anda habis")
+            repeat="n"
+        else:
+            repeat=input("Tambahkan item lagi?(y/n): ")
         while not(repeat in ['y','Y','n','N']):
             print("Masukan tidak valid")
             repeat=input("Tambahkan item lagi?(y/n): ")

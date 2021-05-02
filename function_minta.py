@@ -11,7 +11,17 @@ def consum_found (datas,id_item):
             row_consum = i
     return (check,row_consum)
 ##################### (end) #######################
-
+def generate_id_transaksi (datas):
+    tmp = datas[-1][0]
+    tmp2 = []
+    tmp_id = ""
+    for i in tmp:
+        tmp2.append(i)
+    for i in range (1,(len(tmp2))):
+        tmp_id += tmp2[i]
+    tmp_id = int(tmp_id) + 1
+    id_transaksi = tmp2[0]+str(tmp_id)
+    return id_transaksi
 # Fungsi cnvrt_id_item, kegunanaanya
 # Misal diinput C0000000000001 cnvrt menjadi C1
 ##################### (start) #######################
@@ -23,7 +33,13 @@ def cnvrt_id_item (id_item):
     for i in range (1,(len(tmp))):
         tmp_id += tmp[i]
     tmp_id = int(tmp_id)
-    real_id = tmp[0]+str(tmp_id)
+    if tmp_id < 10:
+        tmp_id = "00" + str(tmp_id)
+    elif 10<=tmp_id<100:
+        tmp_id = "0" + str(tmp_id)
+    elif tmp_id >= 100:
+        tmp_id = str(tmp_id)
+    real_id = tmp[0]+tmp_id
     return real_id
 ##################### (end) #######################
 
@@ -63,23 +79,26 @@ def valid_tanggal(tanggal):
     if len(tanggal) != 3:
         valid = False
     else:
-        bulan_31=[1,3,5,6,7,8,10,12] # ini coma list bulan ke - n yang mempunyai tanggal 31
-        if int(tanggal[1])>12 or int(tanggal[1])<0: # cek validasi bulan
-            valid=False
+        if int(tanggal[2]) <= 0:
+            valid = False
         else:
-            if int(tanggal[1]) in bulan_31: # cek apakah bulan yang diinput termasuk bulan yang memiliki tanggal sampai 31
-                if int(tanggal[0])<0 or int(tanggal[0])>31: # cek apakah tanggal valid
-                    valid = False
-            elif int(tanggal[1]) not in bulan_31 and int(tanggal[1])!=2: # cek apakah bulan yang diinput tidak termasuk bulan yang memiliki tanggal sampai 31
-                if int(tanggal[0])<0 or int(tanggal[0])>30: # cek apakah tanggal valid
-                    valid = False 
-            elif int(tanggal[1]) == 2: # cek apakah bulan yang diinput bulan february
-                if kabisat(int(tanggal[2])) == True: # cek apakah tahun kabisat
-                    if int(tanggal[0])<0 or int(tanggal[0])>29: 
+            bulan_31=[1,3,5,6,7,8,10,12] # ini coma list bulan ke - n yang mempunyai tanggal 31
+            if int(tanggal[1])>12 or int(tanggal[1])<0: # cek validasi bulan
+                valid=False
+            else:
+                if int(tanggal[1]) in bulan_31: # cek apakah bulan yang diinput termasuk bulan yang memiliki tanggal sampai 31
+                    if int(tanggal[0])<0 or int(tanggal[0])>31: # cek apakah tanggal valid
                         valid = False
-                elif kabisat(int(tanggal[2])) == False:
-                    if int(tanggal[0])<0 or int(tanggal[0])>28:
-                        valid = False
+                elif int(tanggal[1]) not in bulan_31 and int(tanggal[1])!=2: # cek apakah bulan yang diinput tidak termasuk bulan yang memiliki tanggal sampai 31
+                    if int(tanggal[0])<0 or int(tanggal[0])>30: # cek apakah tanggal valid
+                        valid = False 
+                elif int(tanggal[1]) == 2: # cek apakah bulan yang diinput bulan february
+                    if kabisat(int(tanggal[2])) == True: # cek apakah tahun kabisat
+                        if int(tanggal[0])<0 or int(tanggal[0])>29: 
+                            valid = False
+                    elif kabisat(int(tanggal[2])) == False:
+                        if int(tanggal[0])<0 or int(tanggal[0])>28:
+                            valid = False
     return (valid)
 
 # Fungsi ini biar tanggal sesuai spesifikasi tugas
@@ -94,11 +113,19 @@ def cnvrt_tanggal (tanggal):
             tmp[i] = "0" + str(tmp[i])
         else:
             tmp[i] = str(tmp[i])
-    real_tanggal = real_tanggal + tmp[0] + "/"+ tmp[1] + "/"+ str(tmp[2])
+    if tmp[2] <10:
+        tmp[2] = "000"+str(tmp[2])
+    elif 10<= tmp[2] <100:
+        tmp[2] = "00"+str(tmp[2])
+    elif 100<= tmp[2] <1000:
+        tmp[2] = "0"+str(tmp[2])
+    elif tmp[2] >=1000:
+        tmp[2] = str(tmp[2])
+    real_tanggal = real_tanggal + tmp[0] + "/"+ tmp[1] + "/"+ tmp[2]
     return (real_tanggal)
 ##################### (end) #######################
 
-def meminta_consumable (datas):
+def meminta_consumable (datas,datas_history,ID):
     # Validasi id item
     ##################### (start) #######################
     not_valid_id_item = True
@@ -155,3 +182,8 @@ def meminta_consumable (datas):
 
     # Update tentang jumlah consumable tersisa
     datas[row_consum][3] -= jumlah
+
+    # Update history
+    id_transaksi="T"+ID[1:].zfill(3)+id_item[1:].zfill(3)+str(jumlah).zfill(3)
+    datas_history.append([id_transaksi,ID,id_item,tanggal_permintaan,jumlah])
+    return [datas,datas_history]

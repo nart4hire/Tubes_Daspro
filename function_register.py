@@ -1,4 +1,4 @@
-
+from function_hash import pihash #FB01
 # Fungsi split ngambil dari google :v
 ##################### (start) #######################
 def my_split(s, sep=" "):
@@ -69,6 +69,11 @@ def register_user(datas):
         new_user_nama = real_nama(new_user_nama)
         new_user_username = input("Masukan username: ")
         new_user_password = input("Masukan password: ")
+        panjang=len(new_user_password)
+        while panjang<8 or panjang>16:
+            print("Password harus 8-16 karakter")
+            new_user_password = input("Masukan password: ")
+        new_user_password=pihash(new_user_password)
         new_user_alamat = input("Masukan alamat: ")
         # input new user data diri (end)
 

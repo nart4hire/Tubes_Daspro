@@ -8,7 +8,13 @@ def cnvrt_id_item (id_item):
     for i in range (1,(len(tmp))):
         tmp_id += tmp[i]
     tmp_id = int(tmp_id)
-    real_id = tmp[0]+str(tmp_id)
+    if tmp_id < 10:
+        tmp_id = "00" + str(tmp_id)
+    elif 10<=tmp_id<100:
+        tmp_id = "0" + str(tmp_id)
+    elif tmp_id >= 100:
+        tmp_id = str(tmp_id)
+    real_id = tmp[0]+tmp_id
     return real_id
 
 # Fungsi  find_id_item nyari row ke - n dari gadget yang diinput dan 
@@ -84,23 +90,26 @@ def valid_tanggal(tanggal):
     if len(tanggal) != 3:
         valid = False
     else:
-        bulan_31=[1,3,5,6,7,8,10,12] # ini coma list bulan ke - n yang mempunyai tanggal 31
-        if int(tanggal[1])>12 or int(tanggal[1])<0: # cek validasi bulan
-            valid=False
+        if int(tanggal[2]) <= 0:
+            valid = False
         else:
-            if int(tanggal[1]) in bulan_31: # cek apakah bulan yang diinput termasuk bulan yang memiliki tanggal sampai 31
-                if int(tanggal[0])<0 or int(tanggal[0])>31: # cek apakah tanggal valid
-                    valid = False
-            elif int(tanggal[1]) not in bulan_31 and int(tanggal[1])!=2: # cek apakah bulan yang diinput tidak termasuk bulan yang memiliki tanggal sampai 31
-                if int(tanggal[0])<0 or int(tanggal[0])>30: # cek apakah tanggal valid
-                    valid = False 
-            elif int(tanggal[1]) == 2: # cek apakah bulan yang diinput bulan february
-                if kabisat(int(tanggal[2])) == True: # cek apakah tahun kabisat
-                    if int(tanggal[0])<0 or int(tanggal[0])>29: 
+            bulan_31=[1,3,5,6,7,8,10,12] # ini coma list bulan ke - n yang mempunyai tanggal 31
+            if int(tanggal[1])>12 or int(tanggal[1])<0: # cek validasi bulan
+                valid=False
+            else:
+                if int(tanggal[1]) in bulan_31: # cek apakah bulan yang diinput termasuk bulan yang memiliki tanggal sampai 31
+                    if int(tanggal[0])<0 or int(tanggal[0])>31: # cek apakah tanggal valid
                         valid = False
-                elif kabisat(int(tanggal[2])) == False:
-                    if int(tanggal[0])<0 or int(tanggal[0])>28:
-                        valid = False
+                elif int(tanggal[1]) not in bulan_31 and int(tanggal[1])!=2: # cek apakah bulan yang diinput tidak termasuk bulan yang memiliki tanggal sampai 31
+                    if int(tanggal[0])<0 or int(tanggal[0])>30: # cek apakah tanggal valid
+                        valid = False 
+                elif int(tanggal[1]) == 2: # cek apakah bulan yang diinput bulan february
+                    if kabisat(int(tanggal[2])) == True: # cek apakah tahun kabisat
+                        if int(tanggal[0])<0 or int(tanggal[0])>29: 
+                            valid = False
+                    elif kabisat(int(tanggal[2])) == False:
+                        if int(tanggal[0])<0 or int(tanggal[0])>28:
+                            valid = False
     return (valid)
 ##################### (end) #######################
 
@@ -117,7 +126,15 @@ def cnvrt_tanggal (tanggal):
             tmp[i] = "0" + str(tmp[i])
         else:
             tmp[i] = str(tmp[i])
-    real_tanggal = real_tanggal + tmp[0] + "/"+ tmp[1] + "/"+ str(tmp[2])
+    if tmp[2] <10:
+        tmp[2] = "000"+str(tmp[2])
+    elif 10<= tmp[2] <100:
+        tmp[2] = "00"+str(tmp[2])
+    elif 100<= tmp[2] <1000:
+        tmp[2] = "0"+str(tmp[2])
+    elif tmp[2] >=1000:
+        tmp[2] = str(tmp[2])
+    real_tanggal = real_tanggal + tmp[0] + "/"+ tmp[1] + "/"+ tmp[2]
     return (real_tanggal)
 ##################### (end) #######################
 
@@ -207,7 +224,7 @@ def meminjam_gadget(datas1,datas2,id_user):
             print("\nTanggal tidak valid!!!")
             print("Contoh input yang valid 03/04/2002\n")
             not_valid_tanggal = True
-    # cnvrt tanggal menjadi format default (3/2/2020)
+    # cnvrt tanggal menjadi format default (03/02/2020)
     raw_tanggal = tanggal_split(tanggal_peminjaman)
     real_tanggal = cnvrt_tanggal(raw_tanggal)
     ##################### (end) #######################
@@ -229,7 +246,7 @@ def meminjam_gadget(datas1,datas2,id_user):
     
     # Proses memasukan data baru ke data gadget_borrow_history.cv
     ##################### (start) #######################
-    new_id_history_borrow = generate_id_transaksi(datas2) # membuat id transaksi terbaru
+    new_id_history_borrow ="T"+id_peminjam[1:].zfill(3)+id_item[1:].zfill(3)+str(jumlah_peminjaman).zfill(3) # membuat id transaksi terbaru
     new_data_history_pinjam = []
     tmp_new_data_history_pinjam = [new_id_history_borrow,id_peminjam,id_item,real_tanggal,jumlah_peminjaman,"FALSE"]
     new_data_history_pinjam.append(tmp_new_data_history_pinjam)
@@ -240,5 +257,5 @@ def meminjam_gadget(datas1,datas2,id_user):
     ##################### (start) #######################
     datas1[row_gadget][3] -= jumlah_peminjaman
     ##################### (end) #######################
-    
+    return [datas1,datas2]
 ##################### (end) #######################
