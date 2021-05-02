@@ -73,6 +73,7 @@ def register_user(datas):
         while panjang<8 or panjang>16:
             print("Password harus 8-16 karakter")
             new_user_password = input("Masukan password: ")
+            panjang=len(new_user_password)
         new_user_password=pihash(new_user_password)
         new_user_alamat = input("Masukan alamat: ")
         # input new user data diri (end)
