@@ -1,5 +1,5 @@
-import hashlib
 import random
+from fb01 import pihash
 
 first_names = [
     'Ava', 'Beatrice', 'Courtney', 'Dave', 'Ethan', 'Faris',
@@ -40,23 +40,37 @@ def gen_id(last_id):
     return [current_id, username, name, address, password, role]
 
 
-f = open('user.csv', 'r')
-file = f.read().split('\n')
-for i in range(len(file) - 1):
-    lst = file[i].split(';')
-    file[i] = lst[2]
-f.close()
+def test():
+    f = open('user.csv', 'r')
+    files = f.read().split('\n')
+    lst = []
+    for file in files[:-1]:
+        lst.append(file.split(';'))
+    f.close()
 
-f = open('user.csv', 'a')
-idx = 0
-count = 0
-while idx < 100:
-    iden = gen_id(idx)
-    if iden[2] not in file:
-        for item in iden:
-            f.write(item)
-            f.write(';' if item != iden[-1] else '\n')
-        file.append(iden[2])
-        idx += 1
-    count += 1
-f.close()
+    for i in range(1, len(lst)):
+        lst[i][4] = pihash(lst[i][4])
+
+    f = open('user.csv', 'w')
+    for data in lst:
+        for entries in data:
+            f.write(entries)
+            f.write(';' if entries != data[-1] else '\n')
+    f.close()
+    # f = open('user.csv', 'a')
+    # idx = 0
+    # count = 0
+    # while idx < 100:
+    #     iden = gen_id(idx)
+    #     if iden[2] not in file:
+    #         for item in iden:
+    #             f.write(item)
+    #             f.write(';' if item != iden[-1] else '\n')
+    #         file.append(iden[2])
+    #         idx += 1
+    #     count += 1
+    # f.close()
+
+
+if __name__ == '__main__':
+    test()
