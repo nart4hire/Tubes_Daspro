@@ -1,0 +1,12 @@
+
+data2/consumable_history.csv
+data2/consumable.csv
+data2/gadget.csv
+data2/gadget_borrow_history.csv
+data2/gadget_return_history.csv
+data2/user.csv
+*.csv
+*.csv
+testcsv/consumable.csv
+testcsv/consumable_history.csv
+testcsv/consumable.csv
