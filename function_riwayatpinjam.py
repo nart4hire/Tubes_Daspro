@@ -48,6 +48,7 @@ def riwayatpinjam(users, items, data):
                 f_more = input('\nCetak lima lagi? (y/n): ').lower()
                 if f_more == 'y' or f_more == 'n':
                     again = False if f_more == 'n' else True
+                    times+=1
                     break
             else:
                 ulang = input('\nUlang print dari awal? (y/n)').lower()
@@ -56,4 +57,3 @@ def riwayatpinjam(users, items, data):
                     times = 0
                     break
             print('\nMasukan tidak valid! Masukkan input yang valid!\n')
-        times += 1
