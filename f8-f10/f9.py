@@ -128,7 +128,7 @@ def jumlah_gadget_borrowed (datas,id_gadget,id_peminjam):
     for i in range (len(datas)):
         boolean = ["True","False"]
         if id_peminjam == datas[i][1] and id_gadget == datas[i][2] and str(datas[i][5]).capitalize() == "False":
-            jmlh_gadget_returned = datas[i][4]
+            jmlh_gadget_returned = 0
         elif id_peminjam == datas[i][1] and id_gadget == datas[i][2] and str(datas[i][5]).capitalize() not in boolean:
             jmlh_gadget_returned = datas[i][5]
     for i in range (len(datas)):
@@ -171,7 +171,9 @@ def mengembalikan_gadget (datas1,datas2,datas3,id_user):
     id_peminjam = id_user
     gadgets_borrowed = id_gadgets_borrowed(datas2,id_peminjam)[0] # id_gadget yang dipinjam user (yang dipilih is_returned = FALSE)
     list_nama_gadget = nama_gadgets(datas1,gadgets_borrowed) # list dari nama gadget yang dipinjam
-
+    if len(gadgets_borrowed) == 0:
+        print("Tidak ada gadget yang Anda pinjam")
+        return [datas1,datas2,datas3]
     # Pengulangan untuk menampilkan gadget yang dipinjam
     for i in range (len(gadgets_borrowed)):
         print(str(i+1)+". "+ list_nama_gadget[i])
@@ -214,7 +216,7 @@ def mengembalikan_gadget (datas1,datas2,datas3,id_user):
     print("\nAnda sudah meminjam "+nama_gadget+" sebanyak : " + str(jumlah_gadget)) # Menampilkan jumlah_peminjaman
 
     total_returned = jumlah_gadget_borrowed(datas2,id_gadget_borrowed,id_peminjam)[1]
-    print("Jumlah yang sudah Anda kembalikan : "+ total_returned) # Menampilkan total dari jumlah_pengembalian
+    print("Jumlah yang sudah Anda kembalikan : "+ str(total_returned)) # Menampilkan total dari jumlah_pengembalian
 
     sisa_gadget = jumlah_gadget - int(total_returned) # Mendapatkan jumlah gadget yang masih perlu dikembalikan oleh user
     print("Sisa jumlah gadget yang perlu Anda kembalikan : " + str(sisa_gadget)+"\n")
@@ -240,14 +242,25 @@ def mengembalikan_gadget (datas1,datas2,datas3,id_user):
     ##################### (start) #######################
     row_gadgets = id_gadgets_borrowed(datas2,id_peminjam)[2] # Mendapatkan list row ke - n tiap gadget
     row_asking_gadget = row_gadgets[nomor_peminjaman-1] # Mendapatkan row ke - n dari gadget yang user minta
-    if sisa_gadget - jumlah_pengembalian == 0:
-        print("\nItem "+ str(nama_gadget)+ " (x" + str(jumlah_pengembalian)+") telah dikembalikan")
-        print("Gadget telah dikembalikan sepenuhnya")
-        datas2[row_asking_gadget][5] = True # Mengubah is_returned menjadi TRUE, karena jumlah yang dikembalikan sudah sama dengan yang dipinjam
-        jumlah_pengembalian = "All"
-    else:
-        print("\nItem "+ str(nama_gadget)+ " (x" + str(jumlah_pengembalian)+") telah dikembalikan")
-        datas2[row_asking_gadget][5] = str(int(datas2[row_asking_gadget][5]) + jumlah_pengembalian)
+    boolean = ["False","True"]
+    if str(datas2[row_asking_gadget][5]).capitalize() =="False":   
+        if sisa_gadget - jumlah_pengembalian == 0:
+            print("\nItem "+ str(nama_gadget)+ " (x" + str(jumlah_pengembalian)+") telah dikembalikan")
+            print("Gadget telah dikembalikan sepenuhnya")
+            datas2[row_asking_gadget][5] = True # Mengubah is_returned menjadi TRUE, karena jumlah yang dikembalikan sudah sama dengan yang dipinjam
+            jumlah_pengembalian = "All"
+        else:
+            print("\nItem "+ str(nama_gadget)+ " (x" + str(jumlah_pengembalian)+") telah dikembalikan")
+            datas2[row_asking_gadget][5] = str(jumlah_pengembalian)
+    elif str(datas2[row_asking_gadget][5]).capitalize() not in boolean:
+        if sisa_gadget - jumlah_pengembalian == 0:
+            print("\nItem "+ str(nama_gadget)+ " (x" + str(jumlah_pengembalian)+") telah dikembalikan")
+            print("Gadget telah dikembalikan sepenuhnya")
+            datas2[row_asking_gadget][5] = True # Mengubah is_returned menjadi TRUE, karena jumlah yang dikembalikan sudah sama dengan yang dipinjam
+            jumlah_pengembalian = "All"
+        else:
+            print("\nItem "+ str(nama_gadget)+ " (x" + str(jumlah_pengembalian)+") telah dikembalikan")
+            datas2[row_asking_gadget][5] = str(int(datas2[row_asking_gadget][5]) + jumlah_pengembalian)
     ##################### (end) #######################
  
     # Update stok gadget
