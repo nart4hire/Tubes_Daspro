@@ -10,8 +10,9 @@ def id_gadgets_borrowed (datas,id_peminjam):
     borrowed = []
     idx_gadgets = []
     row_gadgets = []
+    boolean = ["False","True"]
     for i in range (len(datas)):
-        if id_peminjam == datas[i][1] and str(datas[i][5]).capitalize()=="False":
+        if id_peminjam == datas[i][1] and (str(datas[i][5]).capitalize()=="False" or str(datas[i][5]).capitalize() not in boolean) :
             borrowed.append(datas[i][2])
             row_gadgets.append(i)
     for i in range (len(datas)):
@@ -107,7 +108,15 @@ def cnvrt_tanggal (tanggal):
             tmp[i] = "0" + str(tmp[i])
         else:
             tmp[i] = str(tmp[i])
-    real_tanggal = real_tanggal + tmp[0] + "/"+ tmp[1] + "/"+ str(tmp[2])
+    if tmp[2] <10:
+        tmp[2] = "000"+str(tmp[2])
+    elif 10<= tmp[2] <100:
+        tmp[2] = "00"+str(tmp[2])
+    elif 100<= tmp[2] <1000:
+        tmp[2] = "0"+str(tmp[2])
+    elif tmp[2] >=1000:
+        tmp[2] = str(tmp[2])
+    real_tanggal = real_tanggal + tmp[0] + "/"+ tmp[1] + "/"+ tmp[2]
     return (real_tanggal)
 ##################### (end) #######################
 
@@ -117,8 +126,11 @@ def jumlah_gadget_borrowed (datas,id_gadget,id_peminjam):
     jmlh_gadget = -1
     jmlh_gadget_returned = 0
     for i in range (len(datas)):
-        if id_peminjam == datas[i][1] and id_gadget == datas[i][2] and str(datas[i][5]).capitalize() == "True":
-            jmlh_gadget_returned += datas[i][4]
+        boolean = ["True","False"]
+        if id_peminjam == datas[i][1] and id_gadget == datas[i][2] and str(datas[i][5]).capitalize() == "False":
+            jmlh_gadget_returned = 0
+        elif id_peminjam == datas[i][1] and id_gadget == datas[i][2] and str(datas[i][5]).capitalize() not in boolean:
+            jmlh_gadget_returned = datas[i][5]
     for i in range (len(datas)):
         if id_peminjam == datas[i][1] and id_gadget == datas[i][2]:
             jmlh_gadget = datas[i][4]
@@ -159,7 +171,9 @@ def mengembalikan_gadget (datas1,datas2,datas3,id_user):
     id_peminjam = id_user
     gadgets_borrowed = id_gadgets_borrowed(datas2,id_peminjam)[0] # id_gadget yang dipinjam user (yang dipilih is_returned = FALSE)
     list_nama_gadget = nama_gadgets(datas1,gadgets_borrowed) # list dari nama gadget yang dipinjam
-
+    if len(gadgets_borrowed) == 0:
+        print("Tidak ada gadget yang Anda pinjam")
+        return [datas1,datas2,datas3]
     # Pengulangan untuk menampilkan gadget yang dipinjam
     for i in range (len(gadgets_borrowed)):
         print(str(i+1)+". "+ list_nama_gadget[i])
@@ -202,10 +216,9 @@ def mengembalikan_gadget (datas1,datas2,datas3,id_user):
     print("\nAnda sudah meminjam "+nama_gadget+" sebanyak : " + str(jumlah_gadget)) # Menampilkan jumlah_peminjaman
 
     total_returned = jumlah_gadget_borrowed(datas2,id_gadget_borrowed,id_peminjam)[1]
-    jumlah_gadget_returned = returned_gadget(datas3,id_peminjam,id_gadget_borrowed,total_returned) # Mendapatkan total dari jumlah_pengembalian
-    print("Jumlah yang sudah Anda kembalikan : "+ str(jumlah_gadget_returned)) # Menampilkan total dari jumlah_pengembalian
+    print("Jumlah yang sudah Anda kembalikan : "+ str(total_returned)) # Menampilkan total dari jumlah_pengembalian
 
-    sisa_gadget = jumlah_gadget - jumlah_gadget_returned # Mendapatkan jumlah gadget yang masih perlu dikembalikan oleh user
+    sisa_gadget = jumlah_gadget - int(total_returned) # Mendapatkan jumlah gadget yang masih perlu dikembalikan oleh user
     print("Sisa jumlah gadget yang perlu Anda kembalikan : " + str(sisa_gadget)+"\n")
 
     # Validasi jumlah pengembalian
@@ -221,6 +234,39 @@ def mengembalikan_gadget (datas1,datas2,datas3,id_user):
             not_valid_jumlah = True
         else:
             not_valid_jumlah = False
+    jumlah_gadget_returned = jumlah_pengembalian
+    ##################### (end) #######################
+
+
+    # Update perubahan is_returned [file gadget_borrow_history.cv]
+    ##################### (start) #######################
+    row_gadgets = id_gadgets_borrowed(datas2,id_peminjam)[2] # Mendapatkan list row ke - n tiap gadget
+    row_asking_gadget = row_gadgets[nomor_peminjaman-1] # Mendapatkan row ke - n dari gadget yang user minta
+    boolean = ["False","True"]
+    if str(datas2[row_asking_gadget][5]).capitalize() =="False":   
+        if sisa_gadget - jumlah_pengembalian == 0:
+            print("\nItem "+ str(nama_gadget)+ " (x" + str(jumlah_pengembalian)+") telah dikembalikan")
+            print("Gadget telah dikembalikan sepenuhnya")
+            datas2[row_asking_gadget][5] = True # Mengubah is_returned menjadi TRUE, karena jumlah yang dikembalikan sudah sama dengan yang dipinjam
+            jumlah_pengembalian = "All"
+        else:
+            print("\nItem "+ str(nama_gadget)+ " (x" + str(jumlah_pengembalian)+") telah dikembalikan")
+            datas2[row_asking_gadget][5] = str(jumlah_pengembalian)
+    elif str(datas2[row_asking_gadget][5]).capitalize() not in boolean:
+        if sisa_gadget - jumlah_pengembalian == 0:
+            print("\nItem "+ str(nama_gadget)+ " (x" + str(jumlah_pengembalian)+") telah dikembalikan")
+            print("Gadget telah dikembalikan sepenuhnya")
+            datas2[row_asking_gadget][5] = True # Mengubah is_returned menjadi TRUE, karena jumlah yang dikembalikan sudah sama dengan yang dipinjam
+            jumlah_pengembalian = "All"
+        else:
+            print("\nItem "+ str(nama_gadget)+ " (x" + str(jumlah_pengembalian)+") telah dikembalikan")
+            datas2[row_asking_gadget][5] = str(int(datas2[row_asking_gadget][5]) + jumlah_pengembalian)
+    ##################### (end) #######################
+ 
+    # Update stok gadget
+    ##################### (start) #######################
+    row_in_gadget_csv = row_gadget_in_gadget_csv(datas1,id_gadget_borrowed)
+    datas1[row_in_gadget_csv][3] += jumlah_gadget_returned
     ##################### (end) #######################
 
     # Menambahkan data baru returned [file gadget_returned_history.cv ]
@@ -231,21 +277,4 @@ def mengembalikan_gadget (datas1,datas2,datas3,id_user):
     new_data_history_kembali.append(tmp_new_data_history_kembali)
     datas3 += new_data_history_kembali
     ##################### (end) #######################
-
-    # Update perubahan is_returned [file gadget_borrow_history.cv]
-    ##################### (start) #######################
-    row_gadgets = id_gadgets_borrowed(datas2,id_peminjam)[2] # Mendapatkan list row ke - n tiap gadget
-    row_asking_gadget = row_gadgets[nomor_peminjaman-1] # Mendapatkan row ke - n dari gadget yang user minta
-    if sisa_gadget - jumlah_pengembalian == 0:
-        print("\nItem "+ str(nama_gadget)+ " (x" + str(jumlah_pengembalian)+") telah dikembalikan")
-        print("Gadget telah dikembalikan sepenuhnya")
-        datas2[row_asking_gadget][5] = "TRUE" # Mengubah is_returned menjadi TRUE, karena jumlah yang dikembalikan sudah sama dengan yang dipinjam
-    else:
-        print("\nItem "+ str(nama_gadget)+ " (x" + str(jumlah_pengembalian)+") telah dikembalikan")
-    ##################### (end) #######################
- 
-    # Update stok gadget
-    ##################### (start) #######################
-    row_in_gadget_csv = row_gadget_in_gadget_csv(datas1,id_gadget_borrowed)
-    datas1[row_in_gadget_csv][3] += jumlah_pengembalian
-    ##################### (end) #######################
+    return [datas1,datas2,datas3]

@@ -246,9 +246,9 @@ def meminjam_gadget(datas1,datas2,id_user):
     
     # Proses memasukan data baru ke data gadget_borrow_history.cv
     ##################### (start) #######################
-    new_id_history_borrow ="T"+id_peminjam[1:].zfill(3)+id_item[1:].zfill(3)+str(jumlah_peminjaman).zfill(3) # membuat id transaksi terbaru
+    new_id_history_borrow = "T"+id_peminjam[1:].zfill(3)+id_item[1:].zfill(3)+str(jumlah_peminjaman).zfill(3) # membuat id transaksi terbaru # membuat id transaksi terbaru
     new_data_history_pinjam = []
-    tmp_new_data_history_pinjam = [new_id_history_borrow,id_peminjam,id_item,real_tanggal,jumlah_peminjaman,"FALSE"]
+    tmp_new_data_history_pinjam = [new_id_history_borrow,id_peminjam,id_item,real_tanggal,jumlah_peminjaman,False]
     new_data_history_pinjam.append(tmp_new_data_history_pinjam)
     datas2 += new_data_history_pinjam
     ##################### (end) #######################
