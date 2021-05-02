@@ -1,13 +1,5 @@
-# Tubes_Daspro v2
+# Tubes_Daspro v3
 
-changelog:
-- external files major overhaul
-- all available functions loaded
+file clashes: f8-f10 uses diffrent csv formatting from f11-f13; testcsv currently uses the latter format
 
-known issues:
-- pinjam function can't handle multiple requests of the same gadget (even if gadget is still in stock)
-- user can't escape pinjam if they don't know the gadget codes (force return solution possible)
-- kembalikan function can't handle users who never borrowed (only way to escape is by error)
-
-not loaded:
-- riwayatpinjam, riwayatkembali, riwayatambil
+not loaded: hash
