@@ -26,7 +26,7 @@ def real_nama (tmp_nama):
 
 # Varibale biasa, dipake biar rada enak dibaca oleh orang lain
 # kaya yang dari tutorial hehee
-posisi_nama_di_data = 1
+posisi_nama_di_data = 2
 posisi_id_di_data = 0
 
 # kalo gk ngerti maksudnya apa, mungkin di bawah ini bisa bikin ngerti
@@ -67,35 +67,34 @@ def register_user(datas):
         # input new user data diri (start)
         new_user_nama = input("Masukan nama: ")
         new_user_nama = real_nama(new_user_nama)
-        not_valid_username = True
-        while not_valid_username:
-            new_user_username = input("Masukan username: ")
-            if nama_ada_di_data(new_user_username,datas) == True:
-                print("\nUsername sudah digunakan")
-                not_valid_username = True
-            else:
-                not_valid_username = False
+        new_user_username = input("Masukan username: ")
         new_user_password = input("Masukan password: ")
         panjang=len(new_user_password)
         while panjang<8 or panjang>16:
             print("Password harus 8-16 karakter")
             new_user_password = input("Masukan password: ")
-            panjang = len(new_user_password)
+            panjang=len(new_user_password)
         new_user_password=pihash(new_user_password)
         new_user_alamat = input("Masukan alamat: ")
         # input new user data diri (end)
-      
-        new_user_id = generate_id(datas)
-        new_user_role = "user"
-        new_user = [new_user_id,new_user_username,new_user_nama,new_user_alamat,new_user_password,new_user_role]
+
+        if nama_ada_di_data(new_user_nama,datas) == False:
+            not_registered = False
+            new_user_id = generate_id(datas)
+            new_user_role = "user"
+            new_user = [new_user_id,new_user_username,new_user_nama,new_user_alamat,new_user_password,new_user_role]
                 
-        #input new user data ke datas (start)
-        new_user_data.append(new_user)
-        datas += new_user_data
-        #inptu new user data ke datas berakhir
-        not_registered = False
-        print("\nUser " + new_user_username + "! Selamat datang di Kantong Ajaib")
-    return datas
+            #input new user data ke datas (start)
+            new_user_data.append(new_user)
+            datas += new_user_data
+            #inptu new user data ke datas berakhir
+
+            print("\nUser " + new_user_username + "! Selamat datang di Kantong Ajaib")
+            break
+        else:
+            not_registered=True
+            print("\nNama sudah digunakan\n")
+    return not_registered
 
 
 
