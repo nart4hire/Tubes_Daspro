@@ -1,5 +1,0 @@
-di code gw ada testgadget sama testconsumable
-itu list yg gw buat sendiri buat cek fungsi yg gw buat, belum gw hapus soalnya biar ga bingung kalok ada error
-tpi itu bukan bagian dri code 
-
-maaf kalok bnyk salah :(

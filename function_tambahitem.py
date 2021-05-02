@@ -88,7 +88,7 @@ def tambahitemGadget (IdInput, gadget):
                 if isTahunValid(tahun):                             #cek tahun vaid >0 ?
                     arraygadget = [nama, deskripsi, jumlah, rarity, tahun]      #YA tahun valid -> buat array dari input
                     arraygadget.insert(0, IdInput)                              #tambahkan parameter IDinput di awal array baru
-                    gadget = gadget.append(arraygadget)                         #append array (yang sudah digabung dgn ID) dengan data Gadget
+                    gadget.append(arraygadget)                         #append array (yang sudah digabung dgn ID) dengan data Gadget
                     print("Item berhasil ditambahkan")                          #print pesan berhasil
                 else:
                     print("Gagal menambahkan item karena masukan Tahun Tidak Valid")
@@ -113,7 +113,7 @@ def tambahitemConsumable (IdInput, consumable):
             if isRarityValid(rarity):
                 arrayconsumable = [nama, deskripsi, jumlah, rarity]
                 arrayconsumable.insert(0, IdInput)
-                consumable = consumable.append(arrayconsumable)
+                consumable.append(arrayconsumable)
                 print("Item berhasil ditambahkan")
             else:
                 print("Gagal menambahkan item karena masukan Rarity Tidak Valid")
@@ -140,7 +140,7 @@ def tambahitem(gadget, consumable):
                 consumable = tambahitemConsumable(IdInput, consumable)
     else:
         print("Gagal menambahkan item")
-    return[gadget, consumable]
+    return [gadget, consumable]
         
 
    
@@ -163,9 +163,9 @@ def tambahitem(gadget, consumable):
 
 
 
-tesgadget = [["id", "nama", "deskripsi", "jumlah", "rarity", "tahun ditemukan"], ["G001", "Amos", "des1", "2", "A", "2000"], ["G002", "Amber", "des2", "88", "G", "2000"], ["G002", "Krystal", "des3", "2", "A", "2010"]]
-tesconsumable = [["id", "nama", "deskripsi", "jumlah", "rarity"], ["C01", "stroberry", "des1", "3", "C"]]
+#tesgadget = [["id", "nama", "deskripsi", "jumlah", "rarity", "tahun ditemukan"], ["G001", "Amos", "des1", "2", "A", "2000"], ["G002", "Amber", "des2", "88", "G", "2000"], ["G002", "Krystal", "des3", "2", "A", "2010"]]
+#tesconsumable = [["id", "nama", "deskripsi", "jumlah", "rarity"], ["C01", "stroberry", "des1", "3", "C"]]
 
-tambahitem(tesgadget, tesconsumable)
-print(tesgadget)
-print(tesconsumable)
+#tambahitem(tesgadget, tesconsumable)
+#print(tesgadget)
+#print(tesconsumable)

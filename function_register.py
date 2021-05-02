@@ -1,4 +1,4 @@
-
+from function_hash import pihash #FB01
 # Fungsi split ngambil dari google :v
 ##################### (start) #######################
 def my_split(s, sep=" "):
@@ -47,7 +47,17 @@ def nama_ada_di_data(new_user_nama,datas):
             break
     return check
 ##################### (end) #######################
-
+def generate_id (datas):
+    tmp = datas[-1][0]
+    tmp2 = []
+    tmp_id = ""
+    for i in tmp:
+        tmp2.append(i)
+    for i in range (1,(len(tmp2))):
+        tmp_id += tmp2[i]
+    tmp_id = int(tmp_id) + 1
+    id_transaksi = tmp2[0]+str(tmp_id)
+    return id_transaksi
 
 # Fungsi register 
 def register_user(datas):
@@ -59,12 +69,18 @@ def register_user(datas):
         new_user_nama = real_nama(new_user_nama)
         new_user_username = input("Masukan username: ")
         new_user_password = input("Masukan password: ")
+        panjang=len(new_user_password)
+        while panjang<8 or panjang>16:
+            print("Password harus 8-16 karakter")
+            new_user_password = input("Masukan password: ")
+            panjang=len(new_user_password)
+        new_user_password=pihash(new_user_password)
         new_user_alamat = input("Masukan alamat: ")
         # input new user data diri (end)
 
         if nama_ada_di_data(new_user_nama,datas) == False:
             not_registered = False
-            new_user_id = datas[-1][posisi_id_di_data] + 1
+            new_user_id = generate_id(datas)
             new_user_role = "user"
             new_user = [new_user_id,new_user_username,new_user_nama,new_user_alamat,new_user_password,new_user_role]
                 
