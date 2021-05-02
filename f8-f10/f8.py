@@ -132,7 +132,7 @@ def cnvrt_tanggal (tanggal):
         tmp[2] = "00"+str(tmp[2])
     elif 100<= tmp[2] <1000:
         tmp[2] = "0"+str(tmp[2])
-    elif tmp[2] >=100:
+    elif tmp[2] >=1000:
         tmp[2] = str(tmp[2])
     real_tanggal = real_tanggal + tmp[0] + "/"+ tmp[1] + "/"+ tmp[2]
     return (real_tanggal)
