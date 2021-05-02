@@ -159,9 +159,9 @@ def gacha(ID, consumable_history, consumable):
     #transaction
     #consumable_history
     for i in used:
-        id_transaksi=generate_id_transaksi(consumable_history)
-        consumable_history.append([id_transaksi,ID,i,"01/01/n0001",-1*used[i]]) #tanggal uniform
-    id_transaksi=generate_id_transaksi(consumable_history)
+        id_transaksi="G"+ID[1:].zfill(3)+i[1:].zfill(3)+str(used[i]).zfill(3)
+        consumable_history.append([id_transaksi,ID,i,"01/01/0001",-1*used[i]]) #tanggal uniform
+    id_transaksi="G"+ID[1:].zfill(3)+drops[item_index][0].zfill(3)+"001"
     consumable_history.append([id_transaksi,ID,drops[item_index][0],"01/01/0001",1])
     
     #consumable
